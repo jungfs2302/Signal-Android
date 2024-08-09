@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.welcome.WelcomeFragment"
+        android:name="org.gfs.chat.registration.ui.welcome.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_registration_welcome">
 
@@ -39,7 +39,7 @@
 
     <fragment
         android:id="@+id/grantPermissionsFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.grantpermissions.GrantPermissionsFragment"
+        android:name="org.gfs.chat.registration.ui.grantpermissions.GrantPermissionsFragment"
         android:label="fragment_grant_permissions">
 
         <action
@@ -53,13 +53,13 @@
 
         <argument
             android:name="welcomeAction"
-            app:argType="org.thoughtcrime.securesms.registration.ui.grantpermissions.GrantPermissionsFragment$WelcomeAction" />
+            app:argType="org.gfs.chat.registration.ui.grantpermissions.GrantPermissionsFragment$WelcomeAction" />
 
     </fragment>
 
     <fragment
         android:id="@+id/enterPhoneNumberFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.phonenumber.EnterPhoneNumberFragment"
+        android:name="org.gfs.chat.registration.ui.phonenumber.EnterPhoneNumberFragment"
         android:label="fragment_enter_phone_number"
         tools:layout="@layout/fragment_registration_enter_phone_number">
 
@@ -120,13 +120,13 @@
 
     <fragment
         android:id="@+id/countryPickerFragment"
-        android:name="org.thoughtcrime.securesms.registration.fragments.CountryPickerFragment"
+        android:name="org.gfs.chat.registration.fragments.CountryPickerFragment"
         android:label="fragment_country_picker"
         tools:layout="@layout/fragment_registration_country_picker" />
 
     <fragment
         android:id="@+id/enterCodeFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.entercode.EnterCodeFragment"
+        android:name="org.gfs.chat.registration.ui.entercode.EnterCodeFragment"
         android:label="fragment_enter_code"
         tools:layout="@layout/fragment_registration_enter_code">
 
@@ -162,7 +162,7 @@
 
     <fragment
         android:id="@+id/registrationLockFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.registrationlock.RegistrationLockFragment"
+        android:name="org.gfs.chat.registration.ui.registrationlock.RegistrationLockFragment"
         android:label="fragment_kbs_lock"
         tools:layout="@layout/fragment_registration_lock">
 
@@ -184,7 +184,7 @@
 
     <fragment
         android:id="@+id/reRegisterWithPinFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.reregisterwithpin.ReRegisterWithPinFragment"
+        android:name="org.gfs.chat.registration.ui.reregisterwithpin.ReRegisterWithPinFragment"
         tools:layout="@layout/fragment_registration_lock">
 
         <action
@@ -201,20 +201,20 @@
 
     <fragment
         android:id="@+id/accountLockedFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.accountlocked.AccountLockedFragment"
+        android:name="org.gfs.chat.registration.ui.accountlocked.AccountLockedFragment"
         android:label="fragment_account_locked"
         tools:layout="@layout/account_locked_fragment" />
 
     <fragment
         android:id="@+id/captchaFragment"
-        android:name="org.thoughtcrime.securesms.registration.ui.captcha.RegistrationCaptchaFragment"
+        android:name="org.gfs.chat.registration.ui.captcha.RegistrationCaptchaFragment"
         android:label="fragment_captcha"
         tools:layout="@layout/fragment_registration_captcha" />
 
 
     <fragment
         android:id="@+id/registrationProxyFragment"
-        android:name="org.thoughtcrime.securesms.preferences.EditProxyFragment"
+        android:name="org.gfs.chat.preferences.EditProxyFragment"
         android:label="fragment_registration_edit_proxy"
         tools:layout="@layout/edit_proxy_fragment" />
 

@@ -8,7 +8,7 @@
     android:minHeight="56dp"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.gfs.chat.components.AvatarImageView
         android:id="@+id/icon"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.gfs.chat.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginEnd="24dp">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gfs.chat.components.emoji.EmojiTextView
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:textAppearance="@style/Signal.Text.TitleLarge"
             tools:text="Peter Parker" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gfs.chat.components.emoji.EmojiTextView
             android:id="@+id/summary"
             style="@style/Signal.Text.BodyMedium"
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
             android:textColor="@color/signal_colorOnSurfaceVariant"
             tools:text="+1 (999) 555-1234" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gfs.chat.components.emoji.EmojiTextView
             android:id="@+id/username"
             style="@style/Signal.Text.BodyMedium"
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:visibility="gone"
             tools:text="miles.07" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gfs.chat.components.emoji.EmojiTextView
             android:id="@+id/about"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="match_parent"

@@ -1,10 +1,10 @@
 package org.signal.benchmark
 
 import android.content.Context
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.push.AccountManagerFactory
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.gfs.chat.BuildConfig
+import org.gfs.chat.dependencies.AppDependencies
+import org.gfs.chat.push.AccountManagerFactory
+import org.gfs.chat.util.RemoteConfig
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.account.PreKeyUpload
 import org.whispersystems.signalservice.api.push.ServiceId.ACI

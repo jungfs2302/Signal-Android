@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.widget.TextView
 import org.signal.benchmark.setup.TestMessages
 import org.signal.benchmark.setup.TestUsers
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.gfs.chat.BaseActivity
+import org.gfs.chat.database.SignalDatabase
+import org.gfs.chat.recipients.Recipient
 
 class BenchmarkSetupActivity : BaseActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {

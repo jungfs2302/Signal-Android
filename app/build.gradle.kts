@@ -76,7 +76,7 @@ ktlint {
 }
 
 android {
-  namespace = "org.thoughtcrime.securesms"
+  namespace = "org.gfs.chat"
 
   buildToolsVersion = signalBuildToolsVersion
   compileSdkVersion = signalCompileSdkVersion
@@ -227,7 +227,7 @@ android {
       }
     }
 
-    testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
+    testInstrumentationRunner = "org.gfs.chat.testing.SignalTestRunner"
     testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 
