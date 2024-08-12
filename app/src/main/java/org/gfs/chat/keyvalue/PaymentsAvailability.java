@@ -11,8 +11,11 @@ public enum PaymentsAvailability {
   private final boolean isEnabled;
 
   PaymentsAvailability(boolean isEnabled, boolean showPaymentsMenu) {
-    this.showPaymentsMenu = showPaymentsMenu;
-    this.isEnabled        = isEnabled;
+    // this.showPaymentsMenu = showPaymentsMenu;
+    // this.isEnabled        = isEnabled;
+    // TODO: recheck logic
+    this.showPaymentsMenu = false;
+    this.isEnabled        = false;
   }
 
   public boolean isEnabled() {

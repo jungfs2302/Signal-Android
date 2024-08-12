@@ -21,8 +21,6 @@ object InAppDonations {
    * - Able to use PayPal and is in a region where it is able to be accepted.
    */
   fun hasAtLeastOnePaymentMethodAvailable(): Boolean {
-    // TODO: recheck this logic for GFS
-    return false
     return isCreditCardAvailable() ||
       isPayPalAvailable() ||
       isGooglePayAvailable() ||

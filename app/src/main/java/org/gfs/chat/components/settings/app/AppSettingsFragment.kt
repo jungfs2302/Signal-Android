@@ -71,7 +71,7 @@ class AppSettingsFragment : DSLSettingsFragment(
 
   override fun bindAdapter(adapter: MappingAdapter) {
     adapter.registerFactory(BioPreference::class.java, LayoutFactory(::BioPreferenceViewHolder, R.layout.bio_preference_item))
-//    adapter.registerFactory(PaymentsPreference::class.java, LayoutFactory(::PaymentsPreferenceViewHolder, R.layout.dsl_payments_preference))
+    adapter.registerFactory(PaymentsPreference::class.java, LayoutFactory(::PaymentsPreferenceViewHolder, R.layout.dsl_payments_preference))
     adapter.registerFactory(SubscriptionPreference::class.java, LayoutFactory(::SubscriptionPreferenceViewHolder, R.layout.dsl_preference_item))
 
     viewModel.state.observe(viewLifecycleOwner) { state ->
@@ -168,23 +168,24 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isRegisteredAndUpToDate()
       )
 
-      if (state.allowUserToGoToDonationManagementScreen) {
-        clickPref(
-          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
-          onClick = {
-            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
-          },
-          onLongClick = this@AppSettingsFragment::copyDonorBadgeSubscriberIdToClipboard
-        )
-      } else {
-        externalLinkPref(
-          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-          linkId = R.string.donate_url
-        )
-      }
+      // TODO: recheck this logic
+//      if (state.allowUserToGoToDonationManagementScreen) {
+//        clickPref(
+//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+//          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
+//          onClick = {
+//            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
+//          },
+//          onLongClick = this@AppSettingsFragment::copyDonorBadgeSubscriberIdToClipboard
+//        )
+//      } else {
+//        externalLinkPref(
+//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+//          linkId = R.string.donate_url
+//        )
+//      }
 
       dividerPref()
 
