@@ -65,7 +65,9 @@ class StoryValues(store: KeyValueStore) : SignalStoreValues(store) {
     USER_HAS_SEEN_GROUP_STORY_EDUCATION_SHEET
   )
 
-  var isFeatureDisabled: Boolean by booleanValue(MANUAL_FEATURE_DISABLE, false)
+  // TODO: recheck this logic - disable story
+  var isFeatureDisabled: Boolean = true
+  // by booleanValue(MANUAL_FEATURE_DISABLE, false)
 
   var lastFontVersionCheck: Long by longValue(LAST_FONT_VERSION_CHECK, 0)
 

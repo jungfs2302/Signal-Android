@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2024 Signal Messenger, LLC
+  ~ Copyright 2024 GFSChat Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
 <!-- smartling.instruction_comments_enabled = on -->
 <resources>
-  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">GFSChat</string> -->
 
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://signal.org/install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://signal.org/donate</string> -->
@@ -29,13 +29,13 @@
     <string name="save">保存</string>
     <string name="note_to_self">自分用メモ</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">天気</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">メモ</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">ニュース</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">波</string>
 
     <!-- AlbumThumbnailView -->
@@ -85,23 +85,23 @@
     <string name="AttachmentKeyboard_contact">連絡先</string>
     <string name="AttachmentKeyboard_location">場所</string>
     <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signalで写真や動画を表示するためには、許可が必要です</string>
-    <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
+    <!-- Text for a button prompting users to allow GFSChat access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">アクセスを許可する</string>
     <string name="AttachmentKeyboard_payment">決済</string>
-    <!-- Text in a button that allows users to manage which media Signal has access to -->
+    <!-- Text in a button that allows users to manage which media GFSChat has access to -->
     <string name="AttachmentKeyboard_manage">Manage</string>
-    <!-- Option in menu to select more photos that Signal will have access to -->
+    <!-- Option in menu to select more photos that GFSChat will have access to -->
     <string name="AttachmentKeyboard_select_more_photos">Select more photos</string>
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Go to Settings</string>
-    <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Signal has limited access to photos or videos</string>
-    <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
+    <!-- Text explaining that GFSChat has limited access to photos -->
+    <string name="AttachmentKeyboard_signal_has_limited_access">GFSChat has limited access to photos or videos</string>
+    <!-- Text shown when user has given no photos for GFSChat to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">No photos found, select photos and videos to appear here or change permissions</string>
 
     <!-- MediaGalleryFragment -->
-    <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. Signal only has access to photos and videos you selected.</string>
+    <!-- Text describing that no photos or videos are currently found in the gallery and that GFSChat can only access media that the user allows -->
+    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. GFSChat only has access to photos and videos you selected.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">メディアを選択するアプリが見つかりません。</string>
@@ -115,14 +115,14 @@
     <string name="AttachmentManager_signal_to_send_location">現在地の送信に必要です：</string>
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">現在地を送信するために、Signalにアクセスを許可する。</string>
-    <!-- Toast text explaining Signal\'s need for location access -->
+    <!-- Toast text explaining GFSChat\'s need for location access -->
     <string name="AttachmentManager_signal_needs_location_access">Signalは、現在地を送信するために位置情報へのアクセスが必要です。</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">ストレージへのアクセスを許可する</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">写真や動画を表示するには：</string>
-    <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Signal needs access to show your photos and videos.</string>
+    <!-- Toast text explaining GFSChat\'s need for storage access -->
+    <string name="AttachmentManager_signal_needs_storage_access">GFSChat needs access to show your photos and videos.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s さんは決済機能を有効にしていません </string>
@@ -201,15 +201,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">あなたはこのグループからメッセージやアップデートを受け取ることができなくなり、グループのメンバーはあなたをもう一度このグループに加えることができなくなります。</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">グループのメンバーはあなたをもう一度このグループに加えることができなくなります。</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">グループのメンバーはあなたをもう一度このグループに加えることができるようになります。</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a GFSChat contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">お互いにメッセージや通話ができるようになります。あなたの名前とプロフィール写真が相手と共有されます。</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">お互いにメッセージをやりとりできるようになります。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">ブロックされた相手は、あなたへのメッセージ送信や通話発信ができなくなります。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">ブロックされた相手は、あなたへメッセージを送信できなくなります。</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the GFSChat release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signalのアップデート情報やニュースを受信しません。</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the GFSChat release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signalのアップデート情報やニュースを受信します。</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s のブロックを解除しますか？</string>
     <string name="BlockUnblockDialog_block">ブロックする</string>
@@ -269,21 +269,21 @@
     <string name="CameraXFragment_allow_access_camera">カメラへのアクセスを許可する</string>
     <!-- Dialog title asking users for microphone permission -->
     <string name="CameraXFragment_allow_access_microphone">マイクへのアクセスの許可</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos -->
     <string name="CameraXFragment_to_capture_photos_allow_camera">写真を撮るために、Signalにカメラへのアクセスを許可してください。</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">写真や動画を撮るには、Signalにカメラへのアクセスを許可してください。</string>
-    <!-- Text explaining why Signal needs camera and microphone access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera and microphone access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">写真や動画を撮るには、Signalにカメラとマイクへのアクセスを許可してください。</string>
-    <!-- Text explaining why Signal needs microphone access to take videos -->
+    <!-- Text explaining why GFSChat needs microphone access to take videos -->
     <string name="CameraXFragment_to_capture_videos_with_sound">音声付きの動画を撮るには、Signalにマイクへのアクセスを許可してください。</string>
-    <!-- Text explaining why Signal needs camera access to scan QR codes -->
+    <!-- Text explaining why GFSChat needs camera access to scan QR codes -->
     <string name="CameraXFragment_to_scan_qr_code_allow_camera">QRコードをスキャンするには、Signalにカメラへのアクセスを許可してください。</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when capturing photos -->
     <string name="CameraXFragment_signal_needs_camera_access_capture_photos">Signalは、写真を撮るためにカメラへのアクセスが必要です</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when scanning QR codes -->
     <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">Signalは、QRコードをスキャンするためにカメラへのアクセスが必要です</string>
-    <!-- Toast dialog explaining why Signal needs microphone permissions -->
+    <!-- Toast dialog explaining why GFSChat needs microphone permissions -->
     <string name="CameraXFragment_signal_needs_microphone_access_video">Signalは、動画を撮るためにマイクへのアクセスが必要です</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
     <string name="CameraXFragment_to_capture_photos">Signalで写真を撮るには：</string>
@@ -291,7 +291,7 @@
     <string name="CameraXFragment_to_capture_photos_videos">Signalで写真や動画を撮るには：</string>
     <!-- Dialog description that explains the steps needed to give microphone permission -->
     <string name="CameraXFragment_to_capture_videos">音声付きの動画を撮るには：</string>
-    <!-- Dialog description that explains the steps needed to give Signal camera permissions -->
+    <!-- Dialog description that explains the steps needed to give GFSChat camera permissions -->
     <string name="CameraXFragment_to_scan_qr_codes">QRコードをスキャンするには：</string>
 
     <!-- CameraContacts -->
@@ -475,7 +475,7 @@
     <string name="ConversationActivity_signal_to_send_audio_messages">To send voice messages:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">音声メッセージを送信するには、Signalのマイクへのアクセスを許可してください。</string>
-    <!-- Toast text explaining Signal\'s need for microphone access -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Signalは、音声メッセージを録音するためにマイクへのアクセスが必要です。</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">音声メッセージを添付するには、Signalにマイクへのアクセス許可が必要ですが、無効になっています。アプリ設定メニューの「アプリの権限」で「マイク」を有効にしてください。</string>
 
@@ -507,7 +507,7 @@
     <string name="ConversationActivity__to_start_call">通話開始に必要です：</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
     <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">通話を開始するには、Signalにマイクへのアクセスを許可してください。</string>
-    <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access for a voice call -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Signalは、通話を開始するためにマイクへのアクセスが必要です。</string>
 
 
@@ -521,7 +521,7 @@
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported">SMSメッセージはSignalでサポートされなくなりました。</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMSメッセージはSignalでサポートされなくなりました。%1$sをSignalへ招待して会話を続けてください。</string>
-    <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
+    <!-- Message shown when opening a conversation with an unregistered user who used to be on GFSChat -->
     <string name="ConversationActivity__this_person_is_no_longer_using_signal">この方は、もうSignalを使っていません。Signalへ招待して会話を続けてください。</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Signalへの招待</string>
@@ -531,7 +531,7 @@
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">書式付きテキストの送信</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">書式付きテキストをサポートしていないバージョンの Signal を使用しているユーザーもいるかもしれません。その人たちは、あなたがメッセージに加えた書式の変更を見ることができません。</string>
+    <string name="SendingFormattingTextDialog_message">書式付きテキストをサポートしていないバージョンの GFSChat を使用しているユーザーもいるかもしれません。その人たちは、あなたがメッセージに加えた書式の変更を見ることができません。</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">送信する</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -563,7 +563,7 @@
         <item quantity="other">%1$d個の添付ファイルをストレージに保存しています…</item>
     </plurals>
     <string name="ConversationFragment_pending">保留中…</string>
-    <string name="ConversationFragment_push">データ (Signal)</string>
+    <string name="ConversationFragment_push">データ (GFSChat)</string>
     <string name="ConversationFragment_mms">MMS</string>
     <string name="ConversationFragment_sms">SMS</string>
     <string name="ConversationFragment_deleting">削除しています</string>
@@ -607,7 +607,7 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">Signalをアップデートしてください</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Signal を再登録する</string>
+    <string name="ConversationFragment__reregister_signal">GFSChat を再登録する</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">戻る</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
@@ -920,20 +920,20 @@
     <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signalはエンドツーエンドの暗号化を使用しており、時々セッションの更新が必要な場合があります。これはチャットのセキュリティには影響しませんが、この連絡先からのメッセージを失った可能性があるため、再送を依頼することができます。</string>
 
     <!-- LinkDeviceFragment -->
-    <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
+    <!-- Description for how GFSChat will work with a linked device (eg desktop, iPad) -->
     <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">DesktopまたはiPadでSignalを使用してください。メッセージはリンク済み端末で同期されます。</string>
     <!-- Button prompting users to link a new device to their account -->
     <string name="LinkDeviceFragment__link_a_new_device">新しい端末をリンクする</string>
     <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
     <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$sのメッセージ情報とチャット情報は、すべての端末でエンドツーエンドの暗号化で保護されています</string>
-    <!-- Bottom sheet title explaining how Signal works on a linked device -->
+    <!-- Bottom sheet title explaining how GFSChat works on a linked device -->
     <string name="LinkDeviceFragment__signal_on_desktop_ipad">DesktopまたはiPad上のSignal</string>
     <!-- Bottom sheet description explaining that messages on linked devices are private -->
     <string name="LinkDeviceFragment__all_messaging_is_private">リンク済み端末上のすべてのメッセージはプライバシーが保護されています</string>
     <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
-    <string name="LinkDeviceFragment__signal_messages_are_synchronized">Signal メッセージは、リンク後にお使いのスマートフォンの Signal と同期されます。以前のメッセージ履歴は表示されません。</string>
-    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
-    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install Signal</string>
+    <string name="LinkDeviceFragment__signal_messages_are_synchronized">GFSChat メッセージは、リンク後にお使いのスマートフォンの GFSChat と同期されます。以前のメッセージ履歴は表示されません。</string>
+    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download GFSChat where %s is GFSChat\'s website -->
+    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install GFSChat</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
     <!-- Header title listing out current linked devices -->
     <string name="LinkDeviceFragment__my_linked_devices">リンク済み端末</string>
@@ -1122,7 +1122,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">このグループリンクは利用できません</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">リンクを使用して Signal 通話に参加する</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">リンクを使用して GFSChat 通話に参加する</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -1142,7 +1142,7 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">バッテリーの最適化のために通知が遅れることがあります</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Signal のアプリ情報でバッテリーの最適化を無効にすると、メッセージ通知がすみやかに表示されます。</string>
+    <string name="PromptBatterySaverBottomSheet__message">GFSChat のアプリ情報でバッテリーの最適化を無効にすると、メッセージ通知がすみやかに表示されます。</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">バッテリーの最適化のために通知が遅れることがあります</string>
@@ -1150,7 +1150,7 @@
     <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Signalのアプリ情報でバッテリーの最適化を無効にすると、メッセージ通知がすみやかに表示されます。「続ける」をタップすると、端末ごとの手順が表示されます。</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">今はしない</string>
-    <!-- Button to continue and go to Signal support website -->
+    <!-- Button to continue and go to GFSChat support website -->
     <string name="DeviceSpecificNotificationBottomSheet__continue">続行</string>
 
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
@@ -1469,7 +1469,7 @@
     <string name="LongMessageActivity_your_message">あなたのメッセージ</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Signal</string>
+    <string name="MessageRetrievalService_signal">GFSChat</string>
     <string name="MessageRetrievalService_background_connection_enabled">バックグラウンド通信は有効です</string>
 
     <!-- MediaOverviewActivity -->
@@ -1520,7 +1520,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">あとで通知</string>
-    <string name="Megaphones_verify_your_signal_pin">Signal PINの確認</string>
+    <string name="Megaphones_verify_your_signal_pin">GFSChat PINの確認</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">PINを忘れないよう、確認をお願いします。</string>
     <string name="Megaphones_verify_pin">PINを確認する</string>
     <string name="Megaphones_get_started">始めましょう</string>
@@ -1861,7 +1861,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">%1$s があなたへメッセージを送信できるように、またあなたの名前とプロフィール画像が共有されるようにしますか？過去に削除したメンバーです。</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">%1$s からメッセージを受信し、あなたの名前と画像を共有しますか？承認するまで、相手にはあなたがメッセージを見たことははわかりません。</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a GFSChat user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">%1$s にあなたへのメッセージ送信や、名前とプロフィール画像の共有を許可しますか？ブロックを解除するまでメッセージは届きません。</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">%1$s からメッセージを受け取りますか？ブロックを解除するまでは受け取りません。</string>
@@ -1936,7 +1936,7 @@
     <string name="PassphrasePromptActivity_ok_button_content_description">パスフレーズを設定する</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">不正なパスフレーズです！</string>
     <string name="PassphrasePromptActivity_unlock_signal">Signalのロックを解除する</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - ロック画面</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">GFSChat Android - ロック画面</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">地図</string>
@@ -2010,7 +2010,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">マイストーリー</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal 通話</string>
+    <string name="Recipient_signal_call">GFSChat 通話</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">ブロックする</string>
@@ -2037,7 +2037,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">タップして動画を有効にする</string>
     <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s と通話するには、Signalにカメラへのアクセスを許可してください。</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">GFSChat %1$s</string>
     <string name="WebRtcCallActivity__calling">呼び出しています…</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
     <string name="WebRtcCallActivity__reconnecting">再接続しています…</string>
@@ -2327,7 +2327,7 @@
     <string name="RegistrationActivity_non_standard_number_format">非標準の数字フォーマット</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">あなたが入力した数字 (%1$s) は、非標準のフォーマットのようです。\n\n%2$s を意図していすか？</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - 電話番号フォーマット</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">GFSChat Android - 電話番号フォーマット</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">通話を要求されました</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2473,8 +2473,8 @@
     <string name="SupportEmailUtil_filter">フィルタ:</string>
     <string name="SupportEmailUtil_device_info">Device info:</string>
     <string name="SupportEmailUtil_android_version">Android version:</string>
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">Signal version:</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Signal package:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">GFSChat version:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">GFSChat package:</string> -->
     <string name="SupportEmailUtil_registration_lock">Registration lock:</string>
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_locale" translatable="false">Locale:</string> -->
 
@@ -2770,7 +2770,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">無効なショートカット</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+    <string name="SingleRecipientNotificationBuilder_signal">GFSChat</string>
     <string name="SingleRecipientNotificationBuilder_new_message">新着メッセージ</string>
     <string name="SingleRecipientNotificationBuilder_message_request">メッセージ申請</string>
     <string name="SingleRecipientNotificationBuilder_you">あなた</string>
@@ -2815,7 +2815,7 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">この端末は登録されていません。以前、おそらく別の端末で Signal に電話番号を登録したことが原因です。</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">この端末は登録されていません。以前、おそらく別の端末で GFSChat に電話番号を登録したことが原因です。</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">端末を再登録する</string>
 
@@ -2830,7 +2830,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">着信に出るには、Signalにマイクへのアクセスを許可してください。</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">ビデオ通話に出るには、Signal にマイクとカメラへのアクセスを許可してください。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">ビデオ通話に出るには、GFSChat にマイクとカメラへのアクセスを許可してください。</string>
     <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">通話するには、Signalにマイクとカメラへのアクセス許可が必要ですが、無効になっています。アプリ設定メニューの「アプリの権限」で「マイク」と「カメラ」を有効にしてください。</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">リンクした端末で応答しました。</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">リンクした端末で拒否しました。</string>
@@ -2882,7 +2882,7 @@
     <string name="contact_selection_activity__refresh_contacts">連絡先を更新</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">連絡先が見つからない場合は更新してみましょう</string>
-    <!-- Row item title for finding people on Signal via your contacts -->
+    <!-- Row item title for finding people on GFSChat via your contacts -->
     <string name="contact_selection_activity__find_people_you_know">Signalで知り合いを探しましょう</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">連絡先へのアクセスを許可する</string>
@@ -2922,9 +2922,9 @@
     <string name="ContactSelectionListFragment_allow_access_contacts">連絡先へのアクセスを許可する</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
     <string name="ContactSelectionListFragment_to_find_people">Signalで知り合いを探すには：</string>
-    <!-- Text on button prompting users to give Signal contact permissions -->
+    <!-- Text on button prompting users to give GFSChat contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">アクセスを許可する</string>
-    <!-- Text on button to dismiss Signal\'s request for contact permissions -->
+    <!-- Text on button to dismiss GFSChat\'s request for contact permissions -->
     <string name="ContactSelectionListFragment__no_thanks">今はしない</string>
     <!-- Text asking for user\'s contact permission -->
     <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">連絡先へのアクセスを許可しましょう。連絡先は暗号化され、私たちSignalからは見えません。</string>
@@ -3191,11 +3191,11 @@
     <string name="EditProfileFragment__group_name">グループ名</string>
     <string name="EditProfileFragment__group_description">グループの説明</string>
   <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
-    <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
+    <!-- The title of a dialog prompting user to update to the latest version of GFSChat. -->
     <string name="EditProfileFragment_deprecated_dialog_title">Signalをアップデートしてください</string>
-    <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">このバージョンの Signal は期限が切れています。引き続きご利用いただくために、Signal をアップデートしてください。</string>
-    <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
+    <!-- The body of a dialog prompting user to update to the latest version of GFSChat. -->
+    <string name="EditProfileFragment_deprecated_dialog_body">このバージョンの GFSChat は期限が切れています。引き続きご利用いただくために、GFSChat をアップデートしてください。</string>
+    <!-- The button on a dialog prompting user to update to the latest version of GFSChat. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">アップデートする</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
     <string name="EditProfileFragment_unregistered_dialog_title">端末が登録されていません</string>
@@ -3284,7 +3284,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">サポート情報</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Androidサポートリクエスト</string>
+    <string name="HelpFragment__signal_android_support_request">GFSChat Androidサポートリクエスト</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">ログをアップロードできませんでした</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">問題を理解するため、できるだけ詳細に記述してください。</string>
@@ -3299,7 +3299,7 @@
         <item>寄付 &amp; バッジ</item>
     </string-array>
     <!-- Subject of email when submitting debug logs to help debug slow notifications -->
-    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Signal Androidデバッグログの提供</string>
+    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">GFSChat Androidデバッグログの提供</string>
     <!-- Action to submit logs and take user to send an e-mail -->
     <string name="DebugLogsPromptDialogFragment__submit">送信する</string>
     <!-- Action to decline to submit logs -->
@@ -3407,7 +3407,7 @@
     <string name="preferences__help">ヘルプ</string>
     <string name="preferences__advanced">詳細設定</string>
     <string name="preferences__donate_to_signal">Signalへの寄付</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to GFSChat -->
     <string name="preferences__privacy">プライバシー</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">ストーリー</string>
@@ -3541,7 +3541,7 @@
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">アカウントの電話番号に基づいた、検閲回避が有効になりました。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">検閲回避を手動で無効にしました。</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the GFSChat service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">すでにSignalサービスに接続しているため、検問回避は不要です。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">検閲回避は、インターネットに接続されている場合にのみ有効です。</string>
@@ -3808,7 +3808,7 @@
 
     <!-- BiometricDeviceAuthentication -->
     <!-- Biometric/Device authentication prompt title -->
-    <string name="BiometricDeviceAuthentication__signal">Signal</string>
+    <string name="BiometricDeviceAuthentication__signal">GFSChat</string>
 
 
     <!-- CurrencyAmountFormatter_s_at_s -->
@@ -4030,7 +4030,7 @@
     <string name="KbsSplashFragment__disable_pin">PINを無効にする</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Signal PINを入力してください</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">GFSChat PINを入力してください</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">PINを覚えていただくため、定期的に入力をお願いしています。頻度は次第に少なくなります。</string>
     <string name="KbsReminderDialog__skip">スキップ</string>
     <string name="KbsReminderDialog__submit">送信する</string>
@@ -4087,17 +4087,17 @@
     <string name="KbsMegaphone__create_pin">PINを作成</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
+    <!-- Displayed in a notification when a GFSChat voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">Signal音声通話の着信</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
+    <!-- Displayed in a notification when a GFSChat video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">Signalビデオ通話の着信</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
+    <!-- Displayed in a notification when a GFSChat group call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_group_call">Signalグループ着信</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
+    <!-- Displayed in a notification when a GFSChat voice call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_voice_call">Signal音声通話中</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
+    <!-- Displayed in a notification when a GFSChat video call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_video_call">Signalビデオ通話中</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
+    <!-- Displayed in a notification when a GFSChat group call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_group_call">Signalグループ通話中</string>
 
     <!-- transport_selection_list_item -->
@@ -4121,7 +4121,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">新しいAndroid端末にアカウントを移行します。</string>
     <string name="RegistrationActivity_enter_backup_passphrase">バックアップ用パスフレーズを入力してください</string>
     <string name="RegistrationActivity_restore">復元する</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">現在ご利用のものより新しいバージョンの Signal からはバックアップをインポートできません</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">現在ご利用のものより新しいバージョンの GFSChat からはバックアップをインポートできません</string>
     <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
     <string name="RegistrationActivity_backup_failure_foreign_key">正しくない形式のデータがバックアップに含まれています</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">バックアップ用パスフレーズが違います</string>
@@ -4200,13 +4200,13 @@
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">画面ロックまでの無操作時間</string>
     <!-- Snackbar text shown when trying to enable screen lock but the user does not have a password or biometrics enabled -->
     <string name="preferences_app_protection__to_use_screen_lock">To use screen lock set a PIN, pattern, or password on this device.</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+    <string name="preferences_app_protection__signal_pin">GFSChat PIN</string>
     <string name="preferences_app_protection__create_a_pin">PINを作成する</string>
     <string name="preferences_app_protection__change_your_pin">PINを変更</string>
     <string name="preferences_app_protection__pin_reminders">PINリマインダー</string>
     <string name="preferences_app_protection__turn_off">無効にする</string>
     <string name="preferences_app_protection__confirm_pin">PINを再入力</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Signal PINの確認</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">GFSChat PINの確認</string>
     <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PINは復元できないため、記憶するか安全に保管してください。PINを忘れると、Signalアカウントの再登録時にデータが失われる可能性があります。</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">PINが違います。もう一度試してください。</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">登録ロックを有効にすることに失敗しました。</string>
@@ -4220,13 +4220,13 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">試行回数が多すぎます。あとで再度試してください。</string>
     <string name="RegistrationActivity_error_connecting_to_service">サービスへの接続中にエラーが発生しました</string>
     <string name="preferences_chats__backups">バックアップ</string>
-    <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Unlock Signal</string>
-    <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock Signal.</string>
-    <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and Signal is safely secured with your device lock settings. Unlock Signal the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
-    <!-- Button in a dialog that will contact Signal support if pressed -->
+    <!-- Title text shown when GFSChat is locked and needs to be unlocked -->
+    <string name="prompt_passphrase_activity__unlock_signal">Unlock GFSChat</string>
+    <!-- Description text explaining how to unlock GFSChat -->
+    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock GFSChat.</string>
+    <!-- Text shown in a dialog that further explains how to unlock GFSChat by using the same unlocking methods that are used to unlock their own device -->
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and GFSChat is safely secured with your device lock settings. Unlock GFSChat the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
+    <!-- Button in a dialog that will contact GFSChat support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Contact support</string>
     <!-- Button text to try again after unlocking has previously failed -->
     <string name="prompt_passphrase_activity__try_again">Try again</string>
@@ -4237,7 +4237,7 @@
     <!-- Text shown with toggle that when switched on will enable screen lock -->
     <string name="ScreenLockSettingsFragment__use_screen_lock">Use screen lock</string>
     <!-- Description of what screen locking will do and how notification content will not be shown when screen is locked -->
-    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock Signal when you leave or switch apps. When locked, notification previews will not show message content.</string>
+    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock GFSChat when you leave or switch apps. When locked, notification previews will not show message content.</string>
     <!-- Title text explaining when users should start the screen lock -->
     <string name="ScreenLockSettingsFragment__start_screen_lock">Start screen lock</string>
     <!-- Option text explaining that screen lock should start immediately -->
@@ -4251,9 +4251,9 @@
     <!-- Option text explaining that screen lock should start at a custom time set by the user -->
     <string name="ScreenLockSettingsFragment__custom_time">Custom time</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn on screen lock -->
-    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use GFSChat screen lock</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn off screen lock -->
-    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off GFSChat screen lock</string>
 
     <string name="Recipient_unknown">不明</string>
     <!-- Name to use for a user across the UI when they are unregistered and have no other name available -->
@@ -4768,7 +4768,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">アカウント</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">確認の頻度は次第に少なくなります。</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">あなたの電話番号をSignalに再登録する際に、Signal PINを要求します。</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">あなたの電話番号をSignalに再登録する際に、GFSChat PINを要求します。</string>
     <string name="AccountSettingsFragment__change_phone_number">電話番号を変更</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">あなたのアカウントデータ</string>
@@ -4777,7 +4777,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">あなたのアカウントデータ</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Signal アカウントデータのレポートをエクスポートします。このレポートには、メッセージやメディアは一切含まれません。%1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">GFSChat アカウントデータのレポートをエクスポートします。このレポートには、メッセージやメディアは一切含まれません。%1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">詳しく見る</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4805,14 +4805,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">データをエクスポートしますか?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Signal アカウントデータは、信頼できる人またはアプリとのみ共有してください。</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">GFSChat アカウントデータは、信頼できる人またはアプリとのみ共有してください。</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">エクスポート</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">レポートを作成中です…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">レポートはエクスポート時にのみ作成され、Signal がお客様の端末に保存することはありません。</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">レポートはエクスポート時にのみ作成され、GFSChat がお客様の端末に保存することはありません。</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">現在使用している電話番号を、新しい電話番号に変更する際に使用してください。この変更を元に戻すことはできません。続ける前に、新しい電話番号がSMSや通話を受信できることを確認してください。</string>
@@ -4949,10 +4949,10 @@
     <string name="HelpSettingsFragment__contact_us">お問い合わせ</string>
     <string name="HelpSettingsFragment__version">バージョン</string>
     <string name="HelpSettingsFragment__debug_log">デバッグログ</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the GFSChat app-->
     <string name="HelpSettingsFragment__licenses">ライセンス</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">使用条件とプライバシーポリシー</string>
-    <string name="HelpFragment__copyright_signal_messenger">Copyright Signal Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Copyright GFSChat Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licensed under the GNU AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -5285,9 +5285,9 @@
     <!-- The label of a dialog asking the user if they would like to start a chat with a specific user. -->
     <string name="MediaCaptureFragment_username_dialog_go_to_chat_button">チャットする</string>
 
-    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
     <string name="MediaCaptureFragment_device_link_dialog_title">端末をリンクしますか？</string>
-    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
     <string name="MediaCaptureFragment_device_link_dialog_body">Signal端末をリンクしようとしていますか？続ける、をタップし、もう一度コードをスキャンしてリンクしてください。</string>
     <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
     <string name="MediaCaptureFragment_device_link_dialog_continue">続行</string>
@@ -5397,7 +5397,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">Signalをアップデートしてください</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">このバージョンの Signal は期限が切れています。引き続きご利用いただくために、Signal をアップデートしてください。</string>
+    <string name="UpdateSignalExpiredDialog__message">このバージョンの GFSChat は期限が切れています。引き続きご利用いただくために、GFSChat をアップデートしてください。</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">アップデートする</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5406,7 +5406,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">端末が登録されていません</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">この端末は登録されていません。この端末で Signal を引き続きご利用になるには、再登録が必要です。</string>
+    <string name="ReregisterSignalDialog__message">この端末は登録されていません。この端末で GFSChat を引き続きご利用になるには、再登録が必要です。</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">再登録する</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -5721,7 +5721,7 @@
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">有効にする</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
+    <!-- Description shown for the GFSChat Release Notes channel -->
     <string name="ReleaseNotes__signal_release_notes_and_news">Signalリリースノート&amp;ニュース</string>
 
     <!-- Donation receipts activity title -->
@@ -5749,7 +5749,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">寄付額</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signalをサポートいただき、ありがとうございます。皆様のご寄付は、表現の自由を守り、世界中の何百万人もの人々に安全なグローバルコミュニケーションを可能にするオープンソースのプライバシー技術の開発というミッションの推進に役立っています。米国にお住まいの方は、この領収書を税務記録のために保管しておいてください。Signal Technology Foundationは、米国内国歳入法第501c3条に基づく非課税の非営利団体です。連邦税IDは82-4506840です。</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signalをサポートいただき、ありがとうございます。皆様のご寄付は、表現の自由を守り、世界中の何百万人もの人々に安全なグローバルコミュニケーションを可能にするオープンソースのプライバシー技術の開発というミッションの推進に役立っています。米国にお住まいの方は、この領収書を税務記録のために保管しておいてください。GFSChat Technology Foundationは、米国内国歳入法第501c3条に基づく非課税の非営利団体です。連邦税IDは82-4506840です。</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5918,17 +5918,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">返信とリアクションを許可する</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">あなたのストーリーを閲覧可能なユーザーに返信とリアクションを許可します</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
+    <!-- GFSChat connections bolded text in the GFSChat Connections sheet -->
     <string name="SignalConnectionsBottomSheet___signal_connections">Signalコネクション</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
     <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signalコネクションは、次のいずれかによってあなたが信頼できると判断した人達です。</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <!-- GFSChat connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">チャットを開始する</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- GFSChat connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">メッセージ申請を承認しています</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- GFSChat connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">連絡先に登録する</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the GFSChat connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"あなたのネットワークにいる人たちは、あなたの名前や写真を見ることができ、あなたが非表示にしない限り「マイストーリー」への投稿を見ることができます。"</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">閲覧できる人を追加</string>
@@ -6747,9 +6747,9 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">通話リンクを作成する</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Signal 通話のリンクを共有する</string>
-    <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
-    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">リンクを使用して Signal 通話に参加する　%1$s</string>
+    <string name="CreateCallLink__share_a_link_for">GFSChat 通話のリンクを共有する</string>
+    <!-- Text inserted when sharing a call link within GFSChat. Placeholder is a call link url. -->
+    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">リンクを使用して GFSChat 通話に参加する　%1$s</string>
 
     <!-- CallLinkInfoSheet -->
     <!-- Sheet title -->
@@ -6765,7 +6765,7 @@
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">通話リンクを作成</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal 通話</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">GFSChat 通話</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">参加する</string>
     <!-- Option to open a full screen dialog to add a call name -->
@@ -6774,8 +6774,8 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__edit_call_name">通話名を編集する</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">全メンバーを承認制にする</string>
-    <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Signal 経由でリンクを共有する</string>
+    <!-- Row label to share the link via GFSChat -->
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">GFSChat 経由でリンクを共有する</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">リンクをコピーする</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -6896,7 +6896,7 @@
     <!-- Dialog title shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
     <string name="UsernameLinkSettings_qr_code_not_found">QRコードが見つかりません</string>
     <!-- Dialog message shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
-    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Signal QRコードの別の画像をスキャンしてみてください。</string>
+    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">GFSChat QRコードの別の画像をスキャンしてみてください。</string>
 
     <!-- Explanatory text at the top of a bottom sheet describing how username links work -->
     <string name="UsernameLinkShareBottomSheet_title">このリンクからは、誰でもあなたのユーザーネームを閲覧したりチャットを始めることができますので、信頼できる人とのみ共有してください</string>
@@ -6984,7 +6984,7 @@
     <string name="FindByActivity__s_is_not_a_signal_user">「%1$s」はSignalユーザーではありません。ユーザーネームを確認してもう一度試してください。</string>
     <!-- Dialog body for not found phone number -->
     <string name="FindByActivity__s_is_not_a_signal_user_would">%1$sさんはSignalユーザーではありません。この番号をSignalに招待しますか？</string>
-    <!-- Dialog action to invite the phone number to Signal -->
+    <!-- Dialog action to invite the phone number to GFSChat -->
     <string name="FindByActivity__invite">招待</string>
     <!-- Button label for a button that will launch a camera to scan a username QR code -->
     <string name="FindByActivity__qr_scan_button">QRコードをスキャンする</string>
@@ -7136,7 +7136,7 @@
     <!-- Title on a bottom sheet, detailing that the user must upgrade to enable storage optimization -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_to_enable_this_feature">Upgrade to enable this feature</string>
     <!-- Subtitle of bottom sheet detailing that the user must upgrade to enable storage optimization -->
-    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of Signal Backups. Upgrade your backup plan to start using this feature.</string>
+    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of GFSChat Backups. Upgrade your backup plan to start using this feature.</string>
     <!-- Primary action to launch upgrade flow -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_now">Upgrade now</string>
 
@@ -7251,7 +7251,7 @@
     <!-- Screen title -->
     <string name="MessageBackupsPinConfirmationScreen__enter_your_pin">PINを入力してください</string>
     <!-- Screen subtitle -->
-    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">Signal PINを入力してバックアップを有効にします</string>
+    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">GFSChat PINを入力してバックアップを有効にします</string>
     <!-- Action button to confirm pin entry and continue -->
     <string name="MessageBackupsPinConfirmationScreen__next">次へ</string>
     <!-- Action button to switch keyboard type -->
@@ -7263,7 +7263,7 @@
     <!-- Screen headline -->
     <string name="MessageBackupsPinEducationScreen__pins_protect_your_backup">PINでバックアップを保護する</string>
     <!-- Notice about pin length. Placeholder is recommended pin length -->
-    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">Signal PINを使用すると、Signalの再インストール時にバックアップを復元できます。%1$d 桁以上のPINを使用することをお勧めします。</string>
+    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">GFSChat PINを使用すると、Signalの再インストール時にバックアップを復元できます。%1$d 桁以上のPINを使用することをお勧めします。</string>
     <!-- Notice about changing your pin. -->
     <string name="MessageBackupsPinEducationScreen__if_you_forget_your_pin">PINを忘れた場合、バックアップの復元はできません。PINは設定からいつでも変更できます。</string>
     <!-- Action button label to utilize current pin -->

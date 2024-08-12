@@ -168,7 +168,7 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isRegisteredAndUpToDate()
       )
 
-      // TODO: recheck this logic
+      // TODO: recheck this logic - disable donation in settings
 //      if (state.allowUserToGoToDonationManagementScreen) {
 //        clickPref(
 //          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
@@ -207,14 +207,14 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isRegisteredAndUpToDate()
       )
 
-      clickPref(
-        title = DSLSettingsText.from(R.string.preferences__stories),
-        icon = DSLSettingsIcon.from(R.drawable.symbol_stories_24),
-        onClick = {
-          findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToStoryPrivacySettings(R.string.preferences__stories))
-        },
-        isEnabled = state.isRegisteredAndUpToDate()
-      )
+//      clickPref(
+//        title = DSLSettingsText.from(R.string.preferences__stories),
+//        icon = DSLSettingsIcon.from(R.drawable.symbol_stories_24),
+//        onClick = {
+//          findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToStoryPrivacySettings(R.string.preferences__stories))
+//        },
+//        isEnabled = state.isRegisteredAndUpToDate()
+//      )
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__notifications),

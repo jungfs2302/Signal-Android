@@ -122,7 +122,9 @@ object AccountDataProcessor {
       SignalStore.settings.setKeepMutedChatsArchived(settings.keepMutedChatsArchived)
       SignalStore.story.userHasBeenNotifiedAboutStories = settings.hasSetMyStoriesPrivacy
       SignalStore.story.userHasViewedOnboardingStory = settings.hasViewedOnboardingStory
-      SignalStore.story.isFeatureDisabled = settings.storiesDisabled
+      // TODO: recheck this logic - disable story
+//      SignalStore.story.isFeatureDisabled = settings.storiesDisabled
+      SignalStore.story.isFeatureDisabled = true
       SignalStore.story.userHasSeenGroupStoryEducationSheet = settings.hasSeenGroupStoryEducationSheet
       SignalStore.story.viewedReceiptsEnabled = settings.storyViewReceiptsEnabled ?: settings.readReceipts
 

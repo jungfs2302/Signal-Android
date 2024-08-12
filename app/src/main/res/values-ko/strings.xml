@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2024 Signal Messenger, LLC
+  ~ Copyright 2024 GFSChat Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
 <!-- smartling.instruction_comments_enabled = on -->
 <resources>
-  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">GFSChat</string> -->
 
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://signal.org/install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://signal.org/donate</string> -->
@@ -29,20 +29,20 @@
     <string name="save">저장</string>
     <string name="note_to_self">개인 메모</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">날씨</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">메모</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">뉴스</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">파도</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal 업데이트 중…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">GFSChat 업데이트 중…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">암호를 설정하지 않았습니다!</string>
@@ -85,23 +85,23 @@
     <string name="AttachmentKeyboard_contact">연락처</string>
     <string name="AttachmentKeyboard_location">위치</string>
     <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">사진과 동영상을 표시하려면 Signal에 권한이 필요합니다.</string>
-    <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
+    <!-- Text for a button prompting users to allow GFSChat access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">권한 허용</string>
     <string name="AttachmentKeyboard_payment">결제</string>
-    <!-- Text in a button that allows users to manage which media Signal has access to -->
+    <!-- Text in a button that allows users to manage which media GFSChat has access to -->
     <string name="AttachmentKeyboard_manage">Manage</string>
-    <!-- Option in menu to select more photos that Signal will have access to -->
+    <!-- Option in menu to select more photos that GFSChat will have access to -->
     <string name="AttachmentKeyboard_select_more_photos">Select more photos</string>
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Go to Settings</string>
-    <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Signal has limited access to photos or videos</string>
-    <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
+    <!-- Text explaining that GFSChat has limited access to photos -->
+    <string name="AttachmentKeyboard_signal_has_limited_access">GFSChat has limited access to photos or videos</string>
+    <!-- Text shown when user has given no photos for GFSChat to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">No photos found, select photos and videos to appear here or change permissions</string>
 
     <!-- MediaGalleryFragment -->
-    <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. Signal only has access to photos and videos you selected.</string>
+    <!-- Text describing that no photos or videos are currently found in the gallery and that GFSChat can only access media that the user allows -->
+    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. GFSChat only has access to photos and videos you selected.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">미디어를 선택할 수 있는 앱이 없습니다.</string>
@@ -115,14 +115,14 @@
     <string name="AttachmentManager_signal_to_send_location">위치를 보내려면 다음을 수행하세요.</string>
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">위치를 보내려면 Signal에서 내 위치를 사용할 수 있도록 허용하세요.</string>
-    <!-- Toast text explaining Signal\'s need for location access -->
+    <!-- Toast text explaining GFSChat\'s need for location access -->
     <string name="AttachmentManager_signal_needs_location_access">위치를 보내려면 Signal에서 내 위치를 사용할 수 있어야 합니다.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">저장 공간 권한 허용</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">사진과 동영상 표시 방법:</string>
-    <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Signal needs access to show your photos and videos.</string>
+    <!-- Toast text explaining GFSChat\'s need for storage access -->
+    <string name="AttachmentManager_signal_needs_storage_access">GFSChat needs access to show your photos and videos.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s 님이 결제를 아직 활성화하지 않았습니다. </string>
@@ -201,15 +201,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">이제 이 그룹에서 메시지나 업데이트를 받을 수 없습니다. 그리고 멤버가 당신을 이 그룹에 추가할 수도 없습니다.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">그룹 멤버가 당신을 이 그룹에 추가할 수 없습니다,</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">그룹 멤버는 당신을 그룹에 다시 초대 가능합니다.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a GFSChat contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">서로 메시지를 보내고 전화를 걸 수 있으며 이름과 사진이 공유됩니다.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">이제 서로 메시지를 할 수 있습니다.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">차단한 사용자는 나에게 전화를 걸거나 메세지를 보낼 수 없습니다.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">차단한 사용자는 나에게 메시지를 보낼 수 없습니다.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the GFSChat release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signal의 업데이트와 새로운 소식을 차단합니다.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the GFSChat release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signal의 업데이트와 새로운 소식을 다시 받기</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s을(를) 차단 해제할까요?</string>
     <string name="BlockUnblockDialog_block">차단</string>
@@ -269,21 +269,21 @@
     <string name="CameraXFragment_allow_access_camera">카메라 접근을 허용해 주세요.</string>
     <!-- Dialog title asking users for microphone permission -->
     <string name="CameraXFragment_allow_access_microphone">마이크 접근을 허용해 주세요.</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos -->
     <string name="CameraXFragment_to_capture_photos_allow_camera">사진을 찍으려면 Signal에 카메라 접근을 허용해 주세요.</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">사진이나 동영상을 찍으려면 Signal에 카메라 접근을 허용해 주세요.</string>
-    <!-- Text explaining why Signal needs camera and microphone access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera and microphone access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">사진이나 동영상을 찍으려면 Signal에 카메라와 마이크 접근을 허용해 주세요.</string>
-    <!-- Text explaining why Signal needs microphone access to take videos -->
+    <!-- Text explaining why GFSChat needs microphone access to take videos -->
     <string name="CameraXFragment_to_capture_videos_with_sound">소리와 함께 동영상을 찍으려면 Signal에 마이크 접근을 허용해 주세요.</string>
-    <!-- Text explaining why Signal needs camera access to scan QR codes -->
+    <!-- Text explaining why GFSChat needs camera access to scan QR codes -->
     <string name="CameraXFragment_to_scan_qr_code_allow_camera">QR 코드를 스캔하려면 Signal에 카메라 접근을 허용해 주세요.</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when capturing photos -->
     <string name="CameraXFragment_signal_needs_camera_access_capture_photos">사진을 찍으려면 Signal에 카메라 접근 권한이 필요합니다.</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when scanning QR codes -->
     <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">QR 코드를 스캔하려면 Signal에 카메라 접근 권한이 필요합니다.</string>
-    <!-- Toast dialog explaining why Signal needs microphone permissions -->
+    <!-- Toast dialog explaining why GFSChat needs microphone permissions -->
     <string name="CameraXFragment_signal_needs_microphone_access_video">동영상을 찍으려면 Signal에 마이크 접근 권한이 필요합니다.</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
     <string name="CameraXFragment_to_capture_photos">Signal에서 사진을 찍으려면 다음을 수행하세요.</string>
@@ -291,20 +291,20 @@
     <string name="CameraXFragment_to_capture_photos_videos">Signal에서 사진과 동영상을 찍으려면 다음을 수행하세요.</string>
     <!-- Dialog description that explains the steps needed to give microphone permission -->
     <string name="CameraXFragment_to_capture_videos">소리와 함께 동영상을 찍으려면 다음을 수행하세요.</string>
-    <!-- Dialog description that explains the steps needed to give Signal camera permissions -->
+    <!-- Dialog description that explains the steps needed to give GFSChat camera permissions -->
     <string name="CameraXFragment_to_scan_qr_codes">QR 코드를 스캔하려면 다음을 수행하세요.</string>
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">최근 연락처</string>
-    <string name="CameraContacts_signal_contacts">Signal 연락처</string>
-    <string name="CameraContacts_signal_groups">Signal 그룹</string>
+    <string name="CameraContacts_signal_contacts">GFSChat 연락처</string>
+    <string name="CameraContacts_signal_groups">GFSChat 그룹</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="other">최대 %1$d개 대화에서 공유할 수 있습니다.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Signal 받는 사람 선택</string>
-    <string name="CameraContacts_no_signal_contacts">Signal 연락처 없음</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">카메라 버튼은 Signal 연락처에 사진을 보내는 용도로만 사용할 수 있습니다. </string>
+    <string name="CameraContacts_select_signal_recipients">GFSChat 받는 사람 선택</string>
+    <string name="CameraContacts_no_signal_contacts">GFSChat 연락처 없음</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">카메라 버튼은 GFSChat 연락처에 사진을 보내는 용도로만 사용할 수 있습니다. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">원하는 사람을 찾지 못하셨나요?</string>
     <string name="CameraContacts_invite_a_contact_to_join_signal">Signal에 등록하도록 연락처 초대</string>
     <string name="CameraContacts__menu_search">검색</string>
@@ -313,7 +313,7 @@
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">검열 우회를 끄시겠어요?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">이제 더 나은 사용을 위해 Signal 서비스에 바로 연결 할 수 있습니다.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">이제 더 나은 사용을 위해 GFSChat 서비스에 바로 연결 할 수 있습니다.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">끄기</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -325,7 +325,7 @@
     <string name="ClientDeprecatedActivity_update">업데이트</string>
     <string name="ClientDeprecatedActivity_dont_update">업데이트하지 않음</string>
     <string name="ClientDeprecatedActivity_warning">경고</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Signal 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">GFSChat 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">웹 브라우저를 찾을 수 없습니다.</string>
@@ -362,8 +362,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">%1$s에 메시지 보내기</string>
-    <string name="ContactsDatabase_signal_call_s">Signal 음성 통화 %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Signal 화상 통화 %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">GFSChat 음성 통화 %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">GFSChat 화상 통화 %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -394,7 +394,7 @@
     <string name="ConversationItem_send_paused">전송 일시 중지됨</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">비보안 SMS로 바꾸시겠습니까?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">비보안 MMS로 바꾸시겠습니까?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자가 이제 Signal 사용자가 아니므로 메시지가 암호화되지 <b>않습니다</b>.\n\n비보안 메시지를 보내시겠습니까?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자가 이제 GFSChat 사용자가 아니므로 메시지가 암호화되지 <b>않습니다</b>.\n\n비보안 메시지를 보내시겠습니까?</string>
     <string name="ConversationItem_unable_to_open_media">미디어를 열 수 있는 앱이 없습니다.</string>
     <string name="ConversationItem_copied_text">%1$s 복사됨</string>
     <string name="ConversationItem_from_s">%1$s에서</string>
@@ -452,7 +452,7 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">비보안 SMS(%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">비보안 MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal 메시지</string>
+    <string name="ConversationActivity_transport_signal">GFSChat 메시지</string>
     <!-- The content description for button to send a message in a conversation -->
     <string name="ConversationActivity_send_message_content_description">문자 보내기</string>
     <string name="ConversationActivity_lets_switch_to_signal">Signal로 대화해요! %1$s</string>
@@ -475,7 +475,7 @@
     <string name="ConversationActivity_signal_to_send_audio_messages">To send voice messages:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">음성 메시지를 보내려면 Signal에서 마이크를 사용할 수 있도록 허용하세요.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_message">음성 메시지를 녹음하려면 Signal에서 마이크를 사용할 수 있어야 합니다.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal에서 오디오 메시지를 보내려면 마이크 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'마이크\' 항목을 허용해 주세요.</string>
 
@@ -507,7 +507,7 @@
     <string name="ConversationActivity__to_start_call">통화를 시작하려면 다음을 수행하세요.</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
     <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">통화를 시작하려면 Signal에서 마이크를 사용할 수 있도록 허용하세요.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access for a voice call -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_call">통화를 시작하려면 Signal에서 마이크를 사용할 수 있어야 합니다.</string>
 
 
@@ -521,7 +521,7 @@
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Signal에서 더 이상 SMS 메시지를 지원하지 않습니다.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Signal에서 더 이상 SMS 메시지를 지원하지 않습니다. %1$s 님을 Signal로 초대하여 대화를 이어가세요.</string>
-    <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
+    <!-- Message shown when opening a conversation with an unregistered user who used to be on GFSChat -->
     <string name="ConversationActivity__this_person_is_no_longer_using_signal">이 사용자는 더 이상 Signal을 사용하지 않습니다. Signal로 초대하여 대화를 이어가세요.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Signal로 초대</string>
@@ -531,7 +531,7 @@
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">서식 지정 텍스트 보내기</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">일부 사용자가 서식 지정 텍스트를 지원하지 않는 Signal 버전을 사용 중일 수 있습니다. 이러한 사용자의 경우 메시지에 적용된 서식 변경 내용을 보지 못할 수 있습니다.</string>
+    <string name="SendingFormattingTextDialog_message">일부 사용자가 서식 지정 텍스트를 지원하지 않는 GFSChat 버전을 사용 중일 수 있습니다. 이러한 사용자의 경우 메시지에 적용된 서식 변경 내용을 보지 못할 수 있습니다.</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">그냥 보내기</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -563,7 +563,7 @@
         <item quantity="other">첨부 파일 %1$d개를 저장 공간에 저장 중…</item>
     </plurals>
     <string name="ConversationFragment_pending">대기 중…</string>
-    <string name="ConversationFragment_push">데이터(Signal)</string>
+    <string name="ConversationFragment_push">데이터(GFSChat)</string>
     <string name="ConversationFragment_mms">MMS</string>
     <string name="ConversationFragment_sms">SMS</string>
     <string name="ConversationFragment_deleting">삭제 중</string>
@@ -607,11 +607,11 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">시그널 최신 버전으로 업데이트</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Signal 다시 등록</string>
+    <string name="ConversationFragment__reregister_signal">GFSChat 다시 등록</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">돌아가기</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Signal 열기</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">GFSChat 열기</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">더 이상 유효하지 않음</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -920,20 +920,20 @@
     <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal은 엔드투엔드 암호화를 사용하므로 때때로 대화 세션을 새로 고쳐야 할 수 있습니다. 이 작업은 대화 보안에 영향을 미치지 않으나, 이로 인해 해당 연락처가 보낸 메시지를 놓쳤을 수 있습니다. 메시지를 다시 보내달라고 요청하세요.</string>
 
     <!-- LinkDeviceFragment -->
-    <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
+    <!-- Description for how GFSChat will work with a linked device (eg desktop, iPad) -->
     <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">데스크톱 또는 iPad에서 Signal을 이용하세요. 메시지가 연결된 기기와 동기화됩니다.</string>
     <!-- Button prompting users to link a new device to their account -->
     <string name="LinkDeviceFragment__link_a_new_device">새 기기 연결</string>
     <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
     <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$s 메시지와 대화 정보는 모든 장치에서 엔드투엔드 암호화로 보호됩니다.</string>
-    <!-- Bottom sheet title explaining how Signal works on a linked device -->
-    <string name="LinkDeviceFragment__signal_on_desktop_ipad">데스크톱 또는 iPad의 Signal</string>
+    <!-- Bottom sheet title explaining how GFSChat works on a linked device -->
+    <string name="LinkDeviceFragment__signal_on_desktop_ipad">데스크톱 또는 iPad의 GFSChat</string>
     <!-- Bottom sheet description explaining that messages on linked devices are private -->
     <string name="LinkDeviceFragment__all_messaging_is_private">연결된 기기의 모든 메시지는 비공개입니다.</string>
     <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
-    <string name="LinkDeviceFragment__signal_messages_are_synchronized">휴대폰의 Signal과 연결하면 Signal 메시지가 동기화됩니다. 이전 메시지 내역은 표시되지 않습니다.</string>
-    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
-    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install Signal</string>
+    <string name="LinkDeviceFragment__signal_messages_are_synchronized">휴대폰의 Signal과 연결하면 GFSChat 메시지가 동기화됩니다. 이전 메시지 내역은 표시되지 않습니다.</string>
+    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download GFSChat where %s is GFSChat\'s website -->
+    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install GFSChat</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
     <!-- Header title listing out current linked devices -->
     <string name="LinkDeviceFragment__my_linked_devices">내 연결된 기기</string>
@@ -966,7 +966,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">다른 기기에서 연결 완료</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">다른 기기에서 Signal 연결을 완료하세요.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">다른 기기에서 GFSChat 연결을 완료하세요.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">기기 연결 실패</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -997,7 +997,7 @@
     <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">기기에서는 Play Services를 지원하지 않습니다. 탭하여 시스템 배터리 최적화 기능을 사용하지 않을 수 있습니다. 해당 기능은 Signal이 비활성화된 동안에 메시지를 검색하지 못하게 합니다.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Signal 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">GFSChat 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
     <string name="ExpiredBuildReminder_update_now">지금 업데이트하세요.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -1007,8 +1007,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">보기</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적으로 Signal 연결에 실패했습니다!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play Services에 등록될 수 없습니다. Signal 메시지와 전화는 비활성화되었습니다. Signal 설정 - 고급 메뉴에서 다시 등록해 주세요.</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적으로 GFSChat 연결에 실패했습니다!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play Services에 등록될 수 없습니다. GFSChat 메시지와 전화는 비활성화되었습니다. GFSChat 설정 - 고급 메뉴에서 다시 등록해 주세요.</string>
 
 
     <!-- GiphyActivity -->
@@ -1122,7 +1122,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">이 그룹 링크가 비활성화 되었습니다.</string>
     <string name="LinkPreviewView_domain_date">%1$s, %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">이 링크를 사용하여 Signal 통화에 참여하세요.</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">이 링크를 사용하여 GFSChat 통화에 참여하세요.</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -1142,21 +1142,21 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">배터리 최적화로 인해 알림이 지연될 수 있습니다.</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Signal 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 할 수 있습니다.</string>
+    <string name="PromptBatterySaverBottomSheet__message">GFSChat 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 할 수 있습니다.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">배터리 최적화로 인해 알림이 지연될 수 있습니다.</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Signal 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 하세요. \'계속\'을 탭하여 기기별 지침을 확인하세요.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">GFSChat 배터리 최적화를 비활성화하여 메시지 알림이 지연되지 않도록 하세요. \'계속\'을 탭하여 기기별 지침을 확인하세요.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">아니요</string>
-    <!-- Button to continue and go to Signal support website -->
+    <!-- Button to continue and go to GFSChat support website -->
     <string name="DeviceSpecificNotificationBottomSheet__continue">계속</string>
 
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">메시지가 수신되지 않을 수 있습니다.</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">기기를 다시 시작하면 메시지 전송 문제를 해결하는 데 도움이 될 수도 있습니다. 문제가 지속되면 Signal 지원팀에 연락해 주세요.</string>
+    <string name="ConnectivityWarningBottomSheet_body">기기를 다시 시작하면 메시지 전송 문제를 해결하는 데 도움이 될 수도 있습니다. 문제가 지속되면 GFSChat 지원팀에 연락해 주세요.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">확인</string>
 
@@ -1216,9 +1216,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS 연락</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">이 그룹에서 %1$s를 제거하시겠습니까?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Signal 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 지정 MMS 그룹 이름과 사진은 나만 볼 수 있습니다.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">GFSChat 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 지정 MMS 그룹 이름과 사진은 나만 볼 수 있습니다.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Signal 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 정의 MMS 그룹 이름과 사진은 나에게만 표시됩니다. 암호화 메시지에 집중하기 위해 MMS 그룹에 대한 지원을 곧 중단합니다.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">GFSChat 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 정의 MMS 그룹 이름과 사진은 나에게만 표시됩니다. 암호화 메시지에 집중하기 위해 MMS 그룹에 대한 지원을 곧 중단합니다.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">누가 새로운 멤버들을 추가시킬 수 있습니까?</string>
@@ -1401,7 +1401,7 @@
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">그룹 링크를 사용하기 위해서 Signal을 업데이트하세요</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">사용 중인 Signal 버전에서는 이 그룹 링크를 지원하지 않습니다. 링크를 통해 이 그룹에 가입하려면 최신 버전으로 업데이트하세요.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">사용 중인 GFSChat 버전에서는 이 그룹 링크를 지원하지 않습니다. 링크를 통해 이 그룹에 가입하려면 최신 버전으로 업데이트하세요.</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">시그널 업데이트하기</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">그룹 링크가 유효하지 않습니다.</string>
 
@@ -1469,7 +1469,7 @@
     <string name="LongMessageActivity_your_message">내 메시지</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Signal</string>
+    <string name="MessageRetrievalService_signal">GFSChat</string>
     <string name="MessageRetrievalService_background_connection_enabled">백그라운드 연결이 활성화됨</string>
 
     <!-- MediaOverviewActivity -->
@@ -1520,7 +1520,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">나중에 알림</string>
-    <string name="Megaphones_verify_your_signal_pin">Signal 번호 인증</string>
+    <string name="Megaphones_verify_your_signal_pin">GFSChat 번호 인증</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">저희는 사용자가 번호를 기억하실 수 있도록 가끔 번호 인증을 요청합니다.</string>
     <string name="Megaphones_verify_pin">번호 인증</string>
     <string name="Megaphones_get_started">시작</string>
@@ -1533,10 +1533,10 @@
     <string name="MessageQuotesBottomSheet_replies">회신</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Signal 전화 연결 중</string>
+    <string name="NotificationBarManager__establishing_signal_call">GFSChat 전화 연결 중</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Signal 통화 서비스 시작</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Signal 통화 서비스 중지</string>
+    <string name="NotificationBarManager__starting_signal_call_service">GFSChat 통화 서비스 시작</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">GFSChat 통화 서비스 중지</string>
     <string name="NotificationBarManager__cancel_call">전화 취소</string>
 
     <!-- NotificationsMegaphone -->
@@ -1562,7 +1562,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">알 수 없음</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 이전 Signal 버전으로부터 암호화 메시지를 받았습니다. 발신자에게 최신 버전으로 업데이트하고 다시 보내도록 요청하세요.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 이전 GFSChat 버전으로부터 암호화 메시지를 받았습니다. 발신자에게 최신 버전으로 업데이트하고 다시 보내도록 요청하세요.</string>
     <string name="MessageRecord_left_group">그룹에서 탈퇴했습니다.</string>
     <string name="MessageRecord_you_updated_group">그룹을 업데이트했습니다.</string>
     <string name="MessageRecord_the_group_was_updated">그룹이 업데이트 되었습니다.</string>
@@ -1861,7 +1861,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">%1$s 님이 내게 메시지를 보내도록 허용하고, 내 이름과 사진을 공유할까요? 이 사용자는 귀하가 이전에 제거한 사용자입니다.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">%1$s 님에게 메시지를 보내고 이름과 사진을 공유할 수 있도록 하시겠습니까? 귀하가 수락할 때까지 귀하가 자신의 메시지를 본 것을 알지 못합니다.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a GFSChat user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">%1$s 님이 내게 메시지를 보내고 내 이름과 사진을 공유할 수 있도록 허용할까요? 차단을 해제할 때까지 모든 메시지를 차단합니다.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">%1$s 님이 내게 메시지를 보내도록 허용할까요? 차단을 해제할 때까지 모든 메시지를 차단합니다.</string>
@@ -1917,26 +1917,26 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">잘못된 QR 코드입니다.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">죄송합니다. 이미 너무 많은 기기가 연결되어 있습니다. 일부를 제거하세요.</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">죄송합니다. 올바른 기기 연결 QR 코드가 아닙니다.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Signal 기기를 연결하시겠습니까?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">제삼자 스캐너를 사용해 Signal 기기를 연결하려는 것 같습니다. 안전한 사용을 위해 Signal에서 다시 코드를 스캔해 주세요.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">GFSChat 기기를 연결하시겠습니까?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">제삼자 스캐너를 사용해 GFSChat 기기를 연결하려는 것 같습니다. 안전한 사용을 위해 Signal에서 다시 코드를 스캔해 주세요.</string>
 
     <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal에서 QR 코드를 읽으려면 카메라 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'카메라\' 항목을 허용해 주세요.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">카메라 권한이 없어 QR 코드를 스캔할 수 없음</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">지금 업데이트하세요.</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 Signal 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 GFSChat 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="other">이 Signal 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
+        <item quantity="other">이 GFSChat 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">암호 입력</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal 아이콘</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">GFSChat 아이콘</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">암호 제출</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">잘못된 암호입니다!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Signal 잠금 해제</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - 잠금 화면</string>
+    <string name="PassphrasePromptActivity_unlock_signal">GFSChat 잠금 해제</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">GFSChat Android - 잠금 화면</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">지도</string>
@@ -1960,24 +1960,24 @@
     <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
         <item quantity="other">%1$d번의 시도가 남아 있습니다. 시도가 부족하면 새 PIN을 만들 수 있습니다. 계정을 등록하고 사용할 수 있지만 프로필 정보와 같은 일부 저장된 설정이 손실됩니다.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal 등록 - Android용 PIN에 대한 도움이 필요합니다.</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">GFSChat 등록 - Android용 PIN에 대한 도움이 필요합니다.</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">번호 생성</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN을 알아내지는 못했지만 새 PIN을 생성하여 Signal 계정에 계속 액세스할 수 있습니다. 개인 정보 및 보안을 위해 저장된 프로필 정보 또는 설정 없이 계정이 복원됩니다.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN을 알아내지는 못했지만 새 PIN을 생성하여 GFSChat 계정에 계속 액세스할 수 있습니다. 개인 정보 및 보안을 위해 저장된 프로필 정보 또는 설정 없이 계정이 복원됩니다.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">새로운 PIN 만들기</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">SMS 코드 보내기</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal 등록 - Android 등록 PIN 관련 도움</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">GFSChat 등록 - Android 등록 PIN 관련 도움</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">PIN은 사용자가 만든 %1$d자리 이상의 영숫자 조합 코드입니다.\n\nPIN이 기억이 안 난다면 새로운 PIN을 만드세요.</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">PIN이 기억이 안 난다면 새로운 PIN을 만드세요.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN 시도 횟수를 초과했습니다. 하지만 새로운 PIN을 만들어 Signal 계정을 계속 이용할 수 있습니다.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN 시도 횟수를 초과했습니다. 하지만 새로운 PIN을 만들어 GFSChat 계정을 계속 이용할 수 있습니다.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">경고</string>
@@ -2010,7 +2010,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">내 스토리</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal 통화</string>
+    <string name="Recipient_signal_call">GFSChat 통화</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">차단</string>
@@ -2107,8 +2107,8 @@
     <string name="WebRtcCallActivity__to_enable_video">동영상 사용 방법:</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal 전화</string>
-    <string name="WebRtcCallView__signal_video_call">Signal 영상 통화</string>
+    <string name="WebRtcCallView__signal_call">GFSChat 전화</string>
+    <string name="WebRtcCallView__signal_video_call">GFSChat 영상 통화</string>
     <string name="WebRtcCallView__start_call">전화 시작하기</string>
     <string name="WebRtcCallView__join_call">전화 참여하기</string>
     <string name="WebRtcCallView__call_is_full">통화 참가자 수 최대</string>
@@ -2118,7 +2118,7 @@
     <string name="WebRtcCallView__joining">참가하는 중…</string>
     <string name="WebRtcCallView__disconnected">연결 끊김</string>
     <!-- Utilized in the lobby before joining a call link -->
-    <string name="WebRtcCallView__signal_call_link">Signal 통화 링크</string>
+    <string name="WebRtcCallView__signal_call_link">GFSChat 통화 링크</string>
     <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy disabled-->
     <string name="WebRtcCallView__anyone_who_joins_pnp_disabled">링크를 통해 통화에 참여하는 모든 사용자에게 내 이름, 사진, 전화번호가 표시됩니다.</string>
     <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy enabled-->
@@ -2233,7 +2233,7 @@
 
     <!-- AboutSheet -->
     <!-- Displayed in a sheet row and allows user to open signal connection explanation on tap -->
-    <string name="AboutSheet__signal_connection">Signal 커넥션</string>
+    <string name="AboutSheet__signal_connection">GFSChat 커넥션</string>
     <!-- Displayed in a sheet row describing that the user has marked this contact as \'verified\' from within the app -->
     <string name="AboutSheet__verified">검증함</string>
     <!-- Displayed in bottom sheet describing that the user has no direct messages with this person. The placeholder is a person\'s name. -->
@@ -2314,8 +2314,8 @@
     <string name="RegistrationActivity_play_services_error">Play Services 오류</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services가 업데이트 중이거나 잠시 제공되지 않고 있습니다. 다시 시도해 주세요.</string>
     <string name="RegistrationActivity_terms_and_privacy">이용 약관 &amp; 개인 정보 보호 정책</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">친구를 추가하고 메시지를 보내려면 Signal에서 연락처와 미디어를 사용하도록 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 Signal 서비스에는 절대 표시되지 않습니다.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal에서 친구를 추가하려면 연락처 접근 권한을 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 Signal 서비스에는 절대 표시되지 않습니다.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">친구를 추가하고 메시지를 보내려면 Signal에서 연락처와 미디어를 사용하도록 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 GFSChat 서비스에는 절대 표시되지 않습니다.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal에서 친구를 추가하려면 연락처 접근 권한을 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 GFSChat 서비스에는 절대 표시되지 않습니다.</string>
     <string name="RegistrationActivity_rate_limited_to_service">이 전화번호를 등록하려고 너무 많이 시도했습니다. 나중에 다시 시도하세요.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">이 번호를 등록하려고 너무 많이 시도했습니다. %1$s 후에 다시 시도해 주세요.</string>
@@ -2327,7 +2327,7 @@
     <string name="RegistrationActivity_non_standard_number_format">비표준 전화번호 형식</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">입력한 번호(%1$s)가 표준 형식이 아닙니다.\n\n혹시 입력하려던 번호가 %2$s인가요?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - 전화번호 형식</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">GFSChat Android - 전화번호 형식</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">통화 요청함</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2370,7 +2370,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">등록 잠금을 켜시겠습니까?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">등록 잠금을 끄시겠습니까?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal에 등록할 때 또 Signal PIN 번호을 잊어버렸다면 7일 동안 계정이 잠깁니다.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal에 등록할 때 또 GFSChat PIN 번호을 잊어버렸다면 7일 동안 계정이 잠깁니다.</string>
     <string name="RegistrationLockV2Dialog_turn_on">켜기</string>
     <string name="RegistrationLockV2Dialog_turn_off">끄기</string>
 
@@ -2400,13 +2400,13 @@
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">연락처에 추가</string>
     <string name="SharedContactDetailsActivity_invite_to_signal">Signal로 초대</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal 메시지</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal 전화</string>
+    <string name="SharedContactDetailsActivity_signal_message">GFSChat 메시지</string>
+    <string name="SharedContactDetailsActivity_signal_call">GFSChat 전화</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">연락처에 추가</string>
     <string name="SharedContactView_invite_to_signal">Signal로 초대</string>
-    <string name="SharedContactView_message">Signal 메시지</string>
+    <string name="SharedContactView_message">GFSChat 메시지</string>
 
     <!-- SignalBottomActionBar -->
     <string name="SignalBottomActionBar_more">더 보기</string>
@@ -2436,7 +2436,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">설치된 스티커</string>
     <string name="StickerManagementAdapter_stickers_you_received">받은 스티커</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal 아티스트 시리즈</string>
+    <string name="StickerManagementAdapter_signal_artist_series">GFSChat 아티스트 시리즈</string>
     <string name="StickerManagementAdapter_no_stickers_installed">설치된 스티커 없음</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">받은 메시지의 스티커가 여기에 표시됩니다.</string>
     <string name="StickerManagementAdapter_untitled">제목 없음</string>
@@ -2473,8 +2473,8 @@
     <string name="SupportEmailUtil_filter">필터:</string>
     <string name="SupportEmailUtil_device_info">기기 정보:</string>
     <string name="SupportEmailUtil_android_version">안드로이드 버전:</string>
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">Signal version:</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Signal package:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">GFSChat version:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">GFSChat package:</string> -->
     <string name="SupportEmailUtil_registration_lock">등록 잠금:</string>
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_locale" translatable="false">Locale:</string> -->
 
@@ -2536,9 +2536,9 @@
     <string name="ThreadRecord_s_belongs_to_s">%1$s번은 %2$s 님의 전화번호입니다.</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Signal 업데이트</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">새 Signal 버전을 이용할 수 있습니다. 탭하여 업데이트하세요.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Signal 업데이트 실패</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">GFSChat 업데이트</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">새 GFSChat 버전을 이용할 수 있습니다. 탭하여 업데이트하세요.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">GFSChat 업데이트 실패</string>
     <string name="ApkUpdateNotifications_failed_general_body">나중에 다시 시도하겠습니다.</string>
     <string name="ApkUpdateNotifications_auto_update_success_title">Signal을 업데이트했습니다.</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">%1$s 버전으로 자동 업데이트되었습니다.</string>
@@ -2607,7 +2607,7 @@
     <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">연락처는 호환되지 않는 QR 코드 형식의 상위 버전 Signal을 사용하고 있습니다. 앱을 업데이트하세요.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">QR 코드가 올바른 안전 번호 인증 코드 형식이 아닌 것 같습니다. 다시 시도해 주세요.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">다음으로 안전 번호 공유:</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">우리 Signal 안전 번호:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">우리 GFSChat 안전 번호:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">공유에 사용할 수 있는 앱이 없습니다.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">클립보드에 비교할 수 있는 안전 번호가 없음</string>
     <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal에서 QR 코드를 읽으려면 카메라 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'카메라\' 항목을 허용해 주세요.</string>
@@ -2641,7 +2641,7 @@
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">터치하여 여세요.</string>
     <string name="KeyCachingService_passphrase_cached">Signal이 잠금 해제됨</string>
-    <string name="KeyCachingService_lock">Signal 잠금</string>
+    <string name="KeyCachingService_lock">GFSChat 잠금</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">나</string>
@@ -2696,7 +2696,7 @@
     <string name="MessageNotifier_view_once_photo">한 번 볼 수 있는 사진</string>
     <string name="MessageNotifier_view_once_video">한 번 볼 수 있는 동영상</string>
     <string name="MessageNotifier_reply">답장</string>
-    <string name="MessageNotifier_signal_message">Signal 메시지</string>
+    <string name="MessageNotifier_signal_message">GFSChat 메시지</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">연락처</string>
     <string name="MessageNotifier_reacted_s_to_s">\'%2$s\'에 %1$s 이모지로 반응했습니다.</string>
@@ -2711,7 +2711,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">내 스티커에 %1$s 이모지로 반응했습니다.</string>
     <string name="MessageNotifier_this_message_was_deleted">이 메시지는 삭제되었습니다.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처 인물이 Signal에 가입했다는 알림을 끄시겠습니까? Signal &gt; 설정 &gt; 알림에서 다시 활성화할 수 있습니다.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처 인물이 Signal에 가입했다는 알림을 끄시겠습니까? GFSChat &gt; 설정 &gt; 알림에서 다시 활성화할 수 있습니다.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -2770,7 +2770,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">잘못된 단축키</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+    <string name="SingleRecipientNotificationBuilder_signal">GFSChat</string>
     <string name="SingleRecipientNotificationBuilder_new_message">새 메시지</string>
     <string name="SingleRecipientNotificationBuilder_message_request">메시지 요청</string>
     <string name="SingleRecipientNotificationBuilder_you">나</string>
@@ -2882,7 +2882,7 @@
     <string name="contact_selection_activity__refresh_contacts">연락처 새로 고침</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">안 보이는 사람이 있나요? 새로 고쳐보세요.</string>
-    <!-- Row item title for finding people on Signal via your contacts -->
+    <!-- Row item title for finding people on GFSChat via your contacts -->
     <string name="contact_selection_activity__find_people_you_know">Signal에서 내가 아는 사람을 찾아보세요.</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">연락처 접근을 허용해 주세요.</string>
@@ -2905,12 +2905,12 @@
     <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal에서 연락처 정보를 표시하려면 연락처 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'연락처\' 항목을 허용해 주세요.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">연락처를 가져오는 중 오류 발생, 네트워크 연결 확인</string>
     <string name="ContactSelectionListFragment_username_not_found">사용자 이름을 찾을 수 없음</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\'%1$s\' 님은 Signal 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\'%1$s\' 님은 GFSChat 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">나 자신을 그룹에 추가할 필요가 없습니다.</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">최대 그룹 규모에 도달했습니다.</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal 그룹에는 최대 %1$d명의 멤버가 있을 수 있습니다.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">GFSChat 그룹에는 최대 %1$d명의 멤버가 있을 수 있습니다.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">권장 멤버 수 한도에 도달했습니다.</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal 그룹은 %1$d명 이하의 멤버가 있을 때 가장 잘 작동합니다. 멤버를 더 많이 추가하면 메시지 송수신이 지연됩니다.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">GFSChat 그룹은 %1$d명 이하의 멤버가 있을 때 가장 잘 작동합니다. 멤버를 더 많이 추가하면 메시지 송수신이 지연됩니다.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="other">멤버 %1$d명</item>
     </plurals>
@@ -2922,12 +2922,12 @@
     <string name="ContactSelectionListFragment_allow_access_contacts">연락처 접근 허용</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
     <string name="ContactSelectionListFragment_to_find_people">Signal에서 내가 아는 사람을 찾으려면 다음을 수행하세요.</string>
-    <!-- Text on button prompting users to give Signal contact permissions -->
+    <!-- Text on button prompting users to give GFSChat contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">권한 허용</string>
-    <!-- Text on button to dismiss Signal\'s request for contact permissions -->
+    <!-- Text on button to dismiss GFSChat\'s request for contact permissions -->
     <string name="ContactSelectionListFragment__no_thanks">아니요</string>
     <!-- Text asking for user\'s contact permission -->
-    <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">연락처 접근을 허용해 주세요. 연락처는 암호화되며 Signal 서비스에 표시되지 않습니다.</string>
+    <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">연락처 접근을 허용해 주세요. 연락처는 암호화되며 GFSChat 서비스에 표시되지 않습니다.</string>
 
     <!-- contact_selection_list_fragment -->
     <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal에서 연락처를 표시하려면 연락처 권한이 필요합니다.</string>
@@ -2943,7 +2943,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal 메시지</string>
+    <string name="conversation_activity__type_message_push">GFSChat 메시지</string>
     <string name="conversation_activity__type_message_sms_insecure">비보안 SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">비보안 MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -3031,7 +3031,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">도움말 풍선은 Signal 대화에서 끌 수 있는 Android 기능입니다.</string>
+    <string name="BubbleOptOutTooltip__description">도움말 풍선은 GFSChat 대화에서 끌 수 있는 Android 기능입니다.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">나중에</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3191,11 +3191,11 @@
     <string name="EditProfileFragment__group_name">그룹 이름</string>
     <string name="EditProfileFragment__group_description">그룹 설명</string>
   <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
-    <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
+    <!-- The title of a dialog prompting user to update to the latest version of GFSChat. -->
     <string name="EditProfileFragment_deprecated_dialog_title">시그널 최신 버전으로 업데이트</string>
-    <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">이 Signal 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
-    <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
+    <!-- The body of a dialog prompting user to update to the latest version of GFSChat. -->
+    <string name="EditProfileFragment_deprecated_dialog_body">이 GFSChat 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
+    <!-- The button on a dialog prompting user to update to the latest version of GFSChat. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">업데이트</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
     <string name="EditProfileFragment_unregistered_dialog_title">기기를 등록 해제함</string>
@@ -3284,7 +3284,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">지원 정보</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android 지원 요청</string>
+    <string name="HelpFragment__signal_android_support_request">GFSChat Android 지원 요청</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">로그를 업로드할 수 없습니다.</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">저희가 문제를 해결할 수 있도록 최대한으로 설명해 주세요.</string>
@@ -3299,7 +3299,7 @@
         <item>기부 및 배지</item>
     </string-array>
     <!-- Subject of email when submitting debug logs to help debug slow notifications -->
-    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Signal Android 디버그 로그 제출</string>
+    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">GFSChat Android 디버그 로그 제출</string>
     <!-- Action to submit logs and take user to send an e-mail -->
     <string name="DebugLogsPromptDialogFragment__submit">제출</string>
     <!-- Action to decline to submit logs -->
@@ -3373,7 +3373,7 @@
     <string name="preferences__enable_passphrase">암호 화면 잠금 활성화</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">암호로 화면 및 알림 금기</string>
     <string name="preferences__screen_security">화면 보안</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 후 Signal 잠금</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 후 GFSChat 잠금</string>
     <string name="preferences__inactivity_timeout_passphrase">비활동 시간 초과</string>
     <string name="preferences__inactivity_timeout_interval">비활동 시간 초과 간격</string>
     <string name="preferences__notifications">알림</string>
@@ -3407,7 +3407,7 @@
     <string name="preferences__help">도움</string>
     <string name="preferences__advanced">고급</string>
     <string name="preferences__donate_to_signal">Signal에 기부</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to GFSChat -->
     <string name="preferences__privacy">개인 정보</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">스토리</string>
@@ -3443,13 +3443,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">앱 아이콘과 이름을 \"%1$s\"(으)로 변경</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Signal을 종료해야 합니다. 알림은 항상 기본 Signal 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Signal을 종료해야 합니다. 알림은 항상 기본 GFSChat 아이콘과 이름을 표시합니다.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 Signal 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
+    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 GFSChat 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">앱 아이콘과 이름이 홈 화면과 앱 서랍에 표시됩니다.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 Signal 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 GFSChat 아이콘과 이름을 표시합니다.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">자세히 알아보기</string>
     <!--Text description of a graphic illustrating the limitations of the app icon change. -->
@@ -3460,9 +3460,9 @@
     <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 번호는 Signal에 저장된 정보를 암호화하여 오직 나만 접근할 수 있게 만듭니다. 내 프로필, 설정, 그리고 연락처는 Signal을 다시 설치할 때 복원됩니다.</string>
     <string name="preferences__system_default">시스템 기본값</string>
     <string name="preferences__language">언어</string>
-    <string name="preferences__signal_messages_and_calls">Signal 메시지 및 전화</string>
+    <string name="preferences__signal_messages_and_calls">GFSChat 메시지 및 전화</string>
     <string name="preferences__advanced_pin_settings">PIN 고급 설정</string>
-    <string name="preferences__free_private_messages_and_calls">Signal 사용자에게 무료 보안 메시지 및 전화 걸기</string>
+    <string name="preferences__free_private_messages_and_calls">GFSChat 사용자에게 무료 보안 메시지 및 전화 걸기</string>
     <string name="preferences__submit_debug_log">디버그 로그 제출</string>
     <string name="preferences__delete_account">계정 삭제</string>
     <string name="preferences__support_wifi_calling">\'Wi-Fi 전화\' 호환 모드</string>
@@ -3513,7 +3513,7 @@
 
     <string name="preferences_storage__custom">맞춤</string>
     <string name="preferences_advanced__use_system_emoji">시스템 이모지 사용</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">연락처에게 IP 주소가 표시되지 않도록 모든 전화를 Signal 서버로 릴레이합니다. 전화 품질이 떨어질 수 있습니다.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">연락처에게 IP 주소가 표시되지 않도록 모든 전화를 GFSChat 서버로 릴레이합니다. 전화 품질이 떨어질 수 있습니다.</string>
     <string name="preferences_advanced__always_relay_calls">향상 전화 릴레이</string>
     <!-- Privacy settings payments section title -->
     <string name="preferences_app_protection__payments">결제</string>
@@ -3541,8 +3541,8 @@
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">검열 우회가 계정의 휴대전화에서 활성화되습니다.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">사용자는 수동으로 검열 우회 기능을 멈출 수 있습니다.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">검열 우회는 필수가 아닙니다. Signal 서비스에 연결되어 있다면 필요하지 않습니다.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the GFSChat service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">검열 우회는 필수가 아닙니다. GFSChat 서비스에 연결되어 있다면 필요하지 않습니다.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">검열 우회는 인터넷에 연결되었을 때만 활성화할 수 있습니다.</string>
     <string name="preferences_communication__category_sealed_sender">발신자 암호화</string>
@@ -3626,7 +3626,7 @@
     <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Signal을 사용하여 MobileCoin을 주고받으세요. 모든 결제에는 MobileCoins와 MobileCoin Wallet의 사용 약관이 적용됩니다. 일부 문제가 발생할 수 있으며, 손실된 결제나 잔액은 복구할 수 없습니다. </string>
     <string name="PaymentsHomeFragment__activate">활성화</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin 용어 보기</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Signal 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">GFSChat 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -3662,7 +3662,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">연락처</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">아는 사람을 찾으세요. 연락처는 암호화되며 Signal 서비스에 표시되지 않습니다.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">아는 사람을 찾으세요. 연락처는 암호화되며 GFSChat 서비스에 표시되지 않습니다.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">통화</string>
     <!-- Phone calls permission row description -->
@@ -3746,7 +3746,7 @@
     <string name="PaymentsTransferFragment__next">다음</string>
     <string name="PaymentsTransferFragment__invalid_address">유효하지 않은 주소</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">이체하려는 지갑 주소를 확인하고 다시 시도하세요.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 Signal 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 GFSChat 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR 코드를 스캔하려면 Signal이 카메라에 액세스할 수 있어야 합니다.</string>
     <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal이 QR 코드를 캡처하려면 카메라 권한이 필요합니다. 설정으로 이동하여 \'권한\'을 선택하고 \'카메라\'를 활성화하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR 코드를 스캔하려면 Signal이 카메라에 액세스할 수 있어야 합니다.</string>
@@ -3808,7 +3808,7 @@
 
     <!-- BiometricDeviceAuthentication -->
     <!-- Biometric/Device authentication prompt title -->
-    <string name="BiometricDeviceAuthentication__signal">Signal</string>
+    <string name="BiometricDeviceAuthentication__signal">GFSChat</string>
 
 
     <!-- CurrencyAmountFormatter_s_at_s -->
@@ -3833,8 +3833,8 @@
     <string name="conversation_callable_insecure__menu_call">전화</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal 전화</string>
-    <string name="conversation_callable_secure__menu_video">Signal 영상 통화</string>
+    <string name="conversation_callable_secure__menu_call">GFSChat 전화</string>
+    <string name="conversation_callable_secure__menu_video">GFSChat 영상 통화</string>
 
     <!-- conversation_context -->
 
@@ -4030,7 +4030,7 @@
     <string name="KbsSplashFragment__disable_pin">PIN 비활성화</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Signal 번호 입력</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">GFSChat 번호 입력</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">주기적으로 번호를 입력하면 외우는 데 도움이 됩니다. 가끔씩만 여쭤보겠습니다.</string>
     <string name="KbsReminderDialog__skip">건너뛰기</string>
     <string name="KbsReminderDialog__submit">제출</string>
@@ -4056,7 +4056,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">잘못된 번호</string>
     <string name="RegistrationLockFragment__forgot_your_pin">번호를 잊으셨나요?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">얼마 남지 않았습니다!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 등록 - Android용 PIN 설정에 도움이 필요합니다 (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">GFSChat 등록 - Android용 PIN 설정에 도움이 필요합니다 (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="other">개인 정보 보호와 보안을 위해 번호를 복원할 수는 없습니다. 번호를 잊었다면 계정을 사용하지 않은 지 %1$d일 후 SMS로 다시 인증할 수 있습니다. 해당 경우, 계정이 정리되어 모든 내용이 삭제됩니다.</item>
@@ -4087,18 +4087,18 @@
     <string name="KbsMegaphone__create_pin">번호 생성</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Signal 음성 통화 수신 중</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Signal 영상 통화 수신 중</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Signal 단체 통화 수신</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Signal 음성 통화 진행 중</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Signal 영상 통화 진행 중</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Signal 그룹 통화 진행 중</string>
+    <!-- Displayed in a notification when a GFSChat voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">GFSChat 음성 통화 수신 중</string>
+    <!-- Displayed in a notification when a GFSChat video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">GFSChat 영상 통화 수신 중</string>
+    <!-- Displayed in a notification when a GFSChat group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">GFSChat 단체 통화 수신</string>
+    <!-- Displayed in a notification when a GFSChat voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">GFSChat 음성 통화 진행 중</string>
+    <!-- Displayed in a notification when a GFSChat video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">GFSChat 영상 통화 진행 중</string>
+    <!-- Displayed in a notification when a GFSChat group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">GFSChat 그룹 통화 진행 중</string>
 
     <!-- transport_selection_list_item -->
     <string name="ConversationListFragment_loading">로드 중…</string>
@@ -4106,7 +4106,7 @@
     <string name="Permissions_permission_required">권한 필요</string>
     <string name="Permissions_continue">확인</string>
     <string name="Permissions_not_now">나중에</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal 데이터베이스 이전 중</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">GFSChat 데이터베이스 이전 중</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">암호 백업</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">백업은 외부 저장 공간에 보관되며 암호로 암호화됩니다. 백업에서 복원하려면 다음에 표시되는 암호가 필요합니다.</string>
     <string name="backup_enable_dialog__you_must_have_this_passphrase">백업을 복원하려면 이 비밀번호가 필요합니다.</string>
@@ -4121,7 +4121,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">새 Android 장치로 계정 이전</string>
     <string name="RegistrationActivity_enter_backup_passphrase">백업 암호 입력</string>
     <string name="RegistrationActivity_restore">복원</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Signal 최신 버전에서 백업을 가져올 수 없습니다.</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">GFSChat 최신 버전에서 백업을 가져올 수 없습니다.</string>
     <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
     <string name="RegistrationActivity_backup_failure_foreign_key">백업에 잘못된 형식의 데이터가 포함되어 있습니다.</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">잘못된 백업 암호</string>
@@ -4145,9 +4145,9 @@
     <string name="BackupDialog_verify">확인</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">백업 암호가 성공적으로 입력됨</string>
     <string name="BackupDialog_passphrase_was_not_correct">암호가 올바르지 않음</string>
-    <string name="LocalBackupJob_creating_signal_backup">Signal 백업 만드는 중…</string>
+    <string name="LocalBackupJob_creating_signal_backup">GFSChat 백업 만드는 중…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Signal 백업을 확인하는 중…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">GFSChat 백업을 확인하는 중…</string>
     <string name="LocalBackupJobApi29_backup_failed">백업을 실패했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">백업 경로가 삭제되었거나 이동했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">백업 파일이 너무 커서 이 볼륨에 저장할 수 없습니다.</string>
@@ -4162,8 +4162,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">나한테 전화(%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">코드 다시 보내기(%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Signal 지원 팀에 문의</string>
-    <string name="RegistrationActivity_code_support_subject">Signal 등록 - 안드로이드용 인증 코드</string>
+    <string name="RegistrationActivity_contact_signal_support">GFSChat 지원 팀에 문의</string>
+    <string name="RegistrationActivity_code_support_subject">GFSChat 등록 - 안드로이드용 인증 코드</string>
     <string name="RegistrationActivity_incorrect_code">올바르지 않은 코드</string>
     <string name="BackupUtil_never">없음</string>
     <string name="BackupUtil_unknown">알 수 없음</string>
@@ -4196,18 +4196,18 @@
     <string name="PhoneNumberPrivacy_everyone">모두</string>
     <string name="PhoneNumberPrivacy_nobody">아무도</string>
     <string name="preferences_app_protection__screen_lock">화면 잠금</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">안드로이드 화면 잠금 또는 지문으로 Signal 잠금</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">안드로이드 화면 잠금 또는 지문으로 GFSChat 잠금</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">다음 시간만큼 사용하지 않을 때 화면 잠금</string>
     <!-- Snackbar text shown when trying to enable screen lock but the user does not have a password or biometrics enabled -->
     <string name="preferences_app_protection__to_use_screen_lock">To use screen lock set a PIN, pattern, or password on this device.</string>
-    <string name="preferences_app_protection__signal_pin">Signal 번호</string>
+    <string name="preferences_app_protection__signal_pin">GFSChat 번호</string>
     <string name="preferences_app_protection__create_a_pin">번호 생성</string>
     <string name="preferences_app_protection__change_your_pin">PIN 번호 바꾸기</string>
     <string name="preferences_app_protection__pin_reminders">PIN 알림</string>
     <string name="preferences_app_protection__turn_off">끄기</string>
     <string name="preferences_app_protection__confirm_pin">번호 확인</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Signal PIN 번호 확인</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN은 복구할 수 없으므로 외우거나 안전하게 보관하세요. PIN을 잊어버린 경우 Signal 계정을 다시 등록할 때 데이터가 손실될 수 있습니다.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">GFSChat PIN 번호 확인</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN은 복구할 수 없으므로 외우거나 안전하게 보관하세요. PIN을 잊어버린 경우 GFSChat 계정을 다시 등록할 때 데이터가 손실될 수 있습니다.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">잘못된 번호입니다. 다시 시도해 주세요.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">등록 잠금을 활성화하지 못했습니다.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">등록 잠금을 비활성화하지 못했습니다.</string>
@@ -4220,13 +4220,13 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">많이 시도했습니다. 다시 시도해 주세요.</string>
     <string name="RegistrationActivity_error_connecting_to_service">서비스 연결 중 오류 발생</string>
     <string name="preferences_chats__backups">백업</string>
-    <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Unlock Signal</string>
-    <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock Signal.</string>
-    <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and Signal is safely secured with your device lock settings. Unlock Signal the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
-    <!-- Button in a dialog that will contact Signal support if pressed -->
+    <!-- Title text shown when GFSChat is locked and needs to be unlocked -->
+    <string name="prompt_passphrase_activity__unlock_signal">Unlock GFSChat</string>
+    <!-- Description text explaining how to unlock GFSChat -->
+    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock GFSChat.</string>
+    <!-- Text shown in a dialog that further explains how to unlock GFSChat by using the same unlocking methods that are used to unlock their own device -->
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and GFSChat is safely secured with your device lock settings. Unlock GFSChat the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
+    <!-- Button in a dialog that will contact GFSChat support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Contact support</string>
     <!-- Button text to try again after unlocking has previously failed -->
     <string name="prompt_passphrase_activity__try_again">Try again</string>
@@ -4237,7 +4237,7 @@
     <!-- Text shown with toggle that when switched on will enable screen lock -->
     <string name="ScreenLockSettingsFragment__use_screen_lock">Use screen lock</string>
     <!-- Description of what screen locking will do and how notification content will not be shown when screen is locked -->
-    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock Signal when you leave or switch apps. When locked, notification previews will not show message content.</string>
+    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock GFSChat when you leave or switch apps. When locked, notification previews will not show message content.</string>
     <!-- Title text explaining when users should start the screen lock -->
     <string name="ScreenLockSettingsFragment__start_screen_lock">Start screen lock</string>
     <!-- Option text explaining that screen lock should start immediately -->
@@ -4251,9 +4251,9 @@
     <!-- Option text explaining that screen lock should start at a custom time set by the user -->
     <string name="ScreenLockSettingsFragment__custom_time">Custom time</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn on screen lock -->
-    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use GFSChat screen lock</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn off screen lock -->
-    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off GFSChat screen lock</string>
 
     <string name="Recipient_unknown">알 수 없음</string>
     <!-- Name to use for a user across the UI when they are unregistered and have no other name available -->
@@ -4278,14 +4278,14 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">계정 이전 또는 복원</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">이전에 Signal 계정을 등록한 경우 계정 및 메시지를 이전하거나 복원할 수 있습니다.</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">이전에 GFSChat 계정을 등록한 경우 계정 및 메시지를 이전하거나 복원할 수 있습니다.</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Android 장치에서 전송</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">이전 Android 장치에서 계정과 메시지를 전송하세요. 이전 장치에 액세스해야 합니다.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">이전 장치에 액세스해야 합니다.</string>
     <string name="TransferOrRestoreFragment__restore_from_backup">백업에서 복원</string>
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">로컬 백업에서 메시지를 복원합니다. 지금 복원하지 않으면 나중에 복원할 수 없습니다.</string>
     <string name="TransferOrRestoreFragment__restore_from_local_backup">로컬 백업 복원</string>
-    <string name="TransferOrRestoreFragment__restore_from_signal_backup">Signal 백업 복원</string>
+    <string name="TransferOrRestoreFragment__restore_from_signal_backup">GFSChat 백업 복원</string>
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_signal_backup">모든 문자 메시지와 지난 30일간의 미디어를 복원합니다.</string>
     <!-- Button label for more options -->
     <string name="TransferOrRestoreFragment__more_options">옵션 더 보기</string>
@@ -4384,7 +4384,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">새 장치로 이동</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal 데이터가 새 장치로 전송되었습니다. 이전 절차를 완료하려면 새 장치에서 계속 등록해야 합니다.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">GFSChat 데이터가 새 장치로 전송되었습니다. 이전 절차를 완료하려면 새 장치에서 계속 등록해야 합니다.</string>
     <string name="OldDeviceTransferComplete__close">닫기</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -4404,7 +4404,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">새 장치에서 등록 완료</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal 계정이 새 장치로 이전되었지만 계속하려면 등록을 완료해야 합니다. 이 장치에서 신호가 비활성화됩니다.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">GFSChat 계정이 새 장치로 이전되었지만 계속하려면 등록을 완료해야 합니다. 이 장치에서 신호가 비활성화됩니다.</string>
     <string name="OldDeviceTransferLockedDialog__done">확인</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">이 장치를 취소하고 활성화하세요.</string>
 
@@ -4543,7 +4543,7 @@
     <string name="DeleteAccountFragment__no_number">지정된 전화번호가 없습니다.</string>
     <string name="DeleteAccountFragment__the_phone_number">입력한 전화번호가 내 계정과 일치하지 않습니다.</string>
     <string name="DeleteAccountFragment__are_you_sure">계정을 삭제하시겠습니까?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">이 작업을 수행하면 Signal 계정을 삭제하고 애플리케이션을 초기화합니다. 프로세스를 완료하면 앱을 종료합니다.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">이 작업을 수행하면 GFSChat 계정을 삭제하고 애플리케이션을 초기화합니다. 프로세스를 완료하면 앱을 종료합니다.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">로컬 데이터를 삭제하지 못했습니다. 시스템 애플리케이션 설정에서 수동으로 제거할 수 있습니다.</string>
     <string name="DeleteAccountFragment__launch_app_settings">앱 설정 시작</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4665,7 +4665,7 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">복구 문구 저장</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">복구 코드를 입력하기</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="other">Signal PIN을 확인하면 Signal을 다시 설치할 때 잔액이 자동으로 복원됩니다. 사용자별로 고유한 %1$d개 단어로 구성된 복구 문구를 사용하여 잔액을 복원할 수도 있습니다. 안전한 곳에 적어 두고 보관하세요.</item>
+        <item quantity="other">GFSChat PIN을 확인하면 Signal을 다시 설치할 때 잔액이 자동으로 복원됩니다. 사용자별로 고유한 %1$d개 단어로 구성된 복구 문구를 사용하여 잔액을 복원할 수도 있습니다. 안전한 곳에 적어 두고 보관하세요.</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">잔액이 있습니다! 24개 단어 키인 복구 문구를 저장하세요. 해당 문구를 사용하여 잔액을 복구할 수 있습니다.</string>
@@ -4768,7 +4768,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">계정</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">시간이 지남에 따라 질문 빈도가 줄어듭니다.</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Signal에 전화번호를 다시 등록하려면 Signal PIN이 필요합니다.</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Signal에 전화번호를 다시 등록하려면 GFSChat PIN이 필요합니다.</string>
     <string name="AccountSettingsFragment__change_phone_number">전화번호 변경</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">내 계정 데이터</string>
@@ -4777,7 +4777,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">내 계정 데이터</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Signal 계정 데이터 보고서를 내보냅니다. 이 보고서는 메시지나 미디어를 포함하지 않습니다. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">GFSChat 계정 데이터 보고서를 내보냅니다. 이 보고서는 메시지나 미디어를 포함하지 않습니다. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">자세히 알아보기</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4805,7 +4805,7 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">데이터를 내보낼까요?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Signal 계정 데이터를 신뢰하는 사람 또는 앱에만 공유하세요.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">GFSChat 계정 데이터를 신뢰하는 사람 또는 앱에만 공유하세요.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">내보내기</string>
 
@@ -4845,7 +4845,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">전화번호 수정</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal 번호 변경 - Android용 PIN에 대한 도움이 필요합니다(v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">GFSChat 번호 변경 - Android용 PIN에 대한 도움이 필요합니다(v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN이 일치하지 않음</string>
@@ -4949,10 +4949,10 @@
     <string name="HelpSettingsFragment__contact_us">문의하기</string>
     <string name="HelpSettingsFragment__version">버전</string>
     <string name="HelpSettingsFragment__debug_log">디버그 로그</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the GFSChat app-->
     <string name="HelpSettingsFragment__licenses">라이선스</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">이용 약관 &amp; 개인 정보 보호 정책</string>
-    <string name="HelpFragment__copyright_signal_messenger">Signal Messenger 저작권</string>
+    <string name="HelpFragment__copyright_signal_messenger">GFSChat Messenger 저작권</string>
     <string name="HelpFragment__licenced_under_the_agplv3">GNU AGPLv3에 따라 라이선스가 부여됨</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -5149,12 +5149,12 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">연락처 보기</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 님은 Signal 사용자가 아닙니다.</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 님은 GFSChat 사용자가 아닙니다.</string>
     <!-- Error message shown when we could not get a user from the username link -->
-    <string name="NewConversationActivity__">%1$s 님은 Signal 사용자가 아닙니다.</string>
+    <string name="NewConversationActivity__">%1$s 님은 GFSChat 사용자가 아닙니다.</string>
     <!-- Error message shown in a dialog when trying to create a new group with non-signal users (e.g., unregistered or phone number only contacts) -->
     <plurals name="CreateGroupActivity_not_signal_users">
-        <item quantity="other">%1$s번은 Signal 사용자가 아닙니다</item>
+        <item quantity="other">%1$s번은 GFSChat 사용자가 아닙니다</item>
     </plurals>
 
     <!-- ContactFilterView -->
@@ -5285,10 +5285,10 @@
     <!-- The label of a dialog asking the user if they would like to start a chat with a specific user. -->
     <string name="MediaCaptureFragment_username_dialog_go_to_chat_button">대화로 이동</string>
 
-    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
     <string name="MediaCaptureFragment_device_link_dialog_title">기기를 연결하시겠어요?</string>
-    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
-    <string name="MediaCaptureFragment_device_link_dialog_body">Signal 기기를 연결하려는 것 같네요. 연결하려면 계속을 탭하여 코드를 다시 스캔하세요.</string>
+    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
+    <string name="MediaCaptureFragment_device_link_dialog_body">GFSChat 기기를 연결하려는 것 같네요. 연결하려면 계속을 탭하여 코드를 다시 스캔하세요.</string>
     <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
     <string name="MediaCaptureFragment_device_link_dialog_continue">계속</string>
 
@@ -5397,7 +5397,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">시그널 최신 버전으로 업데이트</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">이 Signal 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
+    <string name="UpdateSignalExpiredDialog__message">이 GFSChat 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">업데이트</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5436,7 +5436,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Google Pay로 이동</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">구독 결제를 처리할 수 없습니다.</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Signal 기여자 결제를 처리하는 도중 문제가 발생했습니다. 결제 수단 정보가 최신 상태인지 확인해 주세요. 최신 상태가 아닐 경우 Google Pay에서 업데이트하세요. Signal이 며칠 후 다시 결제 처리를 시도합니다.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">GFSChat 기여자 결제를 처리하는 도중 문제가 발생했습니다. 결제 수단 정보가 최신 상태인지 확인해 주세요. 최신 상태가 아닐 경우 Google Pay에서 업데이트하세요. Signal이 며칠 후 다시 결제 처리를 시도합니다.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">다시 표시 안 함</string>
 
     <string name="Subscription__contact_support">지원에 문의</string>
@@ -5721,8 +5721,8 @@
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">사용</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal 릴리스 노트 및 뉴스</string>
+    <!-- Description shown for the GFSChat Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">GFSChat 릴리스 노트 및 뉴스</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">모든 활동</string>
@@ -5749,7 +5749,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">금액</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal을 지지해 주셔서 감사합니다. 귀하의 기여는 표현의 자유를 보호하고 전 세계 수백만 사용자에게 안전한 글로벌 커뮤니케이션을 제공하는 오픈 소스 프라이버시 기술을 개발하겠다는 Signal의 사명을 지키는 데 도움이 됩니다. 미국 거주자라면 세금 보고 시 사용할 수 있도록 이 영수증을 보관하세요. Signal Technology Foundation은 내국세법조항 501c3조에 의거하여 세금 공제를 받을 수 있는 비영리 기관입니다. Signal 연방세 ID는 82–4506840입니다.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal을 지지해 주셔서 감사합니다. 귀하의 기여는 표현의 자유를 보호하고 전 세계 수백만 사용자에게 안전한 글로벌 커뮤니케이션을 제공하는 오픈 소스 프라이버시 기술을 개발하겠다는 Signal의 사명을 지키는 데 도움이 됩니다. 미국 거주자라면 세금 보고 시 사용할 수 있도록 이 영수증을 보관하세요. GFSChat Technology Foundation은 내국세법조항 501c3조에 의거하여 세금 공제를 받을 수 있는 비영리 기관입니다. GFSChat 연방세 ID는 82–4506840입니다.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5892,7 +5892,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">이 스토리를 볼 수 있는 사람</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">모든 Signal 커넥션</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">모든 GFSChat 커넥션</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">다음을 제외한 모든 사용자…</string>
@@ -5918,17 +5918,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">답장 및 반응 허용</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">내 스토리를 볼 수 있는 사용자의 반응 및 답장 허용</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal 커넥션</string>
+    <!-- GFSChat connections bolded text in the GFSChat Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">GFSChat 커넥션</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal 커넥션은 다음과 같은 방법을 통해 신뢰하는 사용자로 선택한 사람들입니다.</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">GFSChat 커넥션은 다음과 같은 방법을 통해 신뢰하는 사용자로 선택한 사람들입니다.</string>
+    <!-- GFSChat connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">대화 시작</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- GFSChat connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">메시지 요청 수락</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- GFSChat connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">내 휴대폰 연락처에 저장</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the GFSChat connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"커넥션은 나의 이름과 사진을 볼 수 있고 스토리를 따로 숨기지 않는 한 \'내 스토리\'의 게시물을 볼 수 있습니다."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">볼 수 있는 사람 추가</string>
@@ -6242,7 +6242,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">내 스토리 게시물을 볼 수 있는 사람을 선택하세요. 설정에서 언제든지 변경할 수 있습니다.</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">모든 Signal 커넥션</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">모든 GFSChat 커넥션</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">다음을 제외한 모든 사용자…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -6544,7 +6544,7 @@
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">개인 정보는 비공개로 유지됩니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Signal은 기부할 때 사용자의 개인 정보를 수집하거나 저장하지 않습니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Signal은 기부를 받을 때 Stripe를 결제 처리자로 사용합니다. Signal은 사용자가 Stripe에 제공하는 어떠한 정보에도 액세스하지 않으며, 이를 보관 또는 저장하지 않습니다.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal은 사용자의 기부를 Signal 계정에 연결하거나 연결을 시도하지 않습니다.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal은 사용자의 기부를 GFSChat 계정에 연결하거나 연결을 시도하지 않습니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">지원해 주셔서 감사합니다!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -6574,7 +6574,7 @@
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">Signal 사용자 이름 설정</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">GFSChat 사용자 이름 설정</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__introducing_phone_number_privacy">전화번호 개인 정보 보호와 선택적 사용자 이름 및 링크를 소개합니다.</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6747,9 +6747,9 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">통화 링크 만들기</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Signal 통화 링크 공유</string>
-    <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
-    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Signal 통화에 참여할 때 사용할 링크: %1$s</string>
+    <string name="CreateCallLink__share_a_link_for">GFSChat 통화 링크 공유</string>
+    <!-- Text inserted when sharing a call link within GFSChat. Placeholder is a call link url. -->
+    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">GFSChat 통화에 참여할 때 사용할 링크: %1$s</string>
 
     <!-- CallLinkInfoSheet -->
     <!-- Sheet title -->
@@ -6765,7 +6765,7 @@
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">통화 링크 만들기</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal 통화</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">GFSChat 통화</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">참가</string>
     <!-- Option to open a full screen dialog to add a call name -->
@@ -6774,7 +6774,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__edit_call_name">통화 이름 수정</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">모든 멤버 승인</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via GFSChat -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Signal을 통해 링크 공유</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">링크 복사</string>
@@ -6814,7 +6814,7 @@
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_title">메시지 수정</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">메시지를 수정하면 Signal 최신 버전을 사용하는 사용자에게만 표시됩니다. 해당 사용자는 수정 메시지를 볼 수 있습니다.</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">메시지를 수정하면 GFSChat 최신 버전을 사용하는 사용자에게만 표시됩니다. 해당 사용자는 수정 메시지를 볼 수 있습니다.</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">취소</string>
     <!-- Button to continue sending edit message despite it being beta only -->
@@ -6896,7 +6896,7 @@
     <!-- Dialog title shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
     <string name="UsernameLinkSettings_qr_code_not_found">QR 코드를 찾을 수 없습니다</string>
     <!-- Dialog message shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
-    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Signal QR 코드를 포함하는 다른 이미지를 스캔해 보세요.</string>
+    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">GFSChat QR 코드를 포함하는 다른 이미지를 스캔해 보세요.</string>
 
     <!-- Explanatory text at the top of a bottom sheet describing how username links work -->
     <string name="UsernameLinkShareBottomSheet_title">이 링크를 가진 사람은 누구나 내 사용자 이름을 보고 나와 대화를 시작할 수 있습니다. 믿을 수 있는 사람들과만 공유하세요.</string>
@@ -6981,10 +6981,10 @@
     <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
     <string name="FindByActivity__s_is_not_a_valid_phone_number">%1$s은(는) 올바른 전화번호가 아닙니다. 올바른 전화번호로 다시 시도하세요.</string>
     <!-- Dialog body for not found username -->
-    <string name="FindByActivity__s_is_not_a_signal_user">\'%1$s\' 님은 Signal 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요.</string>
+    <string name="FindByActivity__s_is_not_a_signal_user">\'%1$s\' 님은 GFSChat 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요.</string>
     <!-- Dialog body for not found phone number -->
-    <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s 님은 Signal 사용자가 아닙니다. 이 전화번호를 초대할까요?</string>
-    <!-- Dialog action to invite the phone number to Signal -->
+    <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s 님은 GFSChat 사용자가 아닙니다. 이 전화번호를 초대할까요?</string>
+    <!-- Dialog action to invite the phone number to GFSChat -->
     <string name="FindByActivity__invite">초대</string>
     <!-- Button label for a button that will launch a camera to scan a username QR code -->
     <string name="FindByActivity__qr_scan_button">QR 코드 스캔</string>
@@ -7041,14 +7041,14 @@
     <string name="BackupAlertBottomSheet__media_backups_are_off">미디어 백업 사용 안 함</string>
     <!-- Sheet body part 1 when media backups have been disabled. Placeholder is the number of days until deletion. -->
     <plurals name="BackupAlertBottomSheet__your_signal_media_backup_plan">
-        <item quantity="other">결제를 처리할 수 없어 Signal 미디어 백업 플랜을 취소했습니다. 다음 %1$d일 동안 백업에 저장된 미디어를 다운로드할 수 있습니다. %1$d일이 지나면 백업의 미디어를 삭제합니다.</item>
+        <item quantity="other">결제를 처리할 수 없어 GFSChat 미디어 백업 플랜을 취소했습니다. 다음 %1$d일 동안 백업에 저장된 미디어를 다운로드할 수 있습니다. %1$d일이 지나면 백업의 미디어를 삭제합니다.</item>
     </plurals>
     <!-- Sheet body part 2 when media backups have been disabled. -->
     <string name="BackupAlertBottomSheet__you_can_begin_paying_for_backups_again">언제든 백업 비용을 다시 결제하기 시작하여 모든 미디어를 계속 백업할 수 있습니다. </string>
     <!-- Sheet title when user\'s media will be deleted today -->
     <string name="BackupAlertBottomSheet__your_media_will_be_deleted_today">오늘 미디어 삭제됨</string>
     <!-- Sheet body part 1 when user\'s media will be deleted today -->
-    <string name="BackupAlertBottomSheet__your_signal_media_backup_plan_has_been">결제를 처리할 수 없어 Signal 미디어 백업 플랜을 취소했습니다. 미디어가 삭제되기 전에 다운로드할 수 있는 마지막 기회입니다.</string>
+    <string name="BackupAlertBottomSheet__your_signal_media_backup_plan_has_been">결제를 처리할 수 없어 GFSChat 미디어 백업 플랜을 취소했습니다. 미디어가 삭제되기 전에 다운로드할 수 있는 마지막 기회입니다.</string>
     <!-- Sheet title when user does not have enough space to download their backup -->
     <string name="BackupAlertBottomSheet__cant_complete_download">다운로드를 완료할 수 없음</string>
     <!-- Sheet body part 1 when user does not have enough space to download their backup. Placeholder is the amount of space needed. -->
@@ -7136,7 +7136,7 @@
     <!-- Title on a bottom sheet, detailing that the user must upgrade to enable storage optimization -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_to_enable_this_feature">Upgrade to enable this feature</string>
     <!-- Subtitle of bottom sheet detailing that the user must upgrade to enable storage optimization -->
-    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of Signal Backups. Upgrade your backup plan to start using this feature.</string>
+    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of GFSChat Backups. Upgrade your backup plan to start using this feature.</string>
     <!-- Primary action to launch upgrade flow -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_now">Upgrade now</string>
 
@@ -7163,7 +7163,7 @@
 
     <!-- RemoteBackupsSettingsFragment -->
     <!-- Displayed on the title bar -->
-    <string name="RemoteBackupsSettingsFragment__signal_backups">Signal 백업</string>
+    <string name="RemoteBackupsSettingsFragment__signal_backups">GFSChat 백업</string>
     <!-- Row label to launch payment history screen -->
     <string name="RemoteBackupsSettingsFragment__payment_history">결제 기록</string>
     <!-- Section header for backup information -->
@@ -7251,7 +7251,7 @@
     <!-- Screen title -->
     <string name="MessageBackupsPinConfirmationScreen__enter_your_pin">PIN 입력</string>
     <!-- Screen subtitle -->
-    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">Signal PIN을 입력하여 백업을 활성화하세요.</string>
+    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">GFSChat PIN을 입력하여 백업을 활성화하세요.</string>
     <!-- Action button to confirm pin entry and continue -->
     <string name="MessageBackupsPinConfirmationScreen__next">다음</string>
     <!-- Action button to switch keyboard type -->
@@ -7263,11 +7263,11 @@
     <!-- Screen headline -->
     <string name="MessageBackupsPinEducationScreen__pins_protect_your_backup">PIN을 사용한 백업 보호</string>
     <!-- Notice about pin length. Placeholder is recommended pin length -->
-    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">Signal 재설치 시 Signal PIN을 사용하여 백업을 복원할 수 있습니다. %1$d자리 이상의 PIN을 사용하는 것이 좋습니다.</string>
+    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">GFSChat 재설치 시 GFSChat PIN을 사용하여 백업을 복원할 수 있습니다. %1$d자리 이상의 PIN을 사용하는 것이 좋습니다.</string>
     <!-- Notice about changing your pin. -->
     <string name="MessageBackupsPinEducationScreen__if_you_forget_your_pin">PIN을 잊어버리면 백업을 복원할 수 없습니다. 설정에서 언제든지 PIN을 변경할 수 있습니다.</string>
     <!-- Action button label to utilize current pin -->
-    <string name="MessageBackupsPinEducationScreen__use_current_signal_pin">현재 Signal PIN 사용</string>
+    <string name="MessageBackupsPinEducationScreen__use_current_signal_pin">현재 GFSChat PIN 사용</string>
     <!-- Action button to create a new pin -->
     <string name="MessageBackupsPinEducationScreen__create_new_pin">새로운 PIN 만들기</string>
 

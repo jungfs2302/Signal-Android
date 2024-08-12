@@ -13,7 +13,7 @@ public enum PaymentsAvailability {
   PaymentsAvailability(boolean isEnabled, boolean showPaymentsMenu) {
     // this.showPaymentsMenu = showPaymentsMenu;
     // this.isEnabled        = isEnabled;
-    // TODO: recheck logic
+    // TODO: recheck this logic - disable payment in settings
     this.showPaymentsMenu = false;
     this.isEnabled        = false;
   }

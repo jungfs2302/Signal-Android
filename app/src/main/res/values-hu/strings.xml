@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2024 Signal Messenger, LLC
+  ~ Copyright 2024 GFSChat Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
 <!-- smartling.instruction_comments_enabled = on -->
 <resources>
-  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">GFSChat</string> -->
 
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://signal.org/install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://signal.org/donate</string> -->
@@ -29,20 +29,20 @@
     <string name="save">Mentés</string>
     <string name="note_to_self">Privát feljegyzés</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Időjárás</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Megjegyzések</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Hírek</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the GFSChat Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Hullámok</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">A Signal frissít…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">A GFSChat frissít…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Még nem állítottál be jelmondatot!</string>
@@ -85,23 +85,23 @@
     <string name="AttachmentKeyboard_contact">Névjegy</string>
     <string name="AttachmentKeyboard_location">Hely</string>
     <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">A Signalnak engedélyre van szüksége a fotók és videók megjelenítéséhez.</string>
-    <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
+    <!-- Text for a button prompting users to allow GFSChat access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Hozzáférés engedélyezése</string>
     <string name="AttachmentKeyboard_payment">Fizetés</string>
-    <!-- Text in a button that allows users to manage which media Signal has access to -->
+    <!-- Text in a button that allows users to manage which media GFSChat has access to -->
     <string name="AttachmentKeyboard_manage">Manage</string>
-    <!-- Option in menu to select more photos that Signal will have access to -->
+    <!-- Option in menu to select more photos that GFSChat will have access to -->
     <string name="AttachmentKeyboard_select_more_photos">Select more photos</string>
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Go to Settings</string>
-    <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Signal has limited access to photos or videos</string>
-    <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
+    <!-- Text explaining that GFSChat has limited access to photos -->
+    <string name="AttachmentKeyboard_signal_has_limited_access">GFSChat has limited access to photos or videos</string>
+    <!-- Text shown when user has given no photos for GFSChat to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">No photos found, select photos and videos to appear here or change permissions</string>
 
     <!-- MediaGalleryFragment -->
-    <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. Signal only has access to photos and videos you selected.</string>
+    <!-- Text describing that no photos or videos are currently found in the gallery and that GFSChat can only access media that the user allows -->
+    <string name="MediaGalleryFragment__no_photos_found">No photos or videos found. GFSChat only has access to photos and videos you selected.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nem található alkalmazás médiafájl kiválasztásához.</string>
@@ -115,14 +115,14 @@
     <string name="AttachmentManager_signal_to_send_location">Helyzet elküldéséhez:</string>
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">Adj hozzáférést a Signalnak a helyzeted elküldéséhez.</string>
-    <!-- Toast text explaining Signal\'s need for location access -->
+    <!-- Toast text explaining GFSChat\'s need for location access -->
     <string name="AttachmentManager_signal_needs_location_access">A helyzeted elküldéséhez a Signalnak hozzá kell férnie a helyadatokhoz.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Hozzáférés engedélyezése a tárhelyhez</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Fotók és videók megjelenítése:</string>
-    <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Signal needs access to show your photos and videos.</string>
+    <!-- Toast text explaining GFSChat\'s need for storage access -->
+    <string name="AttachmentManager_signal_needs_storage_access">GFSChat needs access to show your photos and videos.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s nem aktiválta a Kifizetéseket </string>
@@ -157,7 +157,7 @@
     <!-- Title of fragment -->
     <string name="CreditCardFragment__credit_or_debit_card">Hitel- vagy betéti kártya</string>
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Add meg a kártyaadataidat! A Signal nem gyűjti és nem tárolja a személyes adataidat.</string>
+    <string name="CreditCardFragment__enter_your_card_details">Add meg a kártyaadataidat! A GFSChat nem gyűjti és nem tárolja a személyes adataidat.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Kártyaszám</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -201,16 +201,16 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Többé nem kapsz üzeneteket és frissítéseket ebből a csoportból, valamint a tagok nem fognak tudni újra hozzáadni a csoporthoz.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">A csoport tagjai nem fognak tudni újra hozzáadni ehhez a csoporthoz.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">A tagok ezután újra hozzáadhatnak majd a csoporthoz.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a GFSChat contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Lehetőségetek lesz üzenetet küldeni egymásnak és felhívni egymást, valamint a neved és a fotód is megosztásra kerül velük.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Újra üzenetet küldhettek egymásnak.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">A letiltott személyek nem fognak tudni sem felhívni, sem pedig üzenetet küldeni neked.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">A letiltott személyek nem küldhetnek üzeneteket számodra.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signal-újdonságok és -hírek letiltása.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signal újdonságok és hírek visszakapcsolása.</string>
+    <!-- Message shown on block dialog when blocking the GFSChat release notes recipient -->
+    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">GFSChat-újdonságok és -hírek letiltása.</string>
+    <!-- Message shown on unblock dialog when unblocking the GFSChat release notes recipient -->
+    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">GFSChat újdonságok és hírek visszakapcsolása.</string>
     <string name="BlockUnblockDialog_unblock_s">Feloldod %1$s tiltását?</string>
     <string name="BlockUnblockDialog_block">Letiltás</string>
     <string name="BlockUnblockDialog_block_and_leave">Tiltás és kilépés</string>
@@ -221,11 +221,11 @@
     <!-- Dialog button to report as spam only -->
     <string name="BlockUnblockDialog_report_spam">Kéretlen üzenet jelentése</string>
     <!-- Dialog message when reporting spam of an individual (1:1 conversation) -->
-    <string name="BlockUnblockDialog_report_spam_description">A Signal értesítést kap arról, hogy ez a személy esetleg kéretlen üzeneteket küldözget. A Signal nem látja a csevegések tartalmát.</string>
+    <string name="BlockUnblockDialog_report_spam_description">A GFSChat értesítést kap arról, hogy ez a személy esetleg kéretlen üzeneteket küldözget. A GFSChat nem látja a csevegések tartalmát.</string>
     <!-- Dialog message when reporting spam of a group and we can determine the group member that invited you, placeholder is a name -->
-    <string name="BlockUnblockDialog_report_spam_group_named_adder">A Signal értesítést kap arról, hogy %1$s, aki meghívott téged ebbe a csoportba, esetleg kéretlen üzeneteket küldözget. A Signal nem látja a csevegések tartalmát.</string>
+    <string name="BlockUnblockDialog_report_spam_group_named_adder">A GFSChat értesítést kap arról, hogy %1$s, aki meghívott téged ebbe a csoportba, esetleg kéretlen üzeneteket küldözget. A GFSChat nem látja a csevegések tartalmát.</string>
     <!-- Dialog message when reporting spam of a group and we cannot determine the group member that invited you -->
-    <string name="BlockUnblockDialog_report_spam_group_unknown_adder">A Signal értesítést kap arról, hogy az a személy, aki meghívott téged ebbe a csoportba, esetleg kéretlen üzeneteket küldözget. A Signal nem látja a csevegések tartalmát.</string>
+    <string name="BlockUnblockDialog_report_spam_group_unknown_adder">A GFSChat értesítést kap arról, hogy az a személy, aki meghívott téged ebbe a csoportba, esetleg kéretlen üzeneteket küldözget. A GFSChat nem látja a csevegések tartalmát.</string>
 
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Ma</string>
@@ -271,21 +271,21 @@
     <string name="CameraXFragment_allow_access_camera">Engedélyezd a kamerához való hozzáférést</string>
     <!-- Dialog title asking users for microphone permission -->
     <string name="CameraXFragment_allow_access_microphone">Hozzáférés engedélyezése a mikrofonodhoz</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos -->
     <string name="CameraXFragment_to_capture_photos_allow_camera">Fotók készítéséhez engedélyezd a Signalnak a kamerához való hozzáférést.</string>
-    <!-- Text explaining why Signal needs camera access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">Fotók és videók készítéséhez engedélyezd a Signalnak a kamerához való hozzáférést!</string>
-    <!-- Text explaining why Signal needs camera and microphone access in order to take photos and videos -->
+    <!-- Text explaining why GFSChat needs camera and microphone access in order to take photos and videos -->
     <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">Fotók és videók készítéséhez engedélyezd a Signalnak a kamerához és a mikrofonhoz való hozzáférést.</string>
-    <!-- Text explaining why Signal needs microphone access to take videos -->
+    <!-- Text explaining why GFSChat needs microphone access to take videos -->
     <string name="CameraXFragment_to_capture_videos_with_sound">Hangos videók rögzítéséhez engedélyezd a Signalnak a mikrofonhoz való hozzáférést.</string>
-    <!-- Text explaining why Signal needs camera access to scan QR codes -->
+    <!-- Text explaining why GFSChat needs camera access to scan QR codes -->
     <string name="CameraXFragment_to_scan_qr_code_allow_camera">QR-kód beolvasásához engedélyezd a Signalnak a kamerához való hozzáférést.</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when capturing photos -->
     <string name="CameraXFragment_signal_needs_camera_access_capture_photos">Fotók készítéséhez a Signalnak hozzá kell férnie a kamerához</string>
-    <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
+    <!-- Toast dialog explaining why GFSChat needs camera permissions when scanning QR codes -->
     <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">QR-kód beolvasásához a Signalnak hozzá kell férnie a kamerához</string>
-    <!-- Toast dialog explaining why Signal needs microphone permissions -->
+    <!-- Toast dialog explaining why GFSChat needs microphone permissions -->
     <string name="CameraXFragment_signal_needs_microphone_access_video">Videó rögzítéséhez a Signalnak hozzá kell férnie a mikrofonhoz</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
     <string name="CameraXFragment_to_capture_photos">Fotók rögzítése a Signalban:</string>
@@ -293,21 +293,21 @@
     <string name="CameraXFragment_to_capture_photos_videos">Fotók és videók rögzítése a Signalban:</string>
     <!-- Dialog description that explains the steps needed to give microphone permission -->
     <string name="CameraXFragment_to_capture_videos">Videók rögzítése hanggal:</string>
-    <!-- Dialog description that explains the steps needed to give Signal camera permissions -->
+    <!-- Dialog description that explains the steps needed to give GFSChat camera permissions -->
     <string name="CameraXFragment_to_scan_qr_codes">QR-kódok beolvasása:</string>
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">Friss kontaktok</string>
-    <string name="CameraContacts_signal_contacts">Signal kontaktok</string>
-    <string name="CameraContacts_signal_groups">Signal csoportok</string>
+    <string name="CameraContacts_signal_contacts">GFSChat kontaktok</string>
+    <string name="CameraContacts_signal_groups">GFSChat csoportok</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="one">Maximum %1$d csevegéssel oszthatod meg.</item>
         <item quantity="other">Maximum %1$d csevegéssel oszthatod meg.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Signal címzettek kiválasztása</string>
-    <string name="CameraContacts_no_signal_contacts">Nincs Signal kontakt</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">A kamera gombbal csak Signal kontaktoknak küldhetsz fotókat. </string>
+    <string name="CameraContacts_select_signal_recipients">GFSChat címzettek kiválasztása</string>
+    <string name="CameraContacts_no_signal_contacts">Nincs GFSChat kontakt</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">A kamera gombbal csak GFSChat kontaktoknak küldhetsz fotókat. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Nem találod, akit keresel?</string>
     <string name="CameraContacts_invite_a_contact_to_join_signal">Hívd meg egy ismerősödet Signalra!</string>
     <string name="CameraContacts__menu_search">Keresés</string>
@@ -323,12 +323,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nem, köszönöm</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Signal frissítése</string>
+    <string name="ClientDeprecatedActivity_update_signal">GFSChat frissítése</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Az app jelenlegi verziója elavult. Üzenetek küldése és fogadása előtt frissítened újabb verzióra.</string>
     <string name="ClientDeprecatedActivity_update">Frissítés</string>
     <string name="ClientDeprecatedActivity_dont_update">Nincs frissítés</string>
     <string name="ClientDeprecatedActivity_warning">Figyelmeztetés</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">A Signal általad használt verziója elavult. Megtekintheted a beszélgetés-előzményeket, de a frissítésig nem fogsz tudni üzeneteket küldeni és fogadni.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">A GFSChat általad használt verziója elavult. Megtekintheted a beszélgetés-előzményeket, de a frissítésig nem fogsz tudni üzeneteket küldeni és fogadni.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Nem található böngésző.</string>
@@ -365,8 +365,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Üzenet %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Signal hanghívás %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Signal videohívás %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">GFSChat hanghívás %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">GFSChat videohívás %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -397,7 +397,7 @@
     <string name="ConversationItem_send_paused">Küldés felfüggesztve</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Szeretnél visszaállni titkosítatlan SMS-re?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Szeretnél visszaállni titkosítatlan MMS-re?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ez az üzenet <b>nem</b> lesz titkosítva, mert a címzett már nem Signal felhasználó.\n\nElküldöd titkosítatlan üzenetként?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ez az üzenet <b>nem</b> lesz titkosítva, mert a címzett már nem GFSChat felhasználó.\n\nElküldöd titkosítatlan üzenetként?</string>
     <string name="ConversationItem_unable_to_open_media">Nem található olyan alkalmazás, ami képes lenne megnyitni ezt a médiafájlt.</string>
     <string name="ConversationItem_copied_text">%1$s másolva</string>
     <string name="ConversationItem_from_s">tőle: %1$s</string>
@@ -457,7 +457,7 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">Nem biztonságos SMS (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">Titkosítatlan MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal üzenet</string>
+    <string name="ConversationActivity_transport_signal">GFSChat üzenet</string>
     <!-- The content description for button to send a message in a conversation -->
     <string name="ConversationActivity_send_message_content_description">Üzenet küldése</string>
     <string name="ConversationActivity_lets_switch_to_signal">Váltsunk Signalra: %1$s</string>
@@ -480,7 +480,7 @@
     <string name="ConversationActivity_signal_to_send_audio_messages">To send voice messages:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
     <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Hangüzenetek küldéséhez adj hozzáférést a Signalnak a mikrofonodhoz.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Hangüzenet rögzítéséhez a Signalnak hozzá kell férnie a mikrofonhoz.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">A Signalnak szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
 
@@ -512,7 +512,7 @@
     <string name="ConversationActivity__to_start_call">Hívás indításához:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
     <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Hívás indításához adj hozzáférést a Signalnak a mikrofonodhoz.</string>
-    <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
+    <!-- Toast text explaining GFSChat\'s need for microphone access for a voice call -->
     <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Hívás indításához a Signalnak hozzá kell férnie a mikrofonhoz.</string>
 
 
@@ -523,10 +523,10 @@
     <string name="ConversationActivity_error_sending_media">Hiba történt a médiafájl küldése során</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">A Signal már nem támogatja az SMS-ek küldését.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">A GFSChat már nem támogatja az SMS-ek küldését.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">A Signal már nem támogatja az SMS-ek küldését. Hívd meg %1$s ismerősöd a Signal-szolgáltatásba, és beszélgessetek itt.</string>
-    <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">A GFSChat már nem támogatja az SMS-ek küldését. Hívd meg %1$s ismerősöd a GFSChat-szolgáltatásba, és beszélgessetek itt.</string>
+    <!-- Message shown when opening a conversation with an unregistered user who used to be on GFSChat -->
     <string name="ConversationActivity__this_person_is_no_longer_using_signal">Ez a személy már nem használja a Signalt. Hívd meg őket a Signalba, és beszélgessetek itt.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Meghívás a Signalra</string>
@@ -536,7 +536,7 @@
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">Formázott szöveg küldése</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">Előfordulhat, hogy egyesek a Signal olyan verzióját használják, amely nem támogatja a formázott szöveget. Nem fogják látni az üzeneten végzett formázási módosításokat.</string>
+    <string name="SendingFormattingTextDialog_message">Előfordulhat, hogy egyesek a GFSChat olyan verzióját használják, amely nem támogatja a formázott szöveget. Nem fogják látni az üzeneten végzett formázási módosításokat.</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">Küldés így is</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -574,7 +574,7 @@
         <item quantity="other">%1$d db melléklet mentése a háttértárba…</item>
     </plurals>
     <string name="ConversationFragment_pending">Folyamatban…</string>
-    <string name="ConversationFragment_push">Adat (Signal)</string>
+    <string name="ConversationFragment_push">Adat (GFSChat)</string>
     <string name="ConversationFragment_mms">MMS</string>
     <string name="ConversationFragment_sms">SMS</string>
     <string name="ConversationFragment_deleting">Törlés</string>
@@ -587,7 +587,7 @@
     <string name="ConversationFragment_delete">Törlés</string>
     <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
     <string name="ConversationFragment_delete_everywhere">Törlés mindenhol</string>
-    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ez az üzenet a csevegés minden tagja számára törlésre kerül, ha a Signal legújabb verzióját használják. A többiek számára látható lesz, hogy töröltél egy üzenetet.</string>
+    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ez az üzenet a csevegés minden tagja számára törlésre kerül, ha a GFSChat legújabb verzióját használják. A többiek számára látható lesz, hogy töröltél egy üzenetet.</string>
     <string name="ConversationFragment_quoted_message_not_found">Az eredeti üzenet nem található</string>
     <string name="ConversationFragment_quoted_message_no_longer_available">Az eredeti üzenet már nem érhető el</string>
     <string name="ConversationFragment_failed_to_open_message">Nem sikerült megnyitni az üzenetet</string>
@@ -616,13 +616,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Letiltva</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Signal frissítése</string>
+    <string name="ConversationFragment__update_build">GFSChat frissítése</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
     <string name="ConversationFragment__reregister_signal">Újraregisztrálás a Signalra</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Visszalépés.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Signal megnyitása</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">GFSChat megnyitása</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Már nem ellenőrzött</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -640,7 +640,7 @@
     <!-- Dialog title shown after reporting spam and tapping the conversation item -->
     <string name="ConversationFragment_reported_spam">Jelentve kéretlen üzenetként</string>
     <!-- Dialog message shown after reporting spam and tapping the conversation item -->
-    <string name="ConversationFragment_reported_spam_message">A Signal értesítést kap arról, hogy ez a személy esetleg kéretlen üzeneteket küldözget. A Signal nem látja a csevegések tartalmát.</string>
+    <string name="ConversationFragment_reported_spam_message">A GFSChat értesítést kap arról, hogy ez a személy esetleg kéretlen üzeneteket küldözget. A GFSChat nem látja a csevegések tartalmát.</string>
     <!-- Toast shown after reporting spam and tapping the conversation item -->
     <string name="ConversationFragment_reported_as_spam">Megjelölve kéretlen üzenetként</string>
     <!-- Toast shown after reporting and blocking a conversation -->
@@ -937,23 +937,23 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">A munkamenet alaphelyzetbe állt</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">A Signal végpontok közti titkosítást használ, és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a névjegytől. Ilyen esetben azt javasoljuk, hogy kérd meg partneredet az elveszett üzenetek újraküldésére.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">A GFSChat végpontok közti titkosítást használ, és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a névjegytől. Ilyen esetben azt javasoljuk, hogy kérd meg partneredet az elveszett üzenetek újraküldésére.</string>
 
     <!-- LinkDeviceFragment -->
-    <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
-    <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">A Signal használata asztali számítógépen vagy iPaden. Üzeneteid szinkronizálódnak a kapcsolt eszközökkel.</string>
+    <!-- Description for how GFSChat will work with a linked device (eg desktop, iPad) -->
+    <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">A GFSChat használata asztali számítógépen vagy iPaden. Üzeneteid szinkronizálódnak a kapcsolt eszközökkel.</string>
     <!-- Button prompting users to link a new device to their account -->
     <string name="LinkDeviceFragment__link_a_new_device">Új eszköz összekapcsolása</string>
     <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
     <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$s Az üzeneteket és a csevegési információkat végpontok közötti titkosítás védi minden eszközön</string>
-    <!-- Bottom sheet title explaining how Signal works on a linked device -->
-    <string name="LinkDeviceFragment__signal_on_desktop_ipad">A Signal asztali számítógépen vagy iPaden</string>
+    <!-- Bottom sheet title explaining how GFSChat works on a linked device -->
+    <string name="LinkDeviceFragment__signal_on_desktop_ipad">A GFSChat asztali számítógépen vagy iPaden</string>
     <!-- Bottom sheet description explaining that messages on linked devices are private -->
     <string name="LinkDeviceFragment__all_messaging_is_private">A kapcsolt eszközökön minden üzenet privát</string>
     <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
-    <string name="LinkDeviceFragment__signal_messages_are_synchronized">A Signal-üzenetek szinkronizálva vannak a mobiltelefonodon megtalálható Signallal, miután összekapcsolásra kerültek. A korábbi üzenetek előzményei nem jelennek meg.</string>
-    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
-    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install Signal</string>
+    <string name="LinkDeviceFragment__signal_messages_are_synchronized">A GFSChat-üzenetek szinkronizálva vannak a mobiltelefonodon megtalálható Signallal, miután összekapcsolásra kerültek. A korábbi üzenetek előzményei nem jelennek meg.</string>
+    <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download GFSChat where %s is GFSChat\'s website -->
+    <string name="LinkDeviceFragment__on_other_device_visit_signal">On the device you want to link, visit %1$s to install GFSChat</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
     <!-- Header title listing out current linked devices -->
     <string name="LinkDeviceFragment__my_linked_devices">Kapcsolt eszközeim</string>
@@ -982,11 +982,11 @@
     <!-- Confirmation button to dismiss bottom sheet dialog -->
     <string name="AddLinkDeviceFragment__okay">OK</string>
     <!-- Dialog text describing the consequences of linking a device -->
-    <string name="AddLinkDeviceFragment__this_device_will_see_your_groups_contacts">Ez az eszköz a továbbiakban hozzáfér a Signal-csevegéseidhez, a névjegy- és csoportlistádhoz, valamint üzenetet tud küldeni a nevedben.</string>
+    <string name="AddLinkDeviceFragment__this_device_will_see_your_groups_contacts">Ez az eszköz a továbbiakban hozzáfér a GFSChat-csevegéseidhez, a névjegy- és csoportlistádhoz, valamint üzenetet tud küldeni a nevedben.</string>
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Fejezd be az összekapcsolást a másik eszközödön</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Fejezd be a Signal összekapcsolását a másik eszközödön.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Fejezd be a GFSChat összekapcsolását a másik eszközödön.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Készülék társítása sikertelen</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1017,7 +1017,7 @@
     <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ez a készülék nem támogatja a Play Szolgáltatásokat. Koppints a rendszer akkumulátor-optimalizációinak letiltásához, ami megakadályozza a Signalt abban, hogy inaktív állapotban is letöltse az üzeneteket.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Az általad használt Signal verziója elavult. Üzenetek küldéséhez és fogadásához frissíts most!</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Az általad használt GFSChat verziója elavult. Üzenetek küldéséhez és fogadásához frissíts most!</string>
     <string name="ExpiredBuildReminder_update_now">Frissítés most</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -1028,8 +1028,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">Megtekintés</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Elhúzódó Signal kommunikációs hiba!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">A Signal nem tudott beregisztrálni a Google Play Szolgáltatásokra. A Signal üzenetek és hívások ezért le lettek tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Elhúzódó GFSChat kommunikációs hiba!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">A GFSChat nem tudott beregisztrálni a Google Play Szolgáltatásokra. A GFSChat üzenetek és hívások ezért le lettek tiltva. Kérlek próbálj meg újraregisztrálni a Beállítások &gt; Haladó-ban!</string>
 
 
     <!-- GiphyActivity -->
@@ -1155,7 +1155,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">Ez a csoporthivatkozás nem aktív</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Ezzel a hivatkozással csatlakozhatsz egy Signal-híváshoz</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Ezzel a hivatkozással csatlakozhatsz egy GFSChat-híváshoz</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -1168,7 +1168,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">A hibakeresési naplók segítenek diagnosztizálni és kijavítani a problémát, és nem tartalmaznak azonosító információkat.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">A Signal problémába ütközött. Hibakeresési napló küldése?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">A GFSChat problémába ütközött. Hibakeresési napló küldése?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Lehet, hogy nem kapsz üzeneteket. Hibanapló küldése?</string>
 
@@ -1184,13 +1184,13 @@
     <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Kapcsold ki a Signalban az akkumulátoroptimalizálást, hogy az üzenetértesítések ne késsenek. Az eszközspecifikus utasítások megtekintéséhez koppints a „Folytatás” gombra.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Nem, köszönöm</string>
-    <!-- Button to continue and go to Signal support website -->
+    <!-- Button to continue and go to GFSChat support website -->
     <string name="DeviceSpecificNotificationBottomSheet__continue">Tovább</string>
 
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Lehet, hogy nem kapsz üzeneteket</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Az eszköz újraindítása segíthet megoldani az üzenetkézbesítési problémát. Ha a probléma továbbra is fennáll, fordulj a Signal ügyfélszolgálatához.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Az eszköz újraindítása segíthet megoldani az üzenetkézbesítési problémát. Ha a probléma továbbra is fennáll, fordulj a GFSChat ügyfélszolgálatához.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Rendben</string>
 
@@ -1253,9 +1253,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS kontakt</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">Eltávolítod %1$s felhasználót ebből a csoportból?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Olyan névjegyet választottál, amely nem támogatja a Signal-csoportokat, ezért ez a csoport MMS lesz. Az egyéni MMS-csoportok neveit és fotóit csak te láthatod.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Olyan névjegyet választottál, amely nem támogatja a GFSChat-csoportokat, ezért ez a csoport MMS lesz. Az egyéni MMS-csoportok neveit és fotóit csak te láthatod.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Olyan névjegyet választottál ki, amely nem támogatja a Signal Csoportokat, így ez a csoport MMS lesz. Az egyéni MMS Csoporthoz tartozó neveket és fotókat csak te láthatod. Az MMS Csoportok támogatása hamarosan megszűnik, hogy a titkosított üzenetküldésre összpontosíthassunk.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Olyan névjegyet választottál ki, amely nem támogatja a GFSChat Csoportokat, így ez a csoport MMS lesz. Az egyéni MMS Csoporthoz tartozó neveket és fotókat csak te láthatod. Az MMS Csoportok támogatása hamarosan megszűnik, hogy a titkosított üzenetküldésre összpontosíthassunk.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">Ki vehet fel új tagokat?</string>
@@ -1443,8 +1443,8 @@
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Frissítsd a Signalt a csoporthivatkozások használatához</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Ez a Signal verzió nem támogatja a csoporthivatkozásokat. Frissíts a legújabb verzióra, hogy a hivatkozás használatával csatlakozhass ehhez a csoporthoz.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal frissítése</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Ez a GFSChat verzió nem támogatja a csoporthivatkozásokat. Frissíts a legújabb verzióra, hogy a hivatkozás használatával csatlakozhass ehhez a csoporthoz.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">GFSChat frissítése</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">A csoporthivatkozás érvénytelen</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1512,7 +1512,7 @@
     <string name="LongMessageActivity_your_message">Saját üzenet</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Signal</string>
+    <string name="MessageRetrievalService_signal">GFSChat</string>
     <string name="MessageRetrievalService_background_connection_enabled">Háttérkapcsolat engedélyezve</string>
 
     <!-- MediaOverviewActivity -->
@@ -1568,7 +1568,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">Emlékeztess később</string>
-    <string name="Megaphones_verify_your_signal_pin">Signal PIN kód hitelesítése</string>
+    <string name="Megaphones_verify_your_signal_pin">GFSChat PIN kód hitelesítése</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Időnként megkérünk PIN kódod hitelesítésére, hogy biztosan ne felejtsd el.</string>
     <string name="Megaphones_verify_pin">PIN hitelesítése</string>
     <string name="Megaphones_get_started">Kezdés</string>
@@ -1581,10 +1581,10 @@
     <string name="MessageQuotesBottomSheet_replies">Válaszok</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Signal hívás létesítése</string>
+    <string name="NotificationBarManager__establishing_signal_call">GFSChat hívás létesítése</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Signal hívó szolgáltatás indítása</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">A Signal hívás szolgáltatás leállítása</string>
+    <string name="NotificationBarManager__starting_signal_call_service">GFSChat hívó szolgáltatás indítása</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">A GFSChat hívás szolgáltatás leállítása</string>
     <string name="NotificationBarManager__cancel_call">Hívás megszakítása</string>
 
     <!-- NotificationsMegaphone -->
@@ -1610,7 +1610,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">Ismeretlen</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a Signal egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a GFSChat egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
     <string name="MessageRecord_left_group">Kiléptél a csoportból.</string>
     <string name="MessageRecord_you_updated_group">Frissítetted a csoportot.</string>
     <string name="MessageRecord_the_group_was_updated">A csoport frissítve lett.</string>
@@ -1898,9 +1898,9 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Hamarosan többé nem fogsz tudni SMS-eket küldeni a Signalból. Hívd meg %1$s ismerősöd a Signal-szolgáltatásba, és beszélgessetek itt.</string>
+    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Hamarosan többé nem fogsz tudni SMS-eket küldeni a Signalból. Hívd meg %1$s ismerősöd a GFSChat-szolgáltatásba, és beszélgessetek itt.</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">A továbbiakban nem küldhetsz SMS-eket a Signal-alkalmazásban. Hívd meg %1$s ismerősöd a Signal-szolgáltatásba, és beszélgessetek itt.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">A továbbiakban nem küldhetsz SMS-eket a GFSChat-alkalmazásban. Hívd meg %1$s ismerősöd a GFSChat-szolgáltatásba, és beszélgessetek itt.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Fizetés: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -1919,7 +1919,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">Engedélyezed, hogy %1$s üzenetet küldjön neked, és megosztod vele a neved és a fényképed? A múltban eltávolítottad ezt a személyt.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">Engedélyezed, hogy %1$s üzenetet küldjön számodra, és lássa nevedet, valamint profilképedet? Amíg ebbe bele nem egyezel, addig nem értesül arról sem, hogy elolvastad-e az üzeneteit.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a GFSChat user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">Engedélyezed, hogy %1$s üzenetet küldjön számodra, és lássa a nevedet, valamint a profilképedet? Nem fogsz üzenetet kapni tőle, amíg fel nem oldod a tiltást.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">Engedélyezed, hogy %1$s üzenetet küldjön számodra? Amíg nem oldod fel a tiltást, nem kapsz tőle üzenetet.</string>
@@ -1979,27 +1979,27 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">Érvénytelen QR kód.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sajnáljuk, de jelenleg túl sok eszköz van társítva, próbálj meg eltávolítani néhányat</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Sajnáljuk, de ez nem egy érvényes eszköz-társítási QR kód.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Signal eszköz társítása?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Úgy tűnik, hogy egy harmadik féltől származó vonalkódolvasóval próbálsz Signal eszközt társítani. A saját védelmed érdekében kérlek szkenneld újra a kódot Signalon belül!</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">GFSChat eszköz társítása?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Úgy tűnik, hogy egy harmadik féltől származó vonalkódolvasóval próbálsz GFSChat eszközt társítani. A saját védelmed érdekében kérlek szkenneld újra a kódot Signalon belül!</string>
 
     <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">A Signalnak szüksége van a Kamera engedélyre, hogy QR kódot szkennelhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nem lehet QR kódot szkennelni Kamera hozzáférési engedély nélkül</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">Frissítés most</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">A Signal jelenleg telepített verziója ma lejár. Frissíts a legújabb verzióra!</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">A GFSChat jelenleg telepített verziója ma lejár. Frissíts a legújabb verzióra!</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">A Signal jelenleg telepített verziója holnap lejár. Frissíts a legújabb verzióra!</item>
-        <item quantity="other">A Signal jelenleg telepített verziója %1$d napon belül lejár. Frissíts a legújabb verzióra!</item>
+        <item quantity="one">A GFSChat jelenleg telepített verziója holnap lejár. Frissíts a legújabb verzióra!</item>
+        <item quantity="other">A GFSChat jelenleg telepített verziója %1$d napon belül lejár. Frissíts a legújabb verzióra!</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Add meg a jelmondatot</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal ikon</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">GFSChat ikon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Jelmondat küldése</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Érvénytelen jelmondat!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Signal feloldása</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Képernyőzár</string>
+    <string name="PassphrasePromptActivity_unlock_signal">GFSChat feloldása</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">GFSChat Android - Képernyőzár</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Térkép</string>
@@ -2024,7 +2024,7 @@
         <item quantity="one">Már csak %1$d próbálkozásod maradt. Ha kifogysz belőlük, lehetőséged lesz új PIN létrehozására. Regisztrálhatsz újra, majd használatba veheted a fiókodat, de mentett beállításaid egy része, mint például a profilinformációid elvesznek.</item>
         <item quantity="other">Még %1$d próbálkozásod maradt. Ha kifogysz belőlük, lehetőséged lesz új PIN létrehozására. Regisztrálhatsz újra, majd használatba veheted a fiókodat, de mentett beállításaid egy része, mint például a profil-információid elvesznek.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal regisztráció - Segítségkérés a PIN kód használatához Androidon</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">GFSChat regisztráció - Segítségkérés a PIN kód használatához Androidon</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">PIN létrehozása</string>
@@ -2035,17 +2035,17 @@
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">SMS-kód küldése</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal-regisztráció - Segítségkérés a PIN-kód használatához Androidon</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">GFSChat-regisztráció - Segítségkérés a PIN-kód használatához Androidon</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">A PIN-kódod egy általad létrehozott %1$d+ számjegyű kód, amely lehet numerikus vagy alfanumerikus.Ha nem emlékszel a PIN-kódodra, létrehozhatsz egy újat.</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">Ha nem emlékszel a PIN-kódodra, létrehozhatsz egy újat.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Elfogyott a PIN-kód megadására rendelkezésre álló kísérletek száma, de továbbra is hozzáférhetsz a Signal-fiókodhoz, ha új PIN-kódot hozol létre.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Elfogyott a PIN-kód megadására rendelkezésre álló kísérletek száma, de továbbra is hozzáférhetsz a GFSChat-fiókodhoz, ha új PIN-kódot hozol létre.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">Figyelmeztetés</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN-kódod letiltásával egy esetleges újraregisztráció során az összes Signal-adatod el fog veszni, kivéve ha azokat előtte külön lemented, majd helyreállítod. Letiltott PIN-kóddal nem lehetséges a regisztrációs zár bekapcsolása.</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN-kódod letiltásával egy esetleges újraregisztráció során az összes GFSChat-adatod el fog veszni, kivéve ha azokat előtte külön lemented, majd helyreállítod. Letiltott PIN-kóddal nem lehetséges a regisztrációs zár bekapcsolása.</string>
     <string name="PinOptOutDialog_disable_pin">PIN letiltása</string>
 
     <!-- RatingManager -->
@@ -2066,7 +2066,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Az üzenetküldés folytatásához ellenőrzés szükséges</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">A Signal hálózatán küldött kéretlen üzenetek megelőzése érdekében kérlek végezd el az alábbi ellenőrzést!</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">A GFSChat hálózatán küldött kéretlen üzenetek megelőzése érdekében kérlek végezd el az alábbi ellenőrzést!</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Az ellenőrzést követően folytathatod az üzenetküldést. Az összes felfüggesztett üzenetet automatikusan elküldjük.</string>
 
     <!-- Recipient -->
@@ -2074,7 +2074,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Történetem</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal-hívás</string>
+    <string name="Recipient_signal_call">GFSChat-hívás</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Letiltás</string>
@@ -2101,7 +2101,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Koppintsd ide a videókép bekapcsolásához</string>
     <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s hívásához a Signalnak hozzá kell férnie kamerádhoz</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">GFSChat %1$s</string>
     <string name="WebRtcCallActivity__calling">Hívás…</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
     <string name="WebRtcCallActivity__reconnecting">Újracsatlakozás…</string>
@@ -2177,8 +2177,8 @@
     <string name="WebRtcCallActivity__to_enable_video">A videó engedélyezése:</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal hívás</string>
-    <string name="WebRtcCallView__signal_video_call">Signal videóhívás</string>
+    <string name="WebRtcCallView__signal_call">GFSChat hívás</string>
+    <string name="WebRtcCallView__signal_video_call">GFSChat videóhívás</string>
     <string name="WebRtcCallView__start_call">Hívás indítása</string>
     <string name="WebRtcCallView__join_call">Belépés a hívásba</string>
     <string name="WebRtcCallView__call_is_full">A hívás betelt</string>
@@ -2188,7 +2188,7 @@
     <string name="WebRtcCallView__joining">Csatlakozás…</string>
     <string name="WebRtcCallView__disconnected">Lecsatlakozva</string>
     <!-- Utilized in the lobby before joining a call link -->
-    <string name="WebRtcCallView__signal_call_link">Signal-híváshivatkozás</string>
+    <string name="WebRtcCallView__signal_call_link">GFSChat-híváshivatkozás</string>
     <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy disabled-->
     <string name="WebRtcCallView__anyone_who_joins_pnp_disabled">Bárki, aki a hivatkozáson keresztül csatlakozik a híváshoz, látni fogja a nevedet, a fényképedet és a telefonszámodat.</string>
     <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy enabled-->
@@ -2196,11 +2196,11 @@
     <!-- Displayed on the call screen as the status when waiting to be let into a call link by an admin -->
     <string name="WebRtcCallView__waiting_to_be_let_in">Beengedésre vár…</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">A Signal megcsörgeti őt: %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">A Signal megcsörgeti őket: %1$s és %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">A GFSChat megcsörgeti őt: %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">A GFSChat megcsörgeti őket: %1$s és %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="one">A Signal hívni fogja %1$s, %2$s és %3$d további ismerősödet</item>
-        <item quantity="other">A Signal megcsörgeti %1$s, %2$s és %3$d további ismerősödet</item>
+        <item quantity="one">A GFSChat hívni fogja %1$s, %2$s és %3$d további ismerősödet</item>
+        <item quantity="other">A GFSChat megcsörgeti %1$s, %2$s és %3$d további ismerősödet</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s értesítve lesz</string>
@@ -2312,7 +2312,7 @@
 
     <!-- AboutSheet -->
     <!-- Displayed in a sheet row and allows user to open signal connection explanation on tap -->
-    <string name="AboutSheet__signal_connection">Signal Névjegy</string>
+    <string name="AboutSheet__signal_connection">GFSChat Névjegy</string>
     <!-- Displayed in a sheet row describing that the user has marked this contact as \'verified\' from within the app -->
     <string name="AboutSheet__verified">Megerősítve</string>
     <!-- Displayed in bottom sheet describing that the user has no direct messages with this person. The placeholder is a person\'s name. -->
@@ -2341,12 +2341,12 @@
         <item quantity="other">Ebben a hívásban (%1$d)</item>
     </plurals>
     <plurals name="CallParticipantsListDialog__signal_will_ring">
-        <item quantity="one">A Signal felhívja (%1$d)</item>
-        <item quantity="other">A Signal felhívja (%1$d)</item>
+        <item quantity="one">A GFSChat felhívja (%1$d)</item>
+        <item quantity="other">A GFSChat felhívja (%1$d)</item>
     </plurals>
     <plurals name="CallParticipantsListDialog__signal_will_notify">
-        <item quantity="one">A Signal értesíti (%1$d)</item>
-        <item quantity="other">A Signal értesíti (%1$d)</item>
+        <item quantity="one">A GFSChat értesíti (%1$d)</item>
+        <item quantity="other">A GFSChat értesíti (%1$d)</item>
     </plurals>
     <plurals name="CallParticipantsListDialog__raised_hands">
         <item quantity="one">Felemelt kéz (%1$d)</item>
@@ -2398,8 +2398,8 @@
     <string name="RegistrationActivity_play_services_error">Play Szolgáltatások hiba</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">A Google Play Szolgáltatások épp frissítés alatt áll, vagy átmenetileg nem elérhető. Kérlek próbáld újra.</string>
     <string name="RegistrationActivity_terms_and_privacy">Feltételek &amp; Adatvédelmi irányelvek</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">A Signalnak hozzá kell férnie telefonkönyvedhez és a médiafájljaidhoz annak érdekében, hogy összeköthessen barátaiddal, és lehetővé váljon az üzenetküldés. Telefonkönyvedet feltöltjük a Signal privát felderítő szolgáltatásába, azonban a végpontok közti titkosításnak köszönhetően annak tartalma még a Signal szolgáltatás üzemeltetői számára sem lesz olvasható.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">A Signalnak hozzá kell férnie telefonkönyvedhez annak érdekében, hogy összeköthessen barátaiddal, és lehetővé váljon az üzenetküldés. Telefonkönyvedet feltöltjük a Signal privát felderítő szolgáltatásába, azonban a végpontok közti titkosításnak köszönhetően annak tartalma még a Signal szolgáltatás üzemeltetői számára sem lesz olvasható.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">A Signalnak hozzá kell férnie telefonkönyvedhez és a médiafájljaidhoz annak érdekében, hogy összeköthessen barátaiddal, és lehetővé váljon az üzenetküldés. Telefonkönyvedet feltöltjük a GFSChat privát felderítő szolgáltatásába, azonban a végpontok közti titkosításnak köszönhetően annak tartalma még a GFSChat szolgáltatás üzemeltetői számára sem lesz olvasható.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">A Signalnak hozzá kell férnie telefonkönyvedhez annak érdekében, hogy összeköthessen barátaiddal, és lehetővé váljon az üzenetküldés. Telefonkönyvedet feltöltjük a GFSChat privát felderítő szolgáltatásába, azonban a végpontok közti titkosításnak köszönhetően annak tartalma még a GFSChat szolgáltatás üzemeltetői számára sem lesz olvasható.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Túl sokszor próbálkoztál ennek a számnak a regisztrációjával. Kérlek próbáld újra később!</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Túl sokszor próbáltad regisztrálni ezt a számot. Kérjük, próbáld újra %1$s múlva.</string>
@@ -2411,7 +2411,7 @@
     <string name="RegistrationActivity_non_standard_number_format">Nem szabványos számformátum</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">A begépelt szám (%1$s) nem tűnik szabványos formátumúnak.\n\nNem erre gondoltál: %2$s ?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - Telefonszám formátum</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">GFSChat Android - Telefonszám formátum</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Hívás kérve</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2455,7 +2455,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Bekapcsolod a regisztrációs zárat?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Kikapcsolod a regisztrációs zárat?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Amennyiben elfelejted Signal PIN kódodat a következő Signal regisztáció alkalmával, 7 napra ki leszel zárva a fiókodból.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Amennyiben elfelejted GFSChat PIN kódodat a következő GFSChat regisztáció alkalmával, 7 napra ki leszel zárva a fiókodból.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Bekapcsolás</string>
     <string name="RegistrationLockV2Dialog_turn_off">Kikapcsolás</string>
 
@@ -2485,13 +2485,13 @@
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Hozzáadás a Névjegyzékhez</string>
     <string name="SharedContactDetailsActivity_invite_to_signal">Meghívás a Signalra</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal üzenet</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal hívás</string>
+    <string name="SharedContactDetailsActivity_signal_message">GFSChat üzenet</string>
+    <string name="SharedContactDetailsActivity_signal_call">GFSChat hívás</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Hozzáadás a névjegyzékhez</string>
     <string name="SharedContactView_invite_to_signal">Meghívás a Signalra</string>
-    <string name="SharedContactView_message">Signal üzenet</string>
+    <string name="SharedContactView_message">GFSChat üzenet</string>
 
     <!-- SignalBottomActionBar -->
     <string name="SignalBottomActionBar_more">Továbbiak</string>
@@ -2521,7 +2521,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">Telepített matricák</string>
     <string name="StickerManagementAdapter_stickers_you_received">Beérkezett matricák</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal Művészi Sorozat</string>
+    <string name="StickerManagementAdapter_signal_artist_series">GFSChat Művészi Sorozat</string>
     <string name="StickerManagementAdapter_no_stickers_installed">Nincsenek matricák telepítve</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">A beérkezett üzenetekben szereplő matricák itt fognak megjelenni</string>
     <string name="StickerManagementAdapter_untitled">Névtelen</string>
@@ -2558,8 +2558,8 @@
     <string name="SupportEmailUtil_filter">Szűrő:</string>
     <string name="SupportEmailUtil_device_info">Eszköz információ:</string>
     <string name="SupportEmailUtil_android_version">Android verzió:</string>
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">Signal version:</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Signal package:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_version" translatable="false">GFSChat version:</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">GFSChat package:</string> -->
     <string name="SupportEmailUtil_registration_lock">Regisztrációs zár:</string>
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_locale" translatable="false">Locale:</string> -->
 
@@ -2621,11 +2621,11 @@
     <string name="ThreadRecord_s_belongs_to_s">A(z) %1$s telefonszám %2$s felhasználóhoz tartozik</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Signal frissítés</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">Megjelent a Signal új verziója. A frissítéshez koppints.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">A Signal frissítése sikertelen</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">GFSChat frissítés</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">Megjelent a GFSChat új verziója. A frissítéshez koppints.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">A GFSChat frissítése sikertelen</string>
     <string name="ApkUpdateNotifications_failed_general_body">Később újra megpróbáljuk.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Signal sikeresen frissítve</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">GFSChat sikeresen frissítve</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Automatikusan frissítettél a(z) %1$s verzióra.</string>
 
     <!-- UntrustedSendDialog -->
@@ -2690,10 +2690,10 @@
     <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">Felhasználónév hivatkozás másolása vagy megosztása</string>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">A kontaktod a Signal egy újabb verzióját futtatja, amelynek QR kód formátuma nem kompatibilis a te verzióddal. Kérlek frissíts az összehasonlításhoz!</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">A kontaktod a GFSChat egy újabb verzióját futtatja, amelynek QR kód formátuma nem kompatibilis a te verzióddal. Kérlek frissíts az összehasonlításhoz!</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">A szkennelt QR kód nem tartalmaz helyesen formázott biztonság szám ellenőrző kódot. Kérlek próbáld újraszkennelni!</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Biztonsági szám megosztása…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Signal biztonsági számunk:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">GFSChat biztonsági számunk:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Úgy néz ki, egy alkalmazásod sem alkalmas a megosztás kezeléséhez.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">A vágólapon nem található biztonsági szám, amellyel össze lehetne hasonlítani</string>
     <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">A Signalnak szüksége van a Kamera engedélyre, hogy QR kódot szkennelhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
@@ -2726,8 +2726,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Koppints a megnyitáshoz!</string>
-    <string name="KeyCachingService_passphrase_cached">Signal feloldva</string>
-    <string name="KeyCachingService_lock">Signal zárolása</string>
+    <string name="KeyCachingService_passphrase_cached">GFSChat feloldva</string>
+    <string name="KeyCachingService_lock">GFSChat zárolása</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Te</string>
@@ -2777,14 +2777,14 @@
     <string name="MessageNotifier_failed_to_deliver_message">Nem sikerült az üzenet kézbesítése.</string>
     <string name="MessageNotifier_error_delivering_message">Hiba történt az üzenet kézbesítése során.</string>
     <string name="MessageNotifier_message_delivery_paused">Üzenetek kézbesítése felfüggesztve</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">A Signal hálózatán történő üzenetküldéshez ellenőrzés szükséges.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">A GFSChat hálózatán történő üzenetküldéshez ellenőrzés szükséges.</string>
     <string name="MessageNotifier_mark_all_as_read">Összes megjelölése olvasottként</string>
     <string name="MessageNotifier_mark_read">Olvasottnak jelöl</string>
     <string name="MessageNotifier_turn_off_these_notifications">Értesítések kikapcsolása</string>
     <string name="MessageNotifier_view_once_photo">Egyszer megjelenő fotó</string>
     <string name="MessageNotifier_view_once_video">Egyszer megjelenő videó</string>
     <string name="MessageNotifier_reply">Válasz</string>
-    <string name="MessageNotifier_signal_message">Signal üzenet</string>
+    <string name="MessageNotifier_signal_message">GFSChat üzenet</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Névjegy</string>
     <string name="MessageNotifier_reacted_s_to_s">%1$s reagált erre: „%2$s”.</string>
@@ -2799,7 +2799,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reagált a matricádra: %1$s.</string>
     <string name="MessageNotifier_this_message_was_deleted">Ez az üzenet ki lett törölve.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kikapcsolod az új kontakt érhető el Signalon értesítést? Újra engedélyezheted a Signal &gt; Beállítások &gt; Értesítések menüpontban.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kikapcsolod az új kontakt érhető el Signalon értesítést? Újra engedélyezheted a GFSChat &gt; Beállítások &gt; Értesítések menüpontban.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -2838,7 +2838,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a Signal zárolva van!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a GFSChat zárolva van!</string>
     <string name="QuickResponseService_problem_sending_message">Probléma lépett fel az üzenet küldése során!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2858,7 +2858,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Érvénytelen parancsikon</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+    <string name="SingleRecipientNotificationBuilder_signal">GFSChat</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Új üzenet</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Felkérés csevegésre</string>
     <string name="SingleRecipientNotificationBuilder_you">Te</string>
@@ -2917,9 +2917,9 @@
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">A hívás fogadásához engedélyezd, hogy a Signal hozzáférhessen a mikrofonhoz!</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">A hívás fogadásához engedélyezd, hogy a GFSChat hozzáférhessen a mikrofonhoz!</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">A videohívás fogadásához engedélyezd, hogy a Signal hozzáférhessen a mikrofonhoz és a kamerához!</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">A videohívás fogadásához engedélyezd, hogy a GFSChat hozzáférhessen a mikrofonhoz és a kamerához!</string>
     <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">A Signalnak szüksége van a Mikrofon és Kamera engedélyekre, hogy képes legyen hívások indítására és fogadására, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Mikrofon\"-t és a \"Kamera\"-t.</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Fogadva egy társított eszközön.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Elutasítva egy társított eszközön.</string>
@@ -2971,7 +2971,7 @@
     <string name="contact_selection_activity__refresh_contacts">Névjegyek frissítése</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Hiányzik valaki? Próbáld meg frissíteni</string>
-    <!-- Row item title for finding people on Signal via your contacts -->
+    <!-- Row item title for finding people on GFSChat via your contacts -->
     <string name="contact_selection_activity__find_people_you_know">Keress ismerősöket a Signalban</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Engedélyezd a névjegyeidhez való hozzáférést</string>
@@ -2994,12 +2994,12 @@
     <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">A Signalnak szüksége van a Névjegyek engedélyre annak érdekében, hogy megjelenítse a névjegyeid, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Névjegyek\"-et.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Hiba történt a névjegyek betöltése során, ellenőrizd a hálózati kapcsolatod</string>
     <string name="ContactSelectionListFragment_username_not_found">A felhasználónév nem található</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"%1$s nem Signal-felhasználó. Kérjük, ellenőrizd a felhasználónevet, majd próbáld újra."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"%1$s nem GFSChat-felhasználó. Kérjük, ellenőrizd a felhasználónevet, majd próbáld újra."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Nem szükséges saját magadat a csoporthoz adnod</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">A csoport elérte maximális taglétszámát</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">A Signal csoportok legfeljebb %1$d tagból állhatnak.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">A GFSChat csoportok legfeljebb %1$d tagból állhatnak.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Elérted a javasolt limitet</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">A Signal csoportok akkor működnek a legjöbban, ha %1$d vagy kevesebb tagból állnak. Több tag hozzáadásával az üzenetek küldésének és fogadásának ideje megnőhet.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">A GFSChat csoportok akkor működnek a legjöbban, ha %1$d vagy kevesebb tagból állnak. Több tag hozzáadásával az üzenetek küldésének és fogadásának ideje megnőhet.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="one">%1$d tag</item>
         <item quantity="other">%1$d tag</item>
@@ -3012,12 +3012,12 @@
     <string name="ContactSelectionListFragment_allow_access_contacts">Hozzáférés engedélyezése a névjegyekhez</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
     <string name="ContactSelectionListFragment_to_find_people">Ismerősök keresése a Signalban:</string>
-    <!-- Text on button prompting users to give Signal contact permissions -->
+    <!-- Text on button prompting users to give GFSChat contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Hozzáférés engedélyezése</string>
-    <!-- Text on button to dismiss Signal\'s request for contact permissions -->
+    <!-- Text on button to dismiss GFSChat\'s request for contact permissions -->
     <string name="ContactSelectionListFragment__no_thanks">Nem, köszönöm</string>
     <!-- Text asking for user\'s contact permission -->
-    <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Engedélyezd a névjegyeidhez való hozzáférést. A névjegyeid titkosítva vannak, és nem láthatók a Signal számára.</string>
+    <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Engedélyezd a névjegyeidhez való hozzáférést. A névjegyeid titkosítva vannak, és nem láthatók a GFSChat számára.</string>
 
     <!-- contact_selection_list_fragment -->
     <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">A Signalnak szüksége van a névjegyeidhez való hozzáférésre annak érdekében, hogy megjelenítse őket.</string>
@@ -3035,7 +3035,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal üzenet</string>
+    <string name="conversation_activity__type_message_push">GFSChat üzenet</string>
     <string name="conversation_activity__type_message_sms_insecure">Titkosítatlan SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Titkosítatlan MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -3123,7 +3123,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">A Buborék egy Android funkció, amit letilthatsz a Signal-csevegések esetén.</string>
+    <string name="BubbleOptOutTooltip__description">A Buborék egy Android funkció, amit letilthatsz a GFSChat-csevegések esetén.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Később</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3290,11 +3290,11 @@
     <string name="EditProfileFragment__group_name">Csoport neve</string>
     <string name="EditProfileFragment__group_description">Csoportleírás</string>
   <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
-    <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_title">Signal frissítése</string>
-    <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">A Signal jelenlegi verziója lejárt. A Signal használatának folytatásához frissítsd most.</string>
-    <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
+    <!-- The title of a dialog prompting user to update to the latest version of GFSChat. -->
+    <string name="EditProfileFragment_deprecated_dialog_title">GFSChat frissítése</string>
+    <!-- The body of a dialog prompting user to update to the latest version of GFSChat. -->
+    <string name="EditProfileFragment_deprecated_dialog_body">A GFSChat jelenlegi verziója lejárt. A GFSChat használatának folytatásához frissítsd most.</string>
+    <!-- The button on a dialog prompting user to update to the latest version of GFSChat. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">Frissítés</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
     <string name="EditProfileFragment_unregistered_dialog_title">Az eszköz nincs regisztrálva</string>
@@ -3383,7 +3383,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">Támogatás információ</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android támogatási kérés</string>
+    <string name="HelpFragment__signal_android_support_request">GFSChat Android támogatási kérés</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Nem sikerült feltölteni a naplót</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Hogy megérthessük a problémát, fogalmazz olyan pontosan, amennyire csak lehetséges!</string>
@@ -3398,7 +3398,7 @@
         <item>Adományok és jelvények</item>
     </string-array>
     <!-- Subject of email when submitting debug logs to help debug slow notifications -->
-    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">A Signal Android hibajavítási naplójának benyújtása</string>
+    <string name="DebugLogsPromptDialogFragment__signal_android_support_request">A GFSChat Android hibajavítási naplójának benyújtása</string>
     <!-- Action to submit logs and take user to send an e-mail -->
     <string name="DebugLogsPromptDialogFragment__submit">Küldés</string>
     <!-- Action to decline to submit logs -->
@@ -3473,7 +3473,7 @@
     <string name="preferences__enable_passphrase">Jelmondattal védett képernyőzár engedélyezése</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Képernyő és értesítések zárolása jelmondattal</string>
     <string name="preferences__screen_security">Képernyőbiztonság</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Signal automatikus zárolása meghatározott inaktivitási időszak után</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">GFSChat automatikus zárolása meghatározott inaktivitási időszak után</string>
     <string name="preferences__inactivity_timeout_passphrase">Inaktivitási időtúllépés jelmondat</string>
     <string name="preferences__inactivity_timeout_interval">Inaktivitási időtúllépés időköz</string>
     <string name="preferences__notifications">Értesítések</string>
@@ -3506,8 +3506,8 @@
     <string name="preferences__slow">Lassú</string>
     <string name="preferences__help">Súgó</string>
     <string name="preferences__advanced">Haladó</string>
-    <string name="preferences__donate_to_signal">Adomány a Signal számára</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <string name="preferences__donate_to_signal">Adomány a GFSChat számára</string>
+    <!-- Preference label for making one-time donations to GFSChat -->
     <string name="preferences__privacy">Adatvédelem</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Történetek</string>
@@ -3543,26 +3543,26 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">Módosítsd az alkalmazás ikonját és nevét a következőre: „%1$s”</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">Az alkalmazás ikonjának és nevének módosításához be kell zárni a Signalt. Az Értesítések mindig az alapértelmezett Signal-ikont és nevet jelenítik meg.</string>
+    <string name="preferences__app_icon_dialog_description">Az alkalmazás ikonjának és nevének módosításához be kell zárni a Signalt. Az Értesítések mindig az alapértelmezett GFSChat-ikont és nevet jelenítik meg.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">Válassz ki egy alkalmazásikont és -nevet, amely látható lesz a telefon kezdőképernyőjén és a telepített alkalmazásaid listájában. Az Értesítések mindig az alapértelmezett Signal-ikont és nevet jelenítik meg. Tudj meg többet</string>
+    <string name="preferences__app_icon_warning_learn_more">Válassz ki egy alkalmazásikont és -nevet, amely látható lesz a telefon kezdőképernyőjén és a telepített alkalmazásaid listájában. Az Értesítések mindig az alapértelmezett GFSChat-ikont és nevet jelenítik meg. Tudj meg többet</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">Az alkalmazások ikonjai és nevei a kezdőképernyőn és a telepített alkalmazásaid listájában láthatók.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">Az Értesítések mindig az alapértelmezett Signal-ikont és nevet jelenítik meg.</string>
+    <string name="preferences__app_icon_notification_warning">Az Értesítések mindig az alapértelmezett GFSChat-ikont és nevet jelenítik meg.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">Tudj meg többet</string>
     <!--Text description of a graphic illustrating the limitations of the app icon change. -->
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">Grafika, amely bemutatja, hol lesz látható a helyettesítő alkalmazás ikonja.</string>
     <string name="preferences__disable_pin">PIN letiltása</string>
     <string name="preferences__enable_pin">PIN engedélyezése</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN kódod letiltásával egy esetleges újraregisztráció során az összes Signal adatod el fog veszni, kivéve ha azokat előtte külön lemented majd visszatöltöd. Letiltott PIN kóddal nem lehetséges a regisztrációs zár bekapcsolása.</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">A PIN-nek köszönhetően a Signal által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN kódod letiltásával egy esetleges újraregisztráció során az összes GFSChat adatod el fog veszni, kivéve ha azokat előtte külön lemented majd visszatöltöd. Letiltott PIN kóddal nem lehetséges a regisztrációs zár bekapcsolása.</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">A PIN-nek köszönhetően a GFSChat által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.</string>
     <string name="preferences__system_default">Alapbeállítás</string>
     <string name="preferences__language">Nyelv</string>
-    <string name="preferences__signal_messages_and_calls">Signal üzenetek és hívások</string>
+    <string name="preferences__signal_messages_and_calls">GFSChat üzenetek és hívások</string>
     <string name="preferences__advanced_pin_settings">További PIN beállítások</string>
-    <string name="preferences__free_private_messages_and_calls">Ingyenes és privát üzenetek, valamint hívások Signal felhasználók részére</string>
+    <string name="preferences__free_private_messages_and_calls">Ingyenes és privát üzenetek, valamint hívások GFSChat felhasználók részére</string>
     <string name="preferences__submit_debug_log">Hibakeresési napló küldése</string>
     <string name="preferences__delete_account">Fiók törlése</string>
     <string name="preferences__support_wifi_calling">\'WiFi hívás\' kompatibilitási mód</string>
@@ -3615,7 +3615,7 @@
 
     <string name="preferences_storage__custom">Egyéni</string>
     <string name="preferences_advanced__use_system_emoji">Rendszer emojik használata</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">A hívások átjátszása a Signal szerverein annak érdekében, hogy IP címed telefonhívás során is rejtve maradjon partnered előtt. Engedélyezésével a hívások minősége gyengébb lesz.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">A hívások átjátszása a GFSChat szerverein annak érdekében, hogy IP címed telefonhívás során is rejtve maradjon partnered előtt. Engedélyezésével a hívások minősége gyengébb lesz.</string>
     <string name="preferences_advanced__always_relay_calls">Összes hívás átjátszása</string>
     <!-- Privacy settings payments section title -->
     <string name="preferences_app_protection__payments">Fizetések</string>
@@ -3638,13 +3638,13 @@
     <string name="preferences_communication__category_censorship_circumvention">Cenzúramegkerülés</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Cenzúramegkerülés</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ha engedélyezed, a Signal megpróbálja megkerülni a cenzúrát. Ne engedélyezd ezt a funkciót, ha tartózkodási helyeden nem cenzúrázzák a Signalt!</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ha engedélyezed, a GFSChat megpróbálja megkerülni a cenzúrát. Ne engedélyezd ezt a funkciót, ha tartózkodási helyeden nem cenzúrázzák a Signalt!</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Telefonszámod alapján bekapcsoltuk számodra a cenzúramegkerülés-funkciót.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Cenzúramegkerülés manuálisan letiltva.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">A cenzúramegkerülés használata nem szükséges, mert sikeresen csatlakoztál a Signal hálózatához.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the GFSChat service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">A cenzúramegkerülés használata nem szükséges, mert sikeresen csatlakoztál a GFSChat hálózatához.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">A cenzúramegkerülés csak aktív internetkapcsolat esetén aktiválható.</string>
     <string name="preferences_communication__category_sealed_sender">Rejtett feladó</string>
@@ -3725,7 +3725,7 @@
     <string name="PaymentsHomeFragment__details">Részletek</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">A Signal segítségével küldhetsz és fogadhatsz MobileCoint. Minden fizetésre a MobileCoins és a MobileCoin Wallet felhasználási feltételei vonatkoznak. Előfordulhat, hogy hibákba futsz bele, és az elveszett fizetéseket és egyenlegeket nem lehet helyreállítani. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">A GFSChat segítségével küldhetsz és fogadhatsz MobileCoint. Minden fizetésre a MobileCoins és a MobileCoin Wallet felhasználási feltételei vonatkoznak. Előfordulhat, hogy hibákba futsz bele, és az elveszett fizetéseket és egyenlegeket nem lehet helyreállítani. </string>
     <string name="PaymentsHomeFragment__activate">Bekapcsolás</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin feltételek megtekintése</string>
     <string name="PaymentsHomeFragment__payments_not_available">A továbbiakban nem érhető el a Fizetések a Signalban. Az egyenlegedet továbbra is átutalhatod egy tőzsdére, de a továbbiakban már nem fogsz tudni pénzt küldeni vagy fogadni, sem pedig feltölteni az egyenlegedet.</string>
@@ -3756,7 +3756,7 @@
     <!-- Displayed as a title at the top of the screen -->
     <string name="GrantPermissionsFragment__allow_permissions">Jogosultságok engedélyezése</string>
     <!-- Displayed as a subtitle at the top of the screen -->
-    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">A Signal kérni fogja ezeket az engedélyeket, hogy segítsen üzenetet küldeni az ismerőseinek. </string>
+    <string name="GrantPermissionsFragment__to_help_you_message_people_you_know">A GFSChat kérni fogja ezeket az engedélyeket, hogy segítsen üzenetet küldeni az ismerőseinek. </string>
     <!-- Notifications permission row title -->
     <string name="GrantPermissionsFragment__notifications">Értesítések</string>
     <!-- Notifications permission row description -->
@@ -3764,7 +3764,7 @@
     <!-- Contacts permission row title -->
     <string name="GrantPermissionsFragment__contacts">Névjegyek</string>
     <!-- Contacts permission row description -->
-    <string name="GrantPermissionsFragment__find_people_you_know">Találj olyan személyeket, akiket ismersz. A névjegyeid titkosítva vannak, és nem láthatók a Signal számára.</string>
+    <string name="GrantPermissionsFragment__find_people_you_know">Találj olyan személyeket, akiket ismersz. A névjegyeid titkosítva vannak, és nem láthatók a GFSChat számára.</string>
     <!-- Phone calls permission row title -->
     <string name="GrantPermissionsFragment__phone_calls">Telefonhívások</string>
     <!-- Phone calls permission row description -->
@@ -3848,10 +3848,10 @@
     <string name="PaymentsTransferFragment__next">Tovább</string>
     <string name="PaymentsTransferFragment__invalid_address">Érvénytelen cím</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Ellenőrizd a címzett tárcájának címét, majd próbáld újra!</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nem utalhatsz a saját Signal tárcád címére. Add meg egy támogatott tőzsdéhez tartozó tárca címét!</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nem utalhatsz a saját GFSChat tárcád címére. Add meg egy támogatott tőzsdéhez tartozó tárca címét!</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR kód beolvasásához a Signalnak szüksége van kamera-hozzáférésre.</string>
     <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">A Signalnak Kamera hozzáférésre van szüksége QR kódok beolvasásához. Nyisd meg a beállításokokat, válaszd ki az \"Engedélyek\" menüpontot, majd engedélyezd a \"Kamera\" hozzáférést!</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR kód beolvasásához engedélyezned kell, hogy a Signal hozzáférhessen kamerádhoz.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR kód beolvasásához engedélyezned kell, hogy a GFSChat hozzáférhessen kamerádhoz.</string>
     <string name="PaymentsTransferFragment__settings">Beállítások</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3910,7 +3910,7 @@
 
     <!-- BiometricDeviceAuthentication -->
     <!-- Biometric/Device authentication prompt title -->
-    <string name="BiometricDeviceAuthentication__signal">Signal</string>
+    <string name="BiometricDeviceAuthentication__signal">GFSChat</string>
 
 
     <!-- CurrencyAmountFormatter_s_at_s -->
@@ -3935,8 +3935,8 @@
     <string name="conversation_callable_insecure__menu_call">Hívás</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal hívás</string>
-    <string name="conversation_callable_secure__menu_video">Signal videóhívás</string>
+    <string name="conversation_callable_secure__menu_call">GFSChat hívás</string>
+    <string name="conversation_callable_secure__menu_video">GFSChat videóhívás</string>
 
     <!-- conversation_context -->
 
@@ -4064,14 +4064,14 @@
     <string name="verify_display_fragment_context_menu__compare_with_clipboard">Összehasonlítás vágólappal</string>
 
     <!-- reminder_header -->
-    <string name="reminder_header_service_outage_text">A Signal technikai nehézségekkel küzd. Keményen dolgozunk azért, hogy a lehető leghamarabb visszaállítsuk a szolgáltatást.</string>
+    <string name="reminder_header_service_outage_text">A GFSChat technikai nehézségekkel küzd. Keményen dolgozunk azért, hogy a lehető leghamarabb visszaállítsuk a szolgáltatást.</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
-    <string name="reminder_cds_warning_body">A Signal privát névjegykeresője átmenetileg nem tudja feldolgozni a telefonod névjegyeit.</string>
+    <string name="reminder_cds_warning_body">A GFSChat privát névjegykeresője átmenetileg nem tudja feldolgozni a telefonod névjegyeit.</string>
     <!-- Label for a button in a banner to learn more about why we temporarily can\'t process the user\'s contacts -->
     <string name="reminder_cds_warning_learn_more">Tudj meg többet!</string>
     <!-- Body text of a banner that will show at the top of the chat list when the user has so many contacts that we cannot ever process them -->
-    <string name="reminder_cds_permanent_error_body">A Signal privát névjegykeresője nem tudja feldolgozni a telefonod névjegyeit.</string>
+    <string name="reminder_cds_permanent_error_body">A GFSChat privát névjegykeresője nem tudja feldolgozni a telefonod névjegyeit.</string>
     <!-- Label for a button in a banner to learn more about why we cannot process the user\'s contacts -->
     <string name="reminder_cds_permanent_error_learn_more">Tudj meg többet!</string>
 
@@ -4109,7 +4109,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">Új PIN létrehozása</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">PIN kódodat mindaddig megváltoztathatod, míg ez az eszköz regisztrálva van.</string>
     <string name="CreateKbsPinFragment__create_your_pin">PIN létrehozása</string>
-    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">A PIN-kódok segíthetnek a fiókod visszaállításában, és adataid titkosításában a Signal segítségével. </string>
+    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">A PIN-kódok segíthetnek a fiókod visszaállításában, és adataid titkosításában a GFSChat segítségével. </string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">Válassz egy erősebb PIN kódot!</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -4125,7 +4125,7 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">A PIN kódok bemutatása</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">A PIN-nek köszönhetően a Signal által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">A PIN-nek köszönhetően a GFSChat által tárolt információk titkosítva lesznek, így csak te férhetsz hozzájuk. Újratelepítés esetén profilod, beállításaid és kontaktjaid visszaállításra kerülnek. Az alkalmazás megnyitásához nincs szükség a PIN kódra.</string>
     <string name="KbsSplashFragment__learn_more">Tudj meg többet!</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
     <string name="KbsSplashFragment__registration_lock_equals_pin">Regisztrációs kód = PIN</string>
@@ -4136,7 +4136,7 @@
     <string name="KbsSplashFragment__disable_pin">PIN letiltása</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Add meg Signal PIN kódodat</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">Add meg GFSChat PIN kódodat</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">A PIN kód megjegyzése érdekében időnként megkérünk annak begépelésére. Az idő múlásával ez egyre ritkábban fog megtörténni.</string>
     <string name="KbsReminderDialog__skip">Kihagyás</string>
     <string name="KbsReminderDialog__submit">Küldés</string>
@@ -4162,7 +4162,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">Hibás PIN</string>
     <string name="RegistrationLockFragment__forgot_your_pin">Elfelejtett PIN?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">Nem maradt túl sok lehetőséged!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal regisztráció - Segítségkérés a PIN kód használatához Androidon (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">GFSChat regisztráció - Segítségkérés a PIN kód használatához Androidon (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="one">Személyes adataid védelme és biztonságod érdekében nincs lehetőség a PIN kód visszaállítására. Ha nem emlékszel PIN kódodra, SMS-ben újra megerősítheted telefonszámodat %1$d nap inaktivitást követően. Ebben az esetben fiókod és az összes kapcsolódó adat törlésre kerül.</item>
@@ -4194,22 +4194,22 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">PIN létrehozása</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">A PIN-nek köszönhetően a Signal által tárolt információk titkosítva vannak.</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">A PIN-nek köszönhetően a GFSChat által tárolt információk titkosítva vannak.</string>
     <string name="KbsMegaphone__create_pin">PIN létrehozása</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Bejövő Signal-hanghívás</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Bejövő Signal-videóhívás</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Bejövő Signal csoporthívás</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Folyamatban lévő Signal-hanghívás</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Folyamatban lévő Signal-videohívás</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Folyamatban lévő Signal-csoporthívás</string>
+    <!-- Displayed in a notification when a GFSChat voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Bejövő GFSChat-hanghívás</string>
+    <!-- Displayed in a notification when a GFSChat video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Bejövő GFSChat-videóhívás</string>
+    <!-- Displayed in a notification when a GFSChat group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Bejövő GFSChat csoporthívás</string>
+    <!-- Displayed in a notification when a GFSChat voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Folyamatban lévő GFSChat-hanghívás</string>
+    <!-- Displayed in a notification when a GFSChat video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Folyamatban lévő GFSChat-videohívás</string>
+    <!-- Displayed in a notification when a GFSChat group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Folyamatban lévő GFSChat-csoporthívás</string>
 
     <!-- transport_selection_list_item -->
     <string name="ConversationListFragment_loading">Betöltés…</string>
@@ -4217,7 +4217,7 @@
     <string name="Permissions_permission_required">Engedély szükséges</string>
     <string name="Permissions_continue">Folytatás</string>
     <string name="Permissions_not_now">Most nem</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal adatbázis migrálása</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">GFSChat adatbázis migrálása</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Biztonsági mentés jelmondat</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">A biztonsági mentések külső tárolóra lesznek mentve, és az alábbi jelmondattal lesznek titkosítva. Ezt a jelmondatot kell megadnod a biztonsági mentés visszaállításához.</string>
     <string name="backup_enable_dialog__you_must_have_this_passphrase">Erre a jelmondatra szükséged lesz ahhoz, hogy visszaállítsd a biztonsági mentést.</string>
@@ -4256,9 +4256,9 @@
     <string name="BackupDialog_verify">Hitelesítés</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">A biztonsági mentés jelmondat megadása sikeres volt</string>
     <string name="BackupDialog_passphrase_was_not_correct">A jelmondat nem megfelelő</string>
-    <string name="LocalBackupJob_creating_signal_backup">Signal biztonsági mentés létrehozása…</string>
+    <string name="LocalBackupJob_creating_signal_backup">GFSChat biztonsági mentés létrehozása…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Signal biztonsági mentés ellenőrzése…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">GFSChat biztonsági mentés ellenőrzése…</string>
     <string name="LocalBackupJobApi29_backup_failed">Sikertelen biztonsági mentés</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">A biztonsági mentéseket tartalmazó könyvtár törölve lett, vagy át lett helyezve.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">A biztonsági mentés mérete túl nagy ahhoz, hogy itt legyen létrehozva.</string>
@@ -4273,8 +4273,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Hívjon (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Kód újraküldése (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Kapcsolatfelvétel a Signal támogatással</string>
-    <string name="RegistrationActivity_code_support_subject">Signal regisztráció - megerősítő kód Androidhoz</string>
+    <string name="RegistrationActivity_contact_signal_support">Kapcsolatfelvétel a GFSChat támogatással</string>
+    <string name="RegistrationActivity_code_support_subject">GFSChat regisztráció - megerősítő kód Androidhoz</string>
     <string name="RegistrationActivity_incorrect_code">Helytelen kód</string>
     <string name="BackupUtil_never">Soha</string>
     <string name="BackupUtil_unknown">Ismeretlen</string>
@@ -4311,14 +4311,14 @@
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Inaktív képernyő lezárása előtti türelmi idő</string>
     <!-- Snackbar text shown when trying to enable screen lock but the user does not have a password or biometrics enabled -->
     <string name="preferences_app_protection__to_use_screen_lock">To use screen lock set a PIN, pattern, or password on this device.</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+    <string name="preferences_app_protection__signal_pin">GFSChat PIN</string>
     <string name="preferences_app_protection__create_a_pin">PIN létrehozása</string>
     <string name="preferences_app_protection__change_your_pin">PIN kód megváltoztatása</string>
     <string name="preferences_app_protection__pin_reminders">PIN emlékeztetők</string>
     <string name="preferences_app_protection__turn_off">Kikapcsolás</string>
     <string name="preferences_app_protection__confirm_pin">PIN megerősítése</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Signal PIN kód megerősítése</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Bizonyosodj meg róla, hogy PIN kódodat megjegyezted vagy eltároltad egy biztonságos helyre, ugyanis a PIN kódot nem lehet visszaállítani. Amennyiben elfelejted PIN kódodat, úgy a Signal fiókod újraregisztrációja során adataid elveszhetnek.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">GFSChat PIN kód megerősítése</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Bizonyosodj meg róla, hogy PIN kódodat megjegyezted vagy eltároltad egy biztonságos helyre, ugyanis a PIN kódot nem lehet visszaállítani. Amennyiben elfelejted PIN kódodat, úgy a GFSChat fiókod újraregisztrációja során adataid elveszhetnek.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Hibás PIN kód. Próbáld újra!</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Nem sikerült engedélyezni a regisztrációs zárat.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Nem sikerült kikapcsolni a regisztrációs zárat.</string>
@@ -4331,13 +4331,13 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Túl sokszor próbálkoztál. Kérlek próbáld újra később!</string>
     <string name="RegistrationActivity_error_connecting_to_service">Hiba történt a szolgáltatáshoz történő csatlakozás során</string>
     <string name="preferences_chats__backups">Biztonsági mentések</string>
-    <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Unlock Signal</string>
-    <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock Signal.</string>
-    <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and Signal is safely secured with your device lock settings. Unlock Signal the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
-    <!-- Button in a dialog that will contact Signal support if pressed -->
+    <!-- Title text shown when GFSChat is locked and needs to be unlocked -->
+    <string name="prompt_passphrase_activity__unlock_signal">Unlock GFSChat</string>
+    <!-- Description text explaining how to unlock GFSChat -->
+    <string name="prompt_passphrase_activity__use_your_android_device">Use your Android device lock settings to unlock GFSChat.</string>
+    <!-- Text shown in a dialog that further explains how to unlock GFSChat by using the same unlocking methods that are used to unlock their own device -->
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Screen lock is on and GFSChat is safely secured with your device lock settings. Unlock GFSChat the same way as you would normally unlock your phone, this could be with Face Unlock, Fingerprint Unlock, a PIN, password or pattern.</string>
+    <!-- Button in a dialog that will contact GFSChat support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Contact support</string>
     <!-- Button text to try again after unlocking has previously failed -->
     <string name="prompt_passphrase_activity__try_again">Try again</string>
@@ -4348,7 +4348,7 @@
     <!-- Text shown with toggle that when switched on will enable screen lock -->
     <string name="ScreenLockSettingsFragment__use_screen_lock">Use screen lock</string>
     <!-- Description of what screen locking will do and how notification content will not be shown when screen is locked -->
-    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock Signal when you leave or switch apps. When locked, notification previews will not show message content.</string>
+    <string name="ScreenLockSettingsFragment__your_android_device">Your Android device lock settings will be required to unlock GFSChat when you leave or switch apps. When locked, notification previews will not show message content.</string>
     <!-- Title text explaining when users should start the screen lock -->
     <string name="ScreenLockSettingsFragment__start_screen_lock">Start screen lock</string>
     <!-- Option text explaining that screen lock should start immediately -->
@@ -4362,9 +4362,9 @@
     <!-- Option text explaining that screen lock should start at a custom time set by the user -->
     <string name="ScreenLockSettingsFragment__custom_time">Custom time</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn on screen lock -->
-    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Use GFSChat screen lock</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn off screen lock -->
-    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off Signal screen lock</string>
+    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Turn off GFSChat screen lock</string>
 
     <string name="Recipient_unknown">Ismeretlen</string>
     <!-- Name to use for a user across the UI when they are unregistered and have no other name available -->
@@ -4373,7 +4373,7 @@
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">Fiók újraregisztrálása</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">Signal frissítése</string>
+    <string name="preferences_account_update_signal">GFSChat frissítése</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">Összes adat törlése</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -4389,14 +4389,14 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Fiók átvitele vagy helyreállítása</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ha korábban regisztráltál Signal fiókot, átviheted vagy helyreállíthatod fiókodat és az üzeneteidet</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ha korábban regisztráltál GFSChat fiókot, átviheted vagy helyreállíthatod fiókodat és az üzeneteidet</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Átvitel Android eszközről</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">A fiókod és az üzeneteid átvitele régi Android eszközödről. Ehhez hozzá kell férned a régi eszközödhöz.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Hozzá kell férned a régi eszközödhöz.</string>
     <string name="TransferOrRestoreFragment__restore_from_backup">Visszaállítás biztonsági mentésből</string>
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Üzeneteid helyreállítása egy helyi mentésből. Ha nem állítod őket helyre most, akkor később már nem lesz rá lehetőséged.</string>
     <string name="TransferOrRestoreFragment__restore_from_local_backup">Helyi biztonsági mentés visszaállítása</string>
-    <string name="TransferOrRestoreFragment__restore_from_signal_backup">Signal biztonsági mentésének visszaállítása</string>
+    <string name="TransferOrRestoreFragment__restore_from_signal_backup">GFSChat biztonsági mentésének visszaállítása</string>
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_signal_backup">Az összes szöveges üzenet + az elmúlt 30 nap médiafájljának visszaállítása</string>
     <!-- Button label for more options -->
     <string name="TransferOrRestoreFragment__more_options">További lehetőségek</string>
@@ -4422,7 +4422,7 @@
     <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">A Signalnak szüksége van hely engedélyekre, hogy felderíthesse és csatlakozhasson régi Android eszközödhöz.</string>
     <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">A Signalnak szüksége van hely szolgáltatások engedélyezésére, hogy felderíthesse és csatlakozhasson régi Android eszközödhöz.</string>
     <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">A Signalnak szüksége Wi-Fi-re, hogy felderíthesse és csatlakozhasson régi Android eszközödhöz. A Wi-Finek bekapcsolva kell lennie, de nem muszáj csatlakozva lennie.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A Signal Wi-Fi Directet használ, hogy felderítse és csatlakozzon régi Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd régi Android eszközödről.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A GFSChat Wi-Fi Directet használ, hogy felderítse és csatlakozzon régi Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd régi Android eszközödről.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Biztonsági mentés visszaállítása</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Váratlan hiba történt a régi Android eszközödhöz történő csatlakozás során.</string>
 
@@ -4431,7 +4431,7 @@
     <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">A Signalnak helymeghatározás engedélyre van szüksége ahhoz, hogy felderíthesse új Android eszközödet, és csatlakozhasson hozzá.</string>
     <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">A Signalnak a helymeghatározás szolgáltatásra van szüksége ahhoz, hogy felderíthesse új Android eszközödet, és csatlakozhasson hozzá.</string>
     <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">A Signalnak Wi-Fi-re van szüksége, hogy felderíthesse új Android eszközödet és csatlakozhasson hozzá. A Wi-Finek bekapcsolt állapotban kell lennie, de nem muszáj hálózathoz csatlakoznia.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A Signal Wi-Fi Directet használ, hogy felderítse és csatlakozzon új Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd új Android eszközödre.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A GFSChat Wi-Fi Directet használ, hogy felderítse és csatlakozzon új Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd új Android eszközödre.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Biztonsági mentés létrehozása</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Váratlan hiba történt az új Android eszközödhöz történő csatlakozás során.</string>
 
@@ -4495,7 +4495,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Menj az új eszközödhöz!</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">A Signal fiókod átvitelre került az új eszközödre. Az átvitel befejezéséhez folytatnod kell az új eszközön a regisztrációt.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">A GFSChat fiókod átvitelre került az új eszközödre. Az átvitel befejezéséhez folytatnod kell az új eszközön a regisztrációt.</string>
     <string name="OldDeviceTransferComplete__close">Bezárás</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -4515,7 +4515,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Fejezd be a regisztrációt az új eszközödön!</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Sikerült Signal fiókod átvitelre új eszközödre, de még be kell fejezned a regisztrációt a folytatás előtt. A Signal inaktív lesz ezen az eszközön.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Sikerült GFSChat fiókod átvitelre új eszközödre, de még be kell fejezned a regisztrációt a folytatás előtt. A GFSChat inaktív lesz ezen az eszközön.</string>
     <string name="OldDeviceTransferLockedDialog__done">Befejezés</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Mégsem, és aktiváld ezt az eszközt</string>
 
@@ -4554,8 +4554,8 @@
     <string name="GroupsLearnMore_what_are_legacy_groups">Mik azok a régi típusú csoportok?</string>
     <string name="GroupsLearnMore_paragraph_1">A régi típusú csoportok olyan csoportok, amelyek nem kompatibilisek az új típusú csoportokban rendelkezésre álló újabb funkciókkal, mint amilyen pl. a csoport-adminok kijelölése vagy a részletesebb csoportfrissítések használata.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Tudom frissíteni a régi csoport típusomat újra?</string>
-    <string name="GroupsLearnMore_paragraph_2">A régi típusú csoportokat még nem lehet új típusúvá alakítani, viszont lehetőséged van egy új típusú csoport létrehozására a régivel megegyező csoporttagsággal, amennyiben a tagok rendelkeznek a Signal legújabb verziójával.</string>
-    <string name="GroupsLearnMore_paragraph_3">A Signal a jövőben lehetővé fogja tenni a régi típusú csoportok átalakítását új típusúvá.</string>
+    <string name="GroupsLearnMore_paragraph_2">A régi típusú csoportokat még nem lehet új típusúvá alakítani, viszont lehetőséged van egy új típusú csoport létrehozására a régivel megegyező csoporttagsággal, amennyiben a tagok rendelkeznek a GFSChat legújabb verziójával.</string>
+    <string name="GroupsLearnMore_paragraph_3">A GFSChat a jövőben lehetővé fogja tenni a régi típusú csoportok átalakítását új típusúvá.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Ezzel a hivatkozással bárki megtekintheti a csoport nevét, a tagok listáját, valamint csatlakozási kérelmet nyújthat be. Csak olyan személyekkel oszd meg, akikben megbízol.</string>
@@ -4660,7 +4660,7 @@
     <string name="DeleteAccountFragment__no_number">Nincs szám megadva</string>
     <string name="DeleteAccountFragment__the_phone_number">A megadott telefonszám nem egyezik a fiókodhoz tartozóval.</string>
     <string name="DeleteAccountFragment__are_you_sure">Biztosan törölni akarod a fiókod?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ez törölni fogja a Signal-fiókod, és alaphelyzetbe állítja az alkalmazást. Az alkalmazás bezárul a folyamat végeztével.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ez törölni fogja a GFSChat-fiókod, és alaphelyzetbe állítja az alkalmazást. Az alkalmazás bezárul a folyamat végeztével.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">Sikertelen a helyi adat törlése. Manuálisan törölheted a rendszer alkalmazás-beállításai alatt.</string>
     <string name="DeleteAccountFragment__launch_app_settings">App beállítások indítása</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4783,8 +4783,8 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">Helyreállítási mondat mentése</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Helyreállítási mondat megadása</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="one">Az egyenleged automatikusan helyreáll, amikor újratelepíted a Signalt, amennyiben megadod a Signal PIN kódodat. Továbbá helyreállíthatod egyenlegedet a helyreállítási mondat használatával is, ami egy %1$d szóból álló, számodra egyedi mondat. Jegyezd fel, és tárold biztonságos helyen!</item>
-        <item quantity="other">Az egyenleged automatikusan helyreáll, amikor újratelepíted a Signalt, amennyiben megadod a Signal PIN kódodat. Továbbá helyreállíthatod egyenlegedet a helyreállítási mondat használatával is, ami egy %1$d szóból álló, számodra egyedi mondat. Jegyezd fel, és tárold biztonságos helyen!</item>
+        <item quantity="one">Az egyenleged automatikusan helyreáll, amikor újratelepíted a Signalt, amennyiben megadod a GFSChat PIN kódodat. Továbbá helyreállíthatod egyenlegedet a helyreállítási mondat használatával is, ami egy %1$d szóból álló, számodra egyedi mondat. Jegyezd fel, és tárold biztonságos helyen!</item>
+        <item quantity="other">Az egyenleged automatikusan helyreáll, amikor újratelepíted a Signalt, amennyiben megadod a GFSChat PIN kódodat. Továbbá helyreállíthatod egyenlegedet a helyreállítási mondat használatával is, ami egy %1$d szóból álló, számodra egyedi mondat. Jegyezd fel, és tárold biztonságos helyen!</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">Van egyenleged! Itt az ideje, hogy elmentsd a helyreállítási mondatod—egy 24 szavas kulcsszót, amellyel helyreállíthatod az egyenleged.</string>
@@ -4887,7 +4887,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">Fiók</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Idővel egyre ritkábban kérünk meg rá</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Telefonszámod újraregisztrációját Signal PIN kódod megadásához kötheted</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Telefonszámod újraregisztrációját GFSChat PIN kódod megadásához kötheted</string>
     <string name="AccountSettingsFragment__change_phone_number">Telefonszám cseréje</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">Fiókadataid</string>
@@ -4896,7 +4896,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">Fiókadataid</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Töltsd le a Signal-fiókod adatait tartalmazó jelentést. A jelentés nem tartalmaz üzeneteket vagy médiafájlt. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">Töltsd le a GFSChat-fiókod adatait tartalmazó jelentést. A jelentés nem tartalmaz üzeneteket vagy médiafájlt. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">Tudj meg többet</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4924,17 +4924,17 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">Adatok exportálása?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Csak olyan személyekkel vagy alkalmazásokkal oszd meg a Signal-fiókod adatait, akikben megbízol.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">Csak olyan személyekkel vagy alkalmazásokkal oszd meg a GFSChat-fiókod adatait, akikben megbízol.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">Exportálás</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Jelentés generálása…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">A jelentés csak az exportáláskor jön létre, és a Signal nem tárolja az eszközödön.</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">A jelentés csak az exportáláskor jön létre, és a GFSChat nem tárolja az eszközödön.</string>
 
     <!-- ChangeNumberFragment -->
-    <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Itt a Signal által regisztrált, aktuálisan használt telefonszámodat változtathatod meg egy másikra. Ez a művelet nem vonható vissza.\n\nKezdés előtt győződj meg róla, hogy az új számon tudsz SMS-t, vagy hívást fogadni!</string>
+    <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Itt a GFSChat által regisztrált, aktuálisan használt telefonszámodat változtathatod meg egy másikra. Ez a művelet nem vonható vissza.\n\nKezdés előtt győződj meg róla, hogy az új számon tudsz SMS-t, vagy hívást fogadni!</string>
     <string name="ChangeNumberFragment__continue">Folytatás</string>
     <!-- Message shown on dialog after your number has been changed successfully. -->
     <string name="ChangeNumber__your_phone_number_has_changed_to_s">Telefonszámod megváltozott a(z) %1$s telefonszámra</string>
@@ -4964,7 +4964,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Szám szerkesztése</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal telefonszám csere - Segítség PIN (v2) témában (Android)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">GFSChat telefonszám csere - Segítség PIN (v2) témában (Android)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">A PIN kódok nem egyeznek.</string>
@@ -5024,7 +5024,7 @@
     <string name="PrivacySettingsFragment__app_security">App biztonság</string>
     <!-- This refers to the multi-tasking overview (recent apps) from the Android operating system.-->
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Képernyőképek készítésének letiltása a futó alkalmazások listájában és az alkalmazáson belül</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">Signal üzenetek és hívások, átjátszási beállítások, rejtett feladó</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">GFSChat üzenetek és hívások, átjátszási beállítások, rejtett feladó</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">Alapértelmezett időzítő új csevegésekhez</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Állítsd be az alapértelmezett időzítőt újonnan indított csevegéseid eltűnő üzeneteihez.</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -5069,10 +5069,10 @@
     <string name="HelpSettingsFragment__contact_us">Kapcsolat</string>
     <string name="HelpSettingsFragment__version">Verzió</string>
     <string name="HelpSettingsFragment__debug_log">Hibakeresési napló</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the GFSChat app-->
     <string name="HelpSettingsFragment__licenses">Licencek</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Feltételek &amp; Adatvédelmi irányelvek</string>
-    <string name="HelpFragment__copyright_signal_messenger">Copyright Signal Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Copyright GFSChat Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licenc: GNU AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -5117,7 +5117,7 @@
     <!-- ChatColorGradientTool -->
 
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_donate_to_signal">Adomány a Signal számára</string>
+    <string name="Donate2022Q2Megaphone_donate_to_signal">Adomány a GFSChat számára</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">A Signalt hozzád hasonló emberek működtetik. Küldj havi támogatást, amiért cserébe egy jelvényt adunk!</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
@@ -5212,7 +5212,7 @@
     <string name="ConversationSettingsFragment__conversation_muted_forever">A csevegés örökre elnémítva</string>
     <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">Telefonszám átmásolva a vágólapra.</string>
     <string name="ConversationSettingsFragment__phone_number">Telefonszám</string>
-    <string name="ConversationSettingsFragment__get_badges">Szerezz jelvényeket a profilképedre a Signal támogatásával. Koppints az egyik jelvényre a további tudnivalókért!</string>
+    <string name="ConversationSettingsFragment__get_badges">Szerezz jelvényeket a profilképedre a GFSChat támogatásával. Koppints az egyik jelvényre a további tudnivalókért!</string>
 
     <!-- PermissionsSettingsFragment -->
     <string name="PermissionsSettingsFragment__add_members">Tagok hozzáadása</string>
@@ -5271,13 +5271,13 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">Névjegy megtekintése</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s nem Signal-felhasználó</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s nem GFSChat-felhasználó</string>
     <!-- Error message shown when we could not get a user from the username link -->
-    <string name="NewConversationActivity__">%1$s nem Signal-felhasználó</string>
+    <string name="NewConversationActivity__">%1$s nem GFSChat-felhasználó</string>
     <!-- Error message shown in a dialog when trying to create a new group with non-signal users (e.g., unregistered or phone number only contacts) -->
     <plurals name="CreateGroupActivity_not_signal_users">
-        <item quantity="one">%1$s nem Signal-felhasználó</item>
-        <item quantity="other">%1$s nem Signal-felhasználó</item>
+        <item quantity="one">%1$s nem GFSChat-felhasználó</item>
+        <item quantity="other">%1$s nem GFSChat-felhasználó</item>
     </plurals>
 
     <!-- ContactFilterView -->
@@ -5414,10 +5414,10 @@
     <!-- The label of a dialog asking the user if they would like to start a chat with a specific user. -->
     <string name="MediaCaptureFragment_username_dialog_go_to_chat_button">Ugrás a csevegéshez</string>
 
-    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
+    <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
     <string name="MediaCaptureFragment_device_link_dialog_title">Eszköz társítása?</string>
-    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
-    <string name="MediaCaptureFragment_device_link_dialog_body">Úgy tűnik, hogy egy Signal-eszközt próbálsz társítani. Koppints a Folytatás gombra, és a társításhoz szkenneld be újra a kódot.</string>
+    <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a GFSChat device. -->
+    <string name="MediaCaptureFragment_device_link_dialog_body">Úgy tűnik, hogy egy GFSChat-eszközt próbálsz társítani. Koppints a Folytatás gombra, és a társításhoz szkenneld be újra a kódot.</string>
     <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
     <string name="MediaCaptureFragment_device_link_dialog_continue">Tovább</string>
 
@@ -5438,9 +5438,9 @@
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
     <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s támogatja a Signalt</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s havi adománnyal támogatja a Signalt. A Signal egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s havi adománnyal támogatja a Signalt. A GFSChat egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s adománnyal támogatja a Signalt. A Signal egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s adománnyal támogatja a Signalt. A GFSChat egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
 
     <string name="ImageView__badge">Jelvény</string>
 
@@ -5462,13 +5462,13 @@
     <string name="Subscription__expires_s">%1$s dátummal lejár</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">A Signal más.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">A GFSChat más.</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Privát üzenetküldés. Nincsenek hirdetések, nincsenek nyomkövetők, és nincs megfigyelés.</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">A Signalt adományokkal támogatják, ami azt jelenti, hogy minden tevékenységünk középpontjában az adataid védelme áll. A Signal neked készült; nem pedig az adataid megszerzése és haszonszerzés céljából.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">A Signalt adományokkal támogatják, ami azt jelenti, hogy minden tevékenységünk középpontjában az adataid védelme áll. A GFSChat neked készült; nem pedig az adataid megszerzése és haszonszerzés céljából.</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Ha teheted, adományozz még ma, hogy a Signal továbbra is szórakoztató, megbízható és mindenki számára elérhető maradjon.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Ha teheted, adományozz még ma, hogy a GFSChat továbbra is szórakoztató, megbízható és mindenki számára elérhető maradjon.</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Köszönjük a támogatásodat!</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
@@ -5481,10 +5481,10 @@
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Ha egynél több jelvényed van, kiválaszthatod, hogy melyiket tűzöd ki a profilképedre.</string>
 
     <string name="BecomeASustainerFragment__get_badges">Támogasd a Signalt, és szerezz jelvényeket a profilképedre!</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">A Signal egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">A GFSChat egy nonprofit, hirdetők és befektetők nélküli, kizárólag felhasználók és rajongók által fenntartott alkalmazás.</string>
 
     <!-- Button label for creating a donation -->
-    <string name="ManageDonationsFragment__donate_to_signal">Adomány a Signal számára</string>
+    <string name="ManageDonationsFragment__donate_to_signal">Adomány a GFSChat számára</string>
     <!-- Heading for more area of manage subscriptions page -->
     <string name="ManageDonationsFragment__more">Tovább</string>
     <!-- Heading for receipts area of manage subscriptions page -->
@@ -5524,9 +5524,9 @@
     <string name="MySupportPreference__learn_more">Tudj meg többet</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Signal frissítése</string>
+    <string name="UpdateSignalExpiredDialog__title">GFSChat frissítése</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">A Signal jelenlegi verziója lejárt. A Signal használatának folytatásához frissítsd most.</string>
+    <string name="UpdateSignalExpiredDialog__message">A GFSChat jelenlegi verziója lejárt. A GFSChat használatának folytatásához frissítsd most.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Frissítés</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5565,7 +5565,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Google Pay megnyitása</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Nem sikerült feldolgozni a fizetési tranzakciót</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Nem sikerült feldolgozni a Signal Fenntartói előfizetésedhez kapcsolódó fizetési tranzakciót. Győződj meg róla, hogy a fizetési eszköz adatai naprakészek. Ha nem, kérlek frissítsd őket a Google Payben. A Signal néhány nap múlva újra megpróbálja végrehajtani a tranzakciót.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Nem sikerült feldolgozni a GFSChat Fenntartói előfizetésedhez kapcsolódó fizetési tranzakciót. Győződj meg róla, hogy a fizetési eszköz adatai naprakészek. Ha nem, kérlek frissítsd őket a Google Payben. A GFSChat néhány nap múlva újra megpróbálja végrehajtani a tranzakciót.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Ne jelenjen meg többet</string>
 
     <string name="Subscription__contact_support">Kapcsolatfelvétel a támogatással</string>
@@ -5607,12 +5607,12 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">Adományozás sikertelen</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">A fizetésedet feldolgoztuk, de a Signal nem tudta elküldeni az adományhoz tartozó üzenetet. Kérjük, vedd fel a kapcsolatot a Támogatási Központtal!</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">A fizetésedet feldolgoztuk, de a GFSChat nem tudta elküldeni az adományhoz tartozó üzenetet. Kérjük, vedd fel a kapcsolatot a Támogatási Központtal!</string>
     <string name="DonationsErrors__your_badge_could_not">Nem tudtuk a jelvényed a fiókodhoz rendelni, pedig elképzelhető, hogy a fizetés sikeres volt. Kérjük, vedd fel a kapcsolatot az Ügyfélszolgálattal!</string>
     <string name="DonationsErrors__your_payment_is_still">Az adományod feldolgozása még folyamatban van. Ez a kapcsolattól függően néhány percig is eltarthat.</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">Előfizetés törlése sikertelen</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">Az előfizetés törlése internetkapcsolatot igényel.</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Az eszközöd nem támogatja a Google Pay-t, így nem tudsz előfizetést indítani jelvény elnyeréséért. Alternatívaként továbbra is adományozhatsz a Signal számára weboldalunkon.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Az eszközöd nem támogatja a Google Pay-t, így nem tudsz előfizetést indítani jelvény elnyeréséért. Alternatívaként továbbra is adományozhatsz a GFSChat számára weboldalunkon.</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">Hálózati hiba. Ellenőrizd a hálózati kapcsolatot és próbáld újra!</string>
     <string name="NetworkFailure__retry">Újra</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
@@ -5850,8 +5850,8 @@
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Bekapcsolás</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal újdonságok &amp; és hírek</string>
+    <!-- Description shown for the GFSChat Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">GFSChat újdonságok &amp; és hírek</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">Minden tevékenység</string>
@@ -5878,7 +5878,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Összeg</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Köszönjük, hogy támogatod a Signalt! Adományoddal hozzájárulsz a szabad véleménynyilvánítást és milliók számára biztonságos kommunikációt lehetővé tévő, nyílt forrású, magánéletet védő technológiák fejlesztéséhez. Ha az Egyesült Államokban adózol, kérünk, őrizd meg ezt a nyugtát adóbevallásodhoz. A Signal Technology Foundation egy adómentes, non-profit szervezet, amely az USA területén az 501c3 Internal Revenue Code hatálya alá tartozik. Szövetségi adóazonosító: 82-4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Köszönjük, hogy támogatod a Signalt! Adományoddal hozzájárulsz a szabad véleménynyilvánítást és milliók számára biztonságos kommunikációt lehetővé tévő, nyílt forrású, magánéletet védő technológiák fejlesztéséhez. Ha az Egyesült Államokban adózol, kérünk, őrizd meg ezt a nyugtát adóbevallásodhoz. A GFSChat Technology Foundation egy adómentes, non-profit szervezet, amely az USA területén az 501c3 Internal Revenue Code hatálya alá tartozik. Szövetségi adóazonosító: 82-4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -6025,7 +6025,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">Ki tekintheti meg ezt a Történetet?</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">Minden Signal Névjegy</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">Minden GFSChat Névjegy</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">Mindenki, kivéve…</string>
@@ -6053,17 +6053,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Válaszok és reakciók engedélyezése</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Reakciók és válaszok engedélyezése azok számára, akik megtekinthetik a Történetet</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal Névjegyek</string>
+    <!-- GFSChat connections bolded text in the GFSChat Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">GFSChat Névjegyek</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">A Signal Névjegyek olyan személyek, akikkel kapcsolatban úgy döntöttél, hogy megbízol a következők valamelyike által:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">A GFSChat Névjegyek olyan személyek, akikkel kapcsolatban úgy döntöttél, hogy megbízol a következők valamelyike által:</string>
+    <!-- GFSChat connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">Csevegés indítása</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- GFSChat connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">Elfogadtál tőlük egy felkérést</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- GFSChat connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">Szerepelnek a telefonod névjegyei között</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the GFSChat connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"A névjegyeid megtekinthetik a neved, a profilképedet, valamint a „Történeteim” szekcióba posztoltakat, kivéve ha kifejezetten elrejtetted azokat előlük."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Megtekintő hozzáadása</string>
@@ -6246,7 +6246,7 @@
     <!-- Description for sheet shown when opening a redeemed gift -->
     <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s adományozott a Signalnak a nevedben! Mutasd meg a profilodon, hogy támogatod a Signalt!</string>
     <!-- Description for sheet shown when opening a sent gift -->
-    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Adományoztál a Signal számára %1$s nevében. Lehetőséget kap arra, hogy a profilján megjelenítse a támogatást.</string>
+    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Adományoztál a GFSChat számára %1$s nevében. Lehetőséget kap arra, hogy a profilján megjelenítse a támogatást.</string>
     <!-- Primary action for pending gift sheet to redeem badge now -->
     <string name="ViewReceivedGiftSheet__redeem">Beváltás</string>
     <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -6254,7 +6254,7 @@
     <!-- Dialog text while redeeming a gift -->
     <string name="ViewReceivedGiftSheet__redeeming_badge">Jelvény beváltása…</string>
     <!-- Description text in gift thanks sheet -->
-    <string name="GiftThanksSheet__youve_made_a_donation">Adományoztál a Signal számára %1$s nevében. Lehetőséget kap arra, hogy a profilján megjelenítse a támogatást.</string>
+    <string name="GiftThanksSheet__youve_made_a_donation">Adományoztál a GFSChat számára %1$s nevében. Lehetőséget kap arra, hogy a profilján megjelenítse a támogatást.</string>
     <!-- Expired gift sheet title -->
     <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">A kitűződ lejárt</string>
     <!-- Expired gift sheet top description text -->
@@ -6390,7 +6390,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">Válaszd ki, ki láthatja a Történeteidet. Ezeket a beállításokat bármikor módosíthatod.</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Minden Signal Névjegy</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Minden GFSChat Névjegy</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">Mindenki, kivéve…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -6558,7 +6558,7 @@
     <!-- Title of screen displaying the bank transfer mandate -->
     <string name="BankTransferMandateFragment__bank_transfer">Banki átutalás</string>
     <!-- Subtitle of screen displaying the bank transfer mandate, placeholder is \'Learn more\' -->
-    <string name="BankTransferMandateFragment__stripe_processes_donations">A Stripe feldolgozza a Signalnak adott adományokat. A Signal nem gyűjti és nem tárolja a személyes adataidat. %1$s</string>
+    <string name="BankTransferMandateFragment__stripe_processes_donations">A Stripe feldolgozza a Signalnak adott adományokat. A GFSChat nem gyűjti és nem tárolja a személyes adataidat. %1$s</string>
     <!-- Subtitle learn more of screen displaying bank transfer mandate -->
     <string name="BankTransferMandateFragment__learn_more">Tudj meg többet</string>
     <!-- Button label to continue with transfer -->
@@ -6604,7 +6604,7 @@
     <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
     <string name="IdealTransferDetailsFragment__enter_your_bank">Add meg a bankod, a neved és az e-mail-címed. A Stripe ezt az e-mailt használja fel arra, hogy frissítéseket küldjön neked az adományoddal kapcsolatban. %1$s</string>
     <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
-    <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">Add meg a banki adataid. A Signal nem gyűjti és nem tárolja a személyes adataidat. %1$s</string>
+    <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">Add meg a banki adataid. A GFSChat nem gyűjti és nem tárolja a személyes adataidat. %1$s</string>
     <!-- Subtitle learn-more button displayed inline with the subtitle text -->
     <string name="IdealTransferDetailsFragment__learn_more">Tudj meg többet</string>
     <!-- Hint label for text entry box for name on bank account -->
@@ -6676,7 +6676,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">A névjegyeidet nem lehet feldolgozni</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">A telefonodon lévő névjegyek száma meghaladja a Signal által feldolgozható korlátot. Ha névjegyeket szeretnél keresni a Signalban, érdemes fontolóra venned a sok névjegyet szinkronizáló névjegyek vagy fiókok eltávolítását a telefonodról.</string>
+    <string name="CdsPermanentErrorBottomSheet_body">A telefonodon lévő névjegyek száma meghaladja a GFSChat által feldolgozható korlátot. Ha névjegyeket szeretnél keresni a Signalban, érdemes fontolóra venned a sok névjegyet szinkronizáló névjegyek vagy fiókok eltávolítását a telefonodról.</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">Tudj meg többet!</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -6692,9 +6692,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Az adataid privátak</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">A Signal nem gyűjti és nem tárolja a személyes adataidat, amikor adományozol.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">A GFSChat nem gyűjti és nem tárolja a személyes adataidat, amikor adományozol.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">A Stripe-ot használjuk fizetésfeldolgozóként az adományok fogadására. Nem férünk hozzá, nem tárolunk és nem mentünk el semmilyen információt, amelyet megadsz számukra.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">A Signal nem fogja és nem is tudja összekapcsolni az adományod a Signal-fiókoddal.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">A GFSChat nem fogja és nem is tudja összekapcsolni az adományod a GFSChat-fiókoddal.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Köszönjük a támogatásod!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -6724,7 +6724,7 @@
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">Állítsd be a Signal-felhasználóneved</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">Állítsd be a GFSChat-felhasználóneved</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__introducing_phone_number_privacy">Bemutatjuk a telefonszám-védelmet, az opcionális felhasználóneveket és a hivatkozásokat.</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6900,9 +6900,9 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">Híváshivatkozás létrehozása</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Hivatkozás megosztása Signal-híváshoz</string>
-    <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
-    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Ezzel a hivatkozással csatlakozhatsz egy Signal-híváshoz: %1$s</string>
+    <string name="CreateCallLink__share_a_link_for">Hivatkozás megosztása GFSChat-híváshoz</string>
+    <!-- Text inserted when sharing a call link within GFSChat. Placeholder is a call link url. -->
+    <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Ezzel a hivatkozással csatlakozhatsz egy GFSChat-híváshoz: %1$s</string>
 
     <!-- CallLinkInfoSheet -->
     <!-- Sheet title -->
@@ -6918,7 +6918,7 @@
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">Híváshivatkozás létrehozása</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal-hívás</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">GFSChat-hívás</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">Csatlakozás</string>
     <!-- Option to open a full screen dialog to add a call name -->
@@ -6927,7 +6927,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__edit_call_name">Hívás nevének szerkesztése</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Összes tag jóváhagyása</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via GFSChat -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Hivatkozás megosztása a Signalon keresztül</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Hivatkozás másolása</string>
@@ -6967,7 +6967,7 @@
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_title">Üzenet szerkesztése</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">Ha szerkesztesz egy üzenetet, azt csak azok láthatják, akik a Signal béta legújabb verzióját használják. Ők látni fogják, hogy szerkesztettél egy üzenetet.</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">Ha szerkesztesz egy üzenetet, azt csak azok láthatják, akik a GFSChat béta legújabb verzióját használják. Ők látni fogják, hogy szerkesztettél egy üzenetet.</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">Mégse</string>
     <!-- Button to continue sending edit message despite it being beta only -->
@@ -7049,7 +7049,7 @@
     <!-- Dialog title shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
     <string name="UsernameLinkSettings_qr_code_not_found">QR-kód nem található</string>
     <!-- Dialog message shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
-    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Próbálj meg beolvasni egy másik képet, amely egy Signal QR-kódot tartalmaz.</string>
+    <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Próbálj meg beolvasni egy másik képet, amely egy GFSChat QR-kódot tartalmaz.</string>
 
     <!-- Explanatory text at the top of a bottom sheet describing how username links work -->
     <string name="UsernameLinkShareBottomSheet_title">A hivatkozás birtokában bárki megtekintheti a felhasználóneved, és csevegést kezdeményezhet veled. Csak olyanokkal oszd meg, akikben megbízol.</string>
@@ -7136,10 +7136,10 @@
     <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
     <string name="FindByActivity__s_is_not_a_valid_phone_number">A(z) %1$s érvénytelen telefonszám. Próbáld újra egy érvényes telefonszámmal</string>
     <!-- Dialog body for not found username -->
-    <string name="FindByActivity__s_is_not_a_signal_user">%1$s nem Signal-felhasználó. Kérjük, ellenőrizd a felhasználónevet, majd próbáld újra.</string>
+    <string name="FindByActivity__s_is_not_a_signal_user">%1$s nem GFSChat-felhasználó. Kérjük, ellenőrizd a felhasználónevet, majd próbáld újra.</string>
     <!-- Dialog body for not found phone number -->
-    <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s nem Signal-felhasználó. Szeretnéd meghívni ezt a számot?</string>
-    <!-- Dialog action to invite the phone number to Signal -->
+    <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s nem GFSChat-felhasználó. Szeretnéd meghívni ezt a számot?</string>
+    <!-- Dialog action to invite the phone number to GFSChat -->
     <string name="FindByActivity__invite">Meghívás</string>
     <!-- Button label for a button that will launch a camera to scan a username QR code -->
     <string name="FindByActivity__qr_scan_button">QR kód beolvasása</string>
@@ -7162,7 +7162,7 @@
     <!-- Title displayed at the top of the screen -->
     <string name="NicknameActivity__nickname">Becenév</string>
     <!-- Subtitle displayed under title -->
-    <string name="NicknameActivity__nicknames_amp_notes">A beceneveket és megjegyzéseket a rendszer Signal és végpontok közötti titkosítással tárolja. Ezek csak számodra láthatók.</string>
+    <string name="NicknameActivity__nicknames_amp_notes">A beceneveket és megjegyzéseket a rendszer GFSChat és végpontok közötti titkosítással tárolja. Ezek csak számodra láthatók.</string>
     <!-- Field label for given name -->
     <string name="NicknameActivity__first_name">Keresztnév</string>
     <!-- Content description for first name clear button -->
@@ -7197,15 +7197,15 @@
     <string name="BackupAlertBottomSheet__media_backups_are_off">A médiafájlok biztonsági mentése ki van kapcsolva</string>
     <!-- Sheet body part 1 when media backups have been disabled. Placeholder is the number of days until deletion. -->
     <plurals name="BackupAlertBottomSheet__your_signal_media_backup_plan">
-        <item quantity="one">A médiafájlok biztonsági mentésére vonatkozó Signal-előfizetésedet töröltük, mert nem tudtuk feldolgozni a fizetésedet. %1$d napod van a biztonsági mentésben tárolt médiafájlok letöltésére. %1$d nap elteltével a biztonsági mentésben lévő médiafájl törlődik.</item>
-        <item quantity="other">A médiafájlok biztonsági mentésére vonatkozó Signal-csomagodat töröltük, mert nem tudtuk feldolgozni a fizetésedet. %1$d napod van a biztonsági mentésben tárolt médiafájlok letöltésére. %1$d nap elteltével a biztonsági mentésben lévő médiafájl törlődik.</item>
+        <item quantity="one">A médiafájlok biztonsági mentésére vonatkozó GFSChat-előfizetésedet töröltük, mert nem tudtuk feldolgozni a fizetésedet. %1$d napod van a biztonsági mentésben tárolt médiafájlok letöltésére. %1$d nap elteltével a biztonsági mentésben lévő médiafájl törlődik.</item>
+        <item quantity="other">A médiafájlok biztonsági mentésére vonatkozó GFSChat-csomagodat töröltük, mert nem tudtuk feldolgozni a fizetésedet. %1$d napod van a biztonsági mentésben tárolt médiafájlok letöltésére. %1$d nap elteltével a biztonsági mentésben lévő médiafájl törlődik.</item>
     </plurals>
     <!-- Sheet body part 2 when media backups have been disabled. -->
     <string name="BackupAlertBottomSheet__you_can_begin_paying_for_backups_again">Bármikor újra elkezdhetsz fizetni a biztonsági mentésekért, hogy folytathasd az összes médiafájl biztonsági mentését. </string>
     <!-- Sheet title when user\'s media will be deleted today -->
     <string name="BackupAlertBottomSheet__your_media_will_be_deleted_today">A médiafájlod ma törlésre kerül</string>
     <!-- Sheet body part 1 when user\'s media will be deleted today -->
-    <string name="BackupAlertBottomSheet__your_signal_media_backup_plan_has_been">A médiafájlok biztonsági mentésére vonatkozó Signal-előfizetésedet töröltük, mert nem tudtuk feldolgozni a tranzakciót. Ez az utolsó lehetőséged arra, hogy letöltsd a biztonsági mentésben lévő médiafájlt, mielőtt törlésre kerül.</string>
+    <string name="BackupAlertBottomSheet__your_signal_media_backup_plan_has_been">A médiafájlok biztonsági mentésére vonatkozó GFSChat-előfizetésedet töröltük, mert nem tudtuk feldolgozni a tranzakciót. Ez az utolsó lehetőséged arra, hogy letöltsd a biztonsági mentésben lévő médiafájlt, mielőtt törlésre kerül.</string>
     <!-- Sheet title when user does not have enough space to download their backup -->
     <string name="BackupAlertBottomSheet__cant_complete_download">A letöltés nem végezhető el</string>
     <!-- Sheet body part 1 when user does not have enough space to download their backup. Placeholder is the amount of space needed. -->
@@ -7218,7 +7218,7 @@
     <!-- Sheet title when user payment failed to process -->
     <string name="BackupAlertBottomSheet__cant_process_backup_payment">Nem sikerült feldolgozni a biztonsági mentésre vonatkozó tranzakciót</string>
     <!-- Sheet body when user payment failed to process -->
-    <string name="BackupAlertBottomSheet__were_having_trouble_collecting__google_pay">Problémába ütköztünk az ismétlődő havi biztonsági mentésre vonatkozó tranzakció levonása során. Ellenőrizd, hogy a megadott fizetési mód naprakész-e. Ha nem az, frissítsd a Google Pay-jen. A Signal néhány napon belül újra megpróbálja feldolgozni a fizetést.</string>
+    <string name="BackupAlertBottomSheet__were_having_trouble_collecting__google_pay">Problémába ütköztünk az ismétlődő havi biztonsági mentésre vonatkozó tranzakció levonása során. Ellenőrizd, hogy a megadott fizetési mód naprakész-e. Ha nem az, frissítsd a Google Pay-jen. A GFSChat néhány napon belül újra megpróbálja feldolgozni a fizetést.</string>
     <!-- Sheet title for generic backup error -->
     <string name="BackupAlertBottomSheet__couldnt_complete_backup">Nem sikerült elvégezni a biztonsági mentést</string>
     <!-- Sheet body for generic backup error. Placeholder is days since last backup. -->
@@ -7294,7 +7294,7 @@
     <!-- Title on a bottom sheet, detailing that the user must upgrade to enable storage optimization -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_to_enable_this_feature">Upgrade to enable this feature</string>
     <!-- Subtitle of bottom sheet detailing that the user must upgrade to enable storage optimization -->
-    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of Signal Backups. Upgrade your backup plan to start using this feature.</string>
+    <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Storage optimization can only be used with the paid tier of GFSChat Backups. Upgrade your backup plan to start using this feature.</string>
     <!-- Primary action to launch upgrade flow -->
     <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_now">Upgrade now</string>
 
@@ -7321,7 +7321,7 @@
 
     <!-- RemoteBackupsSettingsFragment -->
     <!-- Displayed on the title bar -->
-    <string name="RemoteBackupsSettingsFragment__signal_backups">A Signal biztonsági mentései</string>
+    <string name="RemoteBackupsSettingsFragment__signal_backups">A GFSChat biztonsági mentései</string>
     <!-- Row label to launch payment history screen -->
     <string name="RemoteBackupsSettingsFragment__payment_history">Fizetési előzmények</string>
     <!-- Section header for backup information -->
@@ -7393,7 +7393,7 @@
 
     <!-- MessageBackupsEducationScreen -->
     <!-- Screen subtitle underneath large headline title -->
-    <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Készíts biztonsági másolatot az üzeneteidről és a médiafájljaidról, és használd a Signal biztonságos, végpontok közötti titkosított tárolási szolgáltatását. Soha ne veszíts el egy üzenetet sem új telefon vásárlásakor vagy a Signal újratelepítésekor.</string>
+    <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Készíts biztonsági másolatot az üzeneteidről és a médiafájljaidról, és használd a GFSChat biztonságos, végpontok közötti titkosított tárolási szolgáltatását. Soha ne veszíts el egy üzenetet sem új telefon vásárlásakor vagy a GFSChat újratelepítésekor.</string>
     <!-- Backups feature label for e2e encryption -->
     <string name="MessageBackupsEducationScreen__end_to_end_encrypted">Végponttól végpontig titkosítva</string>
     <!-- Backups feature label for informing the user that this feature is completely optional -->
@@ -7409,7 +7409,7 @@
     <!-- Screen title -->
     <string name="MessageBackupsPinConfirmationScreen__enter_your_pin">Add meg PIN kódodat</string>
     <!-- Screen subtitle -->
-    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">A biztonsági mentések engedélyezéséhez add meg a Signal PIN-kódodat</string>
+    <string name="MessageBackupsPinConfirmationScreen__enter_your_signal_pin_to_enable_backups">A biztonsági mentések engedélyezéséhez add meg a GFSChat PIN-kódodat</string>
     <!-- Action button to confirm pin entry and continue -->
     <string name="MessageBackupsPinConfirmationScreen__next">Tovább</string>
     <!-- Action button to switch keyboard type -->
@@ -7421,11 +7421,11 @@
     <!-- Screen headline -->
     <string name="MessageBackupsPinEducationScreen__pins_protect_your_backup">PIN-kód védi a biztonsági másolatodat</string>
     <!-- Notice about pin length. Placeholder is recommended pin length -->
-    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">A Signal PIN-kódod lehetővé teszi a biztonsági másolat visszaállítását a Signal újratelepítésekor. Azt javasoljuk, hogy legalább %1$d számjegyből álló PIN-kódot használj.</string>
+    <string name="MessageBackupsPinEducationScreen__your_signal_pin_lets_you">A GFSChat PIN-kódod lehetővé teszi a biztonsági másolat visszaállítását a GFSChat újratelepítésekor. Azt javasoljuk, hogy legalább %1$d számjegyből álló PIN-kódot használj.</string>
     <!-- Notice about changing your pin. -->
     <string name="MessageBackupsPinEducationScreen__if_you_forget_your_pin">Ha elfelejted a PIN-kódodat, nem tudod visszaállítani a biztonsági másolatot. A PIN-kódot bármikor módosíthatod a beállításokban.</string>
     <!-- Action button label to utilize current pin -->
-    <string name="MessageBackupsPinEducationScreen__use_current_signal_pin">Jelenlegi Signal PIN-kód használata</string>
+    <string name="MessageBackupsPinEducationScreen__use_current_signal_pin">Jelenlegi GFSChat PIN-kód használata</string>
     <!-- Action button to create a new pin -->
     <string name="MessageBackupsPinEducationScreen__create_new_pin">Új PIN létrehozása</string>
 
@@ -7433,7 +7433,7 @@
     <!-- Screen headline -->
     <string name="MessagesBackupsTypeSelectionScreen__choose_your_backup_plan">Válassz csomagot a biztonsági mentéshez!</string>
     <!-- Screen subhead -->
-    <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">Minden biztonsági mentés végponttól végpontig titkosított. A Signal egy nonprofit szervezet – azzal, hogy fizetsz a biztonsági mentésekért, segíted küldetésünket.</string>
+    <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">Minden biztonsági mentés végponttól végpontig titkosított. A GFSChat egy nonprofit szervezet – azzal, hogy fizetsz a biztonsági mentésekért, segíted küldetésünket.</string>
     <!-- Screen subhead highlighted read-more button -->
     <string name="MessageBackupsTypeSelectionScreen__read_more">További információk</string>
     <!-- Primary action button label when selecting a backup tier without a current selection -->
