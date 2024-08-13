@@ -207,6 +207,7 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isRegisteredAndUpToDate()
       )
 
+      // TODO: recheck this logic - disable stories settings
 //      clickPref(
 //        title = DSLSettingsText.from(R.string.preferences__stories),
 //        icon = DSLSettingsIcon.from(R.drawable.symbol_stories_24),
